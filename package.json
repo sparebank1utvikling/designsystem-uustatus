@@ -1,0 +1,23 @@
+{
+  "name": "@sb1/designsystem-uustatus",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./scripts/build.js",
+    "clean": "rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpareBank1/designsystem-uustatus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpareBank1/designsystem-uustatus/issues"
+  },
+  "homepage": "https://github.com/SpareBank1/designsystem-uustatus#readme",
+  "devDependencies": {
+    "glob": "^8.0.3"
+  }
+}
