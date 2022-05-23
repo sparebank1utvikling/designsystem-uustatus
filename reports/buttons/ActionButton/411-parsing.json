@@ -4,8 +4,8 @@
     "kravbeskrivelse": "https://www.uutilsynet.no/wcag-standarden/411-parsing-oppdeling-niva/120",
     "anbefalt_testprosedyre": "https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_411_parsing_oppdeling",
     "versjon": {
-        "react": "16.0.1",
-        "styling": "15.0.2"
+        "ffe-buttons-react": "16.0.1",
+        "ffe-buttons": "15.0.2"
     },
     "dato": "11.05.2022",
     "enheter": false,
