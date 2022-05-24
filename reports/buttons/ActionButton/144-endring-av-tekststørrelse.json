@@ -1,8 +1,6 @@
 {
-    "navn": "1.4.4 Endring av tekststørrelse (Nivå AA)",
+    "wcag": "144-endring-av-tekststorrelse",
     "status": "godkjent",
-    "kravbeskrivelse": "https://www.uutilsynet.no/wcag-standarden/144-endring-av-tekststorrelse-niva-aa/96",
-    "anbefalt_testprosedyre": "https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_144_endring_av_tekststrrelse",
     "versjon": {
         "ffe-buttons-react": "16.0.1",
         "ffe-buttons": "15.0.2"

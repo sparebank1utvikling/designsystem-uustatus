@@ -1,8 +1,6 @@
 {
-    "navn": "1.4.3 Kontrast (minimum, Nivå AA)",
+    "wcag": "143-kontrast",
     "status": "godkjent",
-    "kravbeskrivelse": "https://www.uutilsynet.no/wcag-standarden/143-kontrast-minimum-niva-aa/95",
-    "anbefalt_testprosedyre": "https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_143_kontrast",
     "versjon": {
         "ffe-buttons-react": "16.0.1",
         "ffe-buttons": "15.0.2"

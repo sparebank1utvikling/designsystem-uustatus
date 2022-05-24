@@ -1,8 +1,6 @@
 {
-    "navn": "1.1.1 Ikke-tekstlig innhold (Nivå A)",
+    "wcag": "111-ikke-tekstlig-innhold",
     "status": "ikke_testet",
-    "kravbeskrivelse": "https://www.uutilsynet.no/wcag-standarden/111-ikke-tekstlig-innhold-niva/87",
-    "anbefalt_testprosedyre": "hhttps://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_111_ikkjetekstleg_innhald",
     "versjon": "",
     "dato": "",
     "enheter": [
@@ -17,3 +15,4 @@
     "metode": [""],
     "kommentar": ""
 }
+                                                       
