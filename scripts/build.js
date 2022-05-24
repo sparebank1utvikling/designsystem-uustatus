@@ -2,30 +2,41 @@
 const path = require('path');
 const fs = require('fs');
 const glob = require('glob');
+const yaml = require('yaml');
+
+function createTestReport(dir) {
+    const id = dir.replace(/^reports\//, '').replaceAll(/\W+/g, '_').replace(/_$/);
+    console.log(id, '<', dir);
+
+    const testReport = {
+        id,
+        testCases: [],
+        ikkeRelevanteKrav: []
+    };
+
+    glob.sync(`${dir}/\*.yml`).forEach(fname => {
+        const d = yaml.parse(fs.readFileSync(fname, 'utf8'));
+
+        if (path.basename(fname, '.yml') === '_ikke-relevante-krav') {
+            testReport.ikkeRelevanteKrav = d;
+        } else {
+            testReport.testCases.push(d);
+        }
+    });
+
+    return testReport;
+}
 
 
-glob('reports/**/*.json', (err, files) => {
+glob('reports/*/*', (err, dirs) => {
     if (err) {
         throw new Error(err);
     }
 
-    const data = files.reduce((acc, fname) => {
-        const [section, ...chunks] = path.dirname(fname).split('/');
-        chunks.push(path.basename(fname, '.json'));
-        const key = chunks.join('_').replaceAll(/\W/g, '_');
-
-        const d = JSON.parse(fs.readFileSync(fname, 'utf8'));
-
-        if (!acc[section]) {
-            acc[section] = {
-                [key]: d
-            };
-        } else {
-            acc[section][key] = d;
-        }
-
-        return acc;
-    }, {});
+    const data = {
+        rules: yaml.parse(fs.readFileSync('wcag-rules.yml', 'utf8')),
+        reports: dirs.map(createTestReport)
+    };
 
     fs.mkdirSync('lib', {recursive: true});
     fs.writeFileSync('lib/index.js', `module.exports = ${JSON.stringify(data, null, 2)};`);

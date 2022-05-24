@@ -1,0 +1,55 @@
+- id: wcag-1.1.1
+  section: 1.1.1
+  name: Ikke-tekstlig innhold
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/111-ikke-tekstlig-innhold-niva/87
+  procedureUrl: hhttps://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_111_ikkjetekstleg_innhald
+- id: wcag-1.4.1
+  section: 1.4.1
+  name: Bruk av farge
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/141-bruk-av-farge-niva/93
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_141_bruk_av_farge
+- id: wcag-1.4.3
+  section: 1.4.3
+  name: Kontrast (minimum)
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/143-kontrast-minimum-niva-aa/95
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_143_kontrast
+- id: wcag-1.4.4
+  section: 1.4.4
+  name: Endring av tekststørrelse
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/144-endring-av-tekststorrelse-niva-aa/96
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_144_endring_av_tekststrrelse
+- id: wcag-2.1.1
+  section: 2.1.1
+  name: Tastatur
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/211-tastatur-niva/98
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_211_tastatur
+- id: wcag-2.1.2
+  section: 2.1.2
+  name: Ingen tastaturfelle
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/212-ingen-tastaturfelle-niva/99
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_212_ingen_tastaturfelle
+- id: wcag-2.4.7
+  section: 2.4.7
+  name: Synlig fokus
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/247-synlig-fokus-niva-aa/109
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_247_synleg_fokus
+- id: wcag-4.1.1
+  section: 4.1.1
+  name: Parsing (oppdeling)
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/411-parsing-oppdeling-niva/120
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_411_parsing_oppdeling
+- id: wcag-4.1.2
+  section: 4.1.2
+  name: Navn, rolle, verdi
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/412-navn-rolle-verdi-niva/121
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_412_navn_rolle_verdi
+
