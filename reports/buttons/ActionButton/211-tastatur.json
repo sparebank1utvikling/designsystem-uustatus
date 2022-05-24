@@ -1,8 +1,6 @@
 {
-    "navn": "2.1.1 Tastatur (Nivå A)",
+    "wcag": "211-tastatur",
     "status": "godkjent",
-    "kravbeskrivelse": "https://www.uutilsynet.no/wcag-standarden/211-tastatur-niva/98",
-    "anbefalt_testprosedyre": "https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_211_tastatur",
     "versjon": {
         "ffe-buttons-react": "16.0.1",
         "ffe-buttons": "15.0.2"

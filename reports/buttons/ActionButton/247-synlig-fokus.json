@@ -1,8 +1,6 @@
 {
-    "navn": "2.4.7 Synlig fokus (Nivå AA)",
+    "wcag": "247-synlig-fokus",
     "status": "godkjent",
-    "kravbeskrivelse": "https://www.uutilsynet.no/wcag-standarden/247-synlig-fokus-niva-aa/109",
-    "anbefalt_testprosedyre": "https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_247_synleg_fokus",
     "versjon": {
         "ffe-buttons-react": "16.0.1",
         "ffe-buttons": "15.0.2"
