@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
+  "files": [
+      "lib"
+  ],
   "scripts": {
     "build": "./scripts/build.js",
     "clean": "rm -rf lib"
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/SpareBank1/designsystem-uustatus#readme",
   "devDependencies": {
-    "glob": "^8.0.3"
+    "glob": "^8.0.3",
+    "yaml": "^2.1.0"
   }
 }
