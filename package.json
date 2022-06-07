@@ -1,7 +1,13 @@
 {
-  "name": "@sb1/designsystem-uustatus",
+  "name": "@sparebank1utvikling/designsystem-uustatus",
   "version": "0.0.1",
-  "description": "",
+  "description": "Raw data for UU status",
+  "author": "SpareBank 1 Utvikling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpareBank1/designsystem/issues"
+  },
+  "homepage": "https://design.sparebank1.no",
   "main": "lib/index.js",
   "files": [
       "lib"
@@ -12,14 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpareBank1/designsystem-uustatus.git"
+    "url": "ssh://git@github.com:sparebank1utvikling/designsystem-uustatus.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SpareBank1/designsystem-uustatus/issues"
-  },
-  "homepage": "https://github.com/SpareBank1/designsystem-uustatus#readme",
   "devDependencies": {
     "glob": "^8.0.3",
     "yaml": "^2.1.0"

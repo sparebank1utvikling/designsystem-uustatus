@@ -1,0 +1,45 @@
+name: Publish npm package
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump_version:
+        description: 'Bump package version'
+        type: choice
+        required: true
+        default: minor
+        options:
+          - major
+          - minor
+          - patch
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git config user.name "sb1-designsystem"
+          git config user.email "designsystem@sparebank1.no"
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: npm install and build
+        run: |
+          npm install
+          npm run build
+      - name: npm bump version
+        run: npm version $BUMP_VERSION
+        env:
+          BUMP_VERSION: ${{ github.event.inputs.bump_version  }}
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          registry: https://npm.pkg.github.com/
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: git push version bump commit
+        run: |
+          git push
+          git push --tags
