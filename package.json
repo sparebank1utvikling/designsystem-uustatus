@@ -1,6 +1,6 @@
 {
   "name": "@sparebank1utvikling/designsystem-uustatus",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Raw data for UU status",
   "author": "SpareBank 1 Utvikling",
   "license": "MIT",
@@ -10,7 +10,7 @@
   "homepage": "https://design.sparebank1.no",
   "main": "lib/index.js",
   "files": [
-      "lib"
+    "lib"
   ],
   "scripts": {
     "build": "./scripts/build.js",
