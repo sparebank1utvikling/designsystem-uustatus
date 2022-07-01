@@ -1,8 +1,28 @@
+import React from 'react';
 
 export default {
     name: 'testcase',
     title: 'Test',
     type: 'document',
+    preview: {
+        select: {
+            title: 'component.name',
+            summary: 'wcag_rule.name',
+            status: 'result'
+        },
+        prepare({ title, summary, status }) {
+            const EMOJIS = {
+                not_tested: '⌛',
+                approved: '✅',
+                not_approved: '🚫'
+            }
+            return {
+                title: title,
+                subtitle: summary,
+                media: <span style={{ fontSize: '1.5rem' }}>{status ? EMOJIS[status] : '🎫'}</span>
+            }
+        }
+    },
     groups: [
         {
             name: 'group_component',
@@ -46,6 +66,14 @@ export default {
                 }
 
             ]
+        },
+        {
+            name: 'wcag_rule',
+            title: 'WCAG krav',
+            description: 'Hvilket WCAG krav testes?',
+            group: 'group_test',
+            type: 'reference',
+            to: [{type: 'wcag_rule'}]
         },
         {
             name: 'test_environment',
