@@ -10,6 +10,19 @@ export default {
             required: true
         },
         {
+            title: 'Nivå',
+            name: 'wcag_level',
+            type: 'string',
+            options: {
+                list: [
+                    { title: 'Nivå A', value: '1' },
+                    { title: 'Nivå AA', value: '2' },
+                    { title: 'Nivå AAA', value: '3' },
+                ],
+                layout: 'radio'
+            }
+        },
+        {
             name: 'descriptionUrl',
             title: 'Dokumentasjon', 
             description: 'Link til uu-tilsynet sin dokumentasjon om kravet',
