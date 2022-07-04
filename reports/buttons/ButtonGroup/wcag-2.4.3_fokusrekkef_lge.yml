@@ -1,0 +1,9 @@
+ruleId: wcag-2.4.3
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger deg gjennom alle knappene i komponenten med tab-tasten. Sjekk at knappene får fokus i samme rekkefølge som de vises visuelt.
+kommentar: ""
