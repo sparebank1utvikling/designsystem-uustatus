@@ -9,4 +9,4 @@ metode:
     innholdet i knappen endrer størrelse og fortsatt vises riktig.
   - Inspiser koden og sett font-size på root elementet (f.eks html-tag). Sjekk
     at teksten endrer størrelse.   
-kommentar: For å ivareta kravet må komponenten støtte skalering av teksten, inkludert skalering når komponenten brukes i webviews i mobilbanken-appene for iOS og Android. For fullverdig test må vi definere hvordan vi tester dette også (i tillegg til metodene som allerede er beskrevet). Kravet står derfor som ikke testet. Lager et issue på å undersøke hvordan vi støtter tekstskalering i webviews på iOS og Android og definere testmetode.
+kommentar: For å ivareta kravet må komponenten støtte skalering av teksten, inkludert skalering når komponenten brukes i webviews i mobilbank-appene for iOS og Android. For fullverdig test må vi definere hvordan vi tester dette også (i tillegg til metodene som allerede er beskrevet). Kravet står derfor som ikke testet. Lager et issue på å undersøke hvordan vi støtter tekstskalering i webviews på iOS og Android og definere testmetode.
