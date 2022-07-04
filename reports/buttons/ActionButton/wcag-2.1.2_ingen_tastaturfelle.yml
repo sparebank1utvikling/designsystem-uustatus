@@ -15,7 +15,7 @@ varianter:
   - loading
 fargemodus: []
 metode:
-  - Bruk tastaturet til å navigere til komponenten.
+  - Bruk tastaturet og naviger til komponenten med tab-tasten.
   - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
     er «fanget» i komponenten.
 kommentar: ""
