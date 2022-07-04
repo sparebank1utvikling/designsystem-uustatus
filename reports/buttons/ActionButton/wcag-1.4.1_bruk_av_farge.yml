@@ -12,7 +12,7 @@ fargemodus:
   - light
   - dark
 metode:
-  - Observer knappen i ulike tilstander. Der farge brukes som en måte til å
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
     formidle noe, sjekk at informasjonen også gis på andre måter.
 kommentar: Testen godkjennes fordi vi viser musepeker på hover i tillegg til
   fargeendringen.
