@@ -15,8 +15,8 @@ varianter:
   - loading
 fargemodus: []
 metode:
-  - "Default: Inspiser koden. Sjekk at teksten ligger inne i button-taggen."
-  - "Loading: Inspiser koden. Sjekk at det finnes aria-label på spinner-ikoet.
+  - Default: Inspiser koden. Sjekk at teksten ligger inne i button-taggen.
+  - Loading: Inspiser koden. Sjekk at det finnes aria-label på spinner-ikonet.
     Aktiver skjermleser og naviger til loading-knappen. Test at aria-meldingen
-    leses opp når knappen får fokus."
+    leses opp når knappen får fokus.
 kommentar: Brukte skjermleser av typen VoiceOver.
