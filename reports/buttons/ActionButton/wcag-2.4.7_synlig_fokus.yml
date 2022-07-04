@@ -22,7 +22,7 @@ metode:
   - Finn hex-fargekoden til fokusmarkeringen og sjekk den opp mot fargekoden på
     typiske bakgrunnsfarger vi bruker i løsningene våre. Bruk gjerne Color
     Contrast Analyser (TPGi). Fargekontrasten bør være minst 3:1.
-kommentar: "Det norske lovkravet spesifiserer ingen tall på hva fargekontrasten
+kommentar: Det norske lovkravet spesifiserer ingen tall på hva fargekontrasten
   må være, bare at kontrasten skal være «synlig». I våre tester har vi basert
   oss på at kontrasten skal være minimum 3:1, siden det er anbefalt
   minimumskontrast i WCAG 2.1, 1.4.11 Kontrast for ikke-tekstlig innhold (Nivå
@@ -31,4 +31,4 @@ kommentar: "Det norske lovkravet spesifiserer ingen tall på hva fargekontrasten
   -niva-aa/145. Testet på disse bakgrunnsfargene i light mode: #F2F2F9
   (syrin-30), #D8E9F2 (frost-30), #FDF8F5 (sand-30), #fff (hvit), #faf0e7
   (sand-70), #e0e0f0 (syrin-70). Testet på disse bakgrunnsfargene i dark mode:
-  #020a0a (svart), #001032 (natt), #323232 (koksgrå)."
+  #020a0a (svart), #001032 (natt), #323232 (koksgrå).
