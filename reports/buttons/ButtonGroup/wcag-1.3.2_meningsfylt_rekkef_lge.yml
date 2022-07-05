@@ -1,0 +1,26 @@
+ruleId: wcag-1.3.2
+status: godkjent
+versjon:
+  - ffe-buttons-react: 16.0.2,
+  - ffe-buttons: 15.0.5
+enheter: 
+    - enhet: Macbook Pro
+    os: MacOS Monterey 12.4.0
+    nettleser: Chrome 103.0.5060.114
+    - enhet: Macbook Pro
+    os: MacOS Monterey 12.3.1
+    nettleser: Firefox 102.0
+    - enhet: Samsung S20FE
+    os: Android 12
+    nettleser: Chrome 103.0.5060.70
+    - enhet: iPhone 11 Pro
+    os: iOS 15.3.1
+    nettleser: Safari
+varianter:
+  - default
+fargemodus: 
+  - Ikke relevant
+metode:
+  - Skru av CSS-stylingen i nettleseren. Det er ulike måter å gjøre dette på, blant annet avhengig av hvilken nettleser du bruker. Sjekk at rekkefølgen på knappene i komponenten er den samme som når CSS-stylingen er på.
+  - Naviger gjennom alle knappene i komponenten med skjermleser. Sjekk at de leses opp i samme rekkefølge som de vises visuelt.
+kommentar: ""
