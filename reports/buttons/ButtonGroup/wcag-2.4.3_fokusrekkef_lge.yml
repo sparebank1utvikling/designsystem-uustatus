@@ -1,5 +1,5 @@
 ruleId: wcag-2.4.3
-status: godkjent,
+status: godkjent
 versjon:
   - ffe-buttons-react: 16.0.2
   - ffe-buttons: 15.0.5

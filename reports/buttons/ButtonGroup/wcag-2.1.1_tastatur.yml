@@ -1,8 +1,8 @@
 ruleId: wcag-2.1.1
 status: godkjent
 versjon:
-  - ffe-buttons-react: 16.0.2,
-  - ffe-buttons: 15.0.5,
+  - ffe-buttons-react: 16.0.2
+  - ffe-buttons: 15.0.5
 enheter: 
     - enhet: Macbook Pro
     os: MacOS Monterey 12.4.0
