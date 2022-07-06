@@ -5,7 +5,7 @@ enheter: []
 varianter: []
 fargemodus: []
 metode:
-  - I nettleser: Zoom inn til 200% eller sett text scaling til 200%. Sjekk at
+  - Zoom inn til 200% eller sett text scaling til 200% i nettleser. Sjekk at
     teksten i komponenten endrer størrelse og fortsatt vises riktig.
   - Inspiser koden og sett font-size på root elementet (f.eks html-tag). Sjekk
     at teksten endrer størrelse.   
