@@ -13,7 +13,7 @@ enheter:
 varianter:
   - default
 fargemodus: 
-  - Ikke relevant
+  - ikke relevant
 metode:
   - Bruk tastaturet og naviger deg gjennom alle knappene i komponenten med tab-tasten. Sjekk at knappene får fokus i samme rekkefølge som de vises visuelt.
 kommentar: ""
