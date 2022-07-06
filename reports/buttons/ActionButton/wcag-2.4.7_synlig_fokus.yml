@@ -17,7 +17,7 @@ fargemodus:
   - light
   - dark
 metode:
-  - Bruk tastaturet til å navigere til komponenten og sjekk at fokusmarkeringen
+  - Naviger til komponenten med tab-tasten på tastaturet og sjekk at fokusmarkeringen
     er synlig.
   - Finn hex-fargekoden til fokusmarkeringen og sjekk den opp mot fargekoden på
     typiske bakgrunnsfarger vi bruker i løsningene våre. Bruk gjerne Color
