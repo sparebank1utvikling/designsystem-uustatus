@@ -13,7 +13,7 @@ enheter:
 varianter:
   - default
   - loading
-fargemodus: []
+fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og naviger til komponenten med tab-tasten.
   - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
