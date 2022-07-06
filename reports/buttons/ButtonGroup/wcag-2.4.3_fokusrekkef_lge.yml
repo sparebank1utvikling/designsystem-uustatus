@@ -12,8 +12,7 @@ enheter:
     nettleser: Firefox 102.0
 varianter:
   - default
-fargemodus: 
-  - ikke relevant
+fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og naviger deg gjennom alle knappene i komponenten med tab-tasten. Sjekk at knappene får fokus i samme rekkefølge som de vises visuelt.
-kommentar: ""
+kommentar: ingen
