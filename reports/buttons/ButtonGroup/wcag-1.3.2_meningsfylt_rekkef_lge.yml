@@ -19,7 +19,7 @@ enheter:
 varianter:
   - default
 fargemodus: 
-  - Ikke relevant
+  - ikke relevant
 metode:
   - Skru av CSS-stylingen i nettleseren. Det er ulike måter å gjøre dette på, blant annet avhengig av hvilken nettleser du bruker. Sjekk at rekkefølgen på knappene i komponenten er den samme som når CSS-stylingen er på.
   - Naviger gjennom alle knappene i komponenten med skjermleser. Sjekk at de leses opp i samme rekkefølge som de vises visuelt.
