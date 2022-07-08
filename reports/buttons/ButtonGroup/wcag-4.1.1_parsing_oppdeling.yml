@@ -6,6 +6,8 @@ versjon:
 enheter: ikke relevant
 varianter: 
   - default
+  - inline
+  - thin
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
