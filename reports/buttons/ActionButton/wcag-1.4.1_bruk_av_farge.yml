@@ -1,8 +1,8 @@
 ruleId: wcag-1.4.1
 status: godkjent
 versjon:
-  ffe-buttons-react: 16.0.1
-  ffe-buttons: 15.0.2
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.0.5
 enheter: ikke relevant
 varianter:
   - default
