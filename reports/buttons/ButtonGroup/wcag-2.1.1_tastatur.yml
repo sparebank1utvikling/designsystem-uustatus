@@ -4,14 +4,16 @@ versjon:
   - ffe-buttons-react: 16.0.2
   - ffe-buttons: 15.0.5
 enheter: 
-    - enhet: Macbook Pro
-    os: MacOS Monterey 12.4.0
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
     nettleser: Chrome 103.0.5060.114
-    - enhet: Macbook Pro
-    os: MacOS Monterey 12.3.1
-    nettleser: Firefox 102.0
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
 varianter:
   - default
+  - inline
+  - thin
 fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til alle knappene i komponenten med tab-tasten.
