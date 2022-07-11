@@ -1,0 +1,14 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at knappen er spesifisert som button, at det finnes en knappetekst og at denne ligger inne i button-taggen (ikke utenfor).
+  - Sjekk at loading-knappen har aria-disabled true og at det finnes aria-label på spinner-ikonet.
+  - Aktiver skjermleser.
+  – Test at knappeteksten leses opp og at komponenten leses opp som knapp.
+  – Test at aria-meldingen leses opp for loading-knappen og at det leses opp at knappen er disabled (typisk sier skjermleser for eksempel nedtonet).
+kommentar: ""
