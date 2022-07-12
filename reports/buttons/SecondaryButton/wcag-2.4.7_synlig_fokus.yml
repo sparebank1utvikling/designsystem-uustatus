@@ -1,9 +1,21 @@
 ruleId: wcag-2.4.7
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
+status: godkjent
+versjon:
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+varianter:
+  - default
+  - loading
+fargemodus:
+  - light
+  - dark
 metode:
   - Naviger til komponenten med tab-tasten på tastaturet og sjekk at fokusmarkeringen
     er synlig.
@@ -14,4 +26,7 @@ kommentar: Det norske lovkravet spesifiserer ingen tall på hva fargekontrasten
   må være, bare at kontrasten skal være «synlig». I våre tester har vi basert
   oss på at kontrasten skal være minimum 3:1, i tråd med anbefalt
   minimumskontrast i WCAG 2.1, 1.4.11 Kontrast for ikke-tekstlig innhold (Nivå
-  AA).
+  AA). Light mode ble testet på bakgrunnsfargene #F2F2F9
+  (syrin-30), #D8E9F2 (frost-30), #FDF8F5 (sand-30), #fff (hvit), #faf0e7
+  (sand-70), #e0e0f0 (syrin-70). Dark mode ble testet på
+  #020a0a (svart), #001032 (natt), #323232 (koksgrå).
