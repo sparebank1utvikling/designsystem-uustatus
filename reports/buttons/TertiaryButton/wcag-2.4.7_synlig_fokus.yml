@@ -1,0 +1,17 @@
+ruleId: wcag-2.4.7
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Naviger til komponenten med tab-tasten på tastaturet og sjekk at fokusmarkeringen
+    er synlig.
+  - Finn hex-fargekoden til fokusmarkeringen og sjekk den opp mot fargekoden på
+    typiske bakgrunnsfarger vi bruker i løsningene våre. Bruk gjerne Color
+    Contrast Analyser (TPGi). Fargekontrasten bør være minst 3:1.
+kommentar: Det norske lovkravet spesifiserer ingen tall på hva fargekontrasten
+  må være, bare at kontrasten skal være «synlig». I våre tester har vi basert
+  oss på at kontrasten skal være minimum 3:1, i tråd med anbefalt
+  minimumskontrast i WCAG 2.1, 1.4.11 Kontrast for ikke-tekstlig innhold (Nivå
+  AA).
