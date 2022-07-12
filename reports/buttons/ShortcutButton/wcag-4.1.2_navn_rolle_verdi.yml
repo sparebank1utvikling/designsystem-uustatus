@@ -1,0 +1,12 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som lenke, at det finnes en lenketekst og at denne ligger inne i lenke-taggen (ikke utenfor).
+  - Aktiver skjermleser.
+  – Test at lenketeksten leses opp og at komponenten leses opp som lenke.
+kommentar: ""
