@@ -1,0 +1,27 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+varianter:
+  - default
+  - loading
+fargemodus: ikke relevant
+metode:
+  - Inspiser koden.
+  - Sjekk at knappen er spesifisert som button, at det finnes en knappetekst og at denne ligger inne i button-taggen (ikke utenfor).
+  - Sjekk at loading-knappen har aria-disabled true og at det finnes aria-label på spinner-ikonet.
+  - Aktiver skjermleser.
+  – Test at knappeteksten leses opp og at komponenten leses opp som knapp.
+  – Test at aria-meldingen leses opp for loading-knappen og at det leses opp at knappen er disabled (typisk sier skjermleser for eksempel nedtonet).
+kommentar: Brukte skjermleser av typen VoiceOver.
