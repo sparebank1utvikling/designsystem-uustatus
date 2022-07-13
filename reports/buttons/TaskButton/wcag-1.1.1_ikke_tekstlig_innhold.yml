@@ -1,0 +1,12 @@
+ruleId: wcag-1.1.1
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at ikonet har aria-hidden true.
+  - Aktiver skjermleser.
+  - Test at ikonet er skjult (ikke leses opp) når komponenten leses opp.
+kommentar: ""
