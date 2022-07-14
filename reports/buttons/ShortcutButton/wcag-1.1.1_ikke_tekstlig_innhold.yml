@@ -18,7 +18,9 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
-  - Sjekk at ikonet har aria-hidden true.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi som for eksempel skjermlesere, sjekk at det finnes alt-tekst/aria-label.
+  - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi i koden. Se at det enten finnes aria-hidden true (inline svg-er), alt tekst som står tom (img-elementer), eller at innholdet er implementert i CSS.
   - Aktiver skjermleser.
-  - Test at ikonet er skjult (ikke leses opp) når komponenten leses opp.
-kommentar: ingen
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at alt-teksten/aria-labelen leses opp av skjermleseren. 
+  - For innhold som skal være skjult, test at dette ikke leses opp.
+kommentar: Vi klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende tekst-label. Vi godkjenner derfor kravet siden ikonet er kodet med aria-hidden true og ikke leses opp av skjermleser i testen.
