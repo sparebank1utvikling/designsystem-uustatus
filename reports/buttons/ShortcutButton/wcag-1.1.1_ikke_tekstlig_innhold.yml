@@ -23,4 +23,4 @@ metode:
   - Aktiver skjermleser.
   - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at alt-teksten/aria-labelen leses opp av skjermleseren. 
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: Vi klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende tekst-label. Vi godkjenner derfor kravet siden ikonet er kodet med aria-hidden true og ikke leses opp av skjermleser i testen.
+kommentar: Klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende tekst-label. Godkjenner derfor kravet siden ikonet er kodet med aria-hidden true og ikke leses opp av skjermleser i testen.
