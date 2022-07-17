@@ -1,0 +1,12 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at knappen er spesifisert som button, at det finnes en knappetekst og at denne ligger inne i button-taggen (ikke utenfor).
+  - Aktiver skjermleser.
+  – Test at knappeteksten leses opp og at komponenten leses opp som knapp.
+kommentar: ""
