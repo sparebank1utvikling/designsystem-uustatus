@@ -11,9 +11,9 @@ fargemodus:
   - light
   - dark
 metode:
-  - Test bakgrunnsfargen på knappen mot fargen på teksten i knappen
+  - Test fargen på teksten i komponenten mot bakgrunnsfargen til komponenten
     (hex-kodene). Bruk gjerne Color Contrast Analyser (TPGi).
-kommentar: Tekststørrelsen i knappene kan variere fordi den settes basert på
+kommentar: Tekststørrelsen i komponentene kan variere fordi den settes basert på
   brukerens nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle
   ulike tekststørrelser baserer vi testene på det høyeste kontrastkravet
   (4.5:1).
