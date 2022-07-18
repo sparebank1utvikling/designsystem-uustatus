@@ -1,0 +1,14 @@
+ruleId: wcag-1.1.1
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi som for eksempel skjermlesere, sjekk at det finnes alt-tekst/aria-label/aria-labelledby.
+  - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi i koden. Se at det enten finnes aria-hidden true (svg-er), alt-tekst som står tom (img-elementer), eller at innholdet er implementert i CSS.
+  - Aktiver skjermleser.
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at alt-teksten/aria-labelen leses opp av skjermleseren. 
+  - For innhold som skal være skjult, test at dette ikke leses opp.
+kommentar: ""
