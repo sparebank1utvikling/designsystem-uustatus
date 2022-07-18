@@ -19,9 +19,10 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
-  - Sjekk at knappen er spesifisert som button, at det finnes en knappetekst og at denne ligger inne i button-taggen (ikke utenfor).
-  - Sjekk at loading-knappen har aria-disabled true og at det finnes aria-label på spinner-ikonet.
+  - Sjekk at komponenten er spesifisert som knapp.
+  - Sjekk at det finnes en knappetekst, enten tekst inne i button-elementet eller aria-label/aria-labelledby.
+  - Sjekk at loading-knappen har aria-disabled true.
   - Aktiver skjermleser.
   – Test at knappeteksten leses opp og at komponenten leses opp som knapp.
-  – Test at aria-meldingen leses opp for loading-knappen og at det leses opp at knappen er disabled (typisk sier skjermleser for eksempel nedtonet).
+  – Test at det leses opp at loading-knappen er disabled (typisk sier skjermleser for eksempel nedtonet).
 kommentar: Brukte skjermleser av typen VoiceOver.

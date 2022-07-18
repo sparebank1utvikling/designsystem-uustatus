@@ -18,7 +18,8 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
-  - Sjekk at knappen er spesifisert som button, at det finnes en knappetekst og at denne ligger inne i button-taggen (ikke utenfor).
+  - Sjekk at komponenten er spesifisert som knapp.
+  - Sjekk at det finnes en knappetekst, enten tekst inne i button-elementet eller aria-label/aria-labelledby.
   - Aktiver skjermleser.
   – Test at knappeteksten leses opp og at komponenten leses opp som knapp.
 kommentar: Brukte skjermleser av typen VoiceOver.
