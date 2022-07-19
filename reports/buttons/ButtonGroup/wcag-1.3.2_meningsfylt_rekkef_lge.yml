@@ -2,7 +2,7 @@ ruleId: wcag-1.3.2
 status: godkjent
 versjon:
   - ffe-buttons-react: 16.0.2
-  - ffe-buttons: 15.0.5
+  - ffe-buttons: 15.1.0
 enheter: 
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
@@ -11,7 +11,7 @@ enheter:
     os: macOS Monterey 12.4
     nettleser: Safari 15.5
   - enhet: iPhone 11 Pro
-    os: iOS 15.3.1
+    os: iOS 15.5
     nettleser: Safari
 varianter:
   - default
