@@ -1,0 +1,12 @@
+ruleId: wcag-2.1.2
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger til komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+  - Sjekk også at du kan navigere til komponenten, klikke på den så den ekspanderes/minimeres og så navigere til neste element på siden.
+kommentar: ""
