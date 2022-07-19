@@ -1,10 +1,20 @@
 ruleId: wcag-2.1.1
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
+status: godkjent
+versjon:
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+varianter:
+  - default
+  - expanded
+fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
   - Sjekk også at komponenten fungerer når du klikker på den med enter/space. Se at knappen både kan ekspanderes og minimeres.
-kommentar: ""
+kommentar: ingen
