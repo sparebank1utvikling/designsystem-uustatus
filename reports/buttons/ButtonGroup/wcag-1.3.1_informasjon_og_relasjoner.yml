@@ -1,9 +1,27 @@
 ruleId: wcag-1.3.1
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
-metode: []
-kommentar: ""
-
+status: ikke_godkjent
+versjon:
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+varianter:
+  - default
+  - inline
+  - thin
+fargemodus: ikke relevant
+metode:
+  - Sjekk at informasjon, struktur og relasjoner som formidles via presentasjonen også er tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer blant annet sjekkbokser, radioknapper og andre grupperte skjemaelementer.
+  - Inspiser koden. 
+  - Se at komponenten er kodet så kompenserende teknologi kan plukke opp at det er en gruppe/liste og hva den heter.
+  - Aktiver skjermleser.
+  - Sjekk at det leses opp at komponenten er en gruppe/liste, og navnet.
+kommentar: Det kommer ikke frem at kompoenten er en gruppe eller hva gruppen heter med kompenserende teknologi. Komponenten er også lagt opp sånn at vi noen ganger må bruke flere knappegrupper sammen for at den visuelle plasseringen skal bli riktig. Det kan være forvirrende at knapper som hører sammen presenteres som ulike grupper med skjermleser eller annen kompenserende teknologi. Usikker på hva som er beste måte å løse det på. W3C har flere aktuelle løsninger i oversikten over godkjente teknikker for å ivareta krav 1.3.1. Lager GitHub-issue på det.
