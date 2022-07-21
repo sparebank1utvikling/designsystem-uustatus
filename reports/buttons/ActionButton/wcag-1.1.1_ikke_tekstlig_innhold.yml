@@ -20,9 +20,9 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
-  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi som for eksempel skjermlesere, sjekk at det finnes alt-tekst/aria-label/aria-labelledby.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi som for eksempel skjermlesere, sjekk at det finnes alt-tekst/aria-label/aria-labelledby. Standard HTML-punktlister trenger ikke alt-tekst eller aria-label for at kulepunktene skal presenteres riktig med kompenserende teknologi. Se bare at standard ul- og li-elementer er brukt.
   - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi i koden. Se at det enten finnes aria-hidden true (svg-er), alt tekst som står tom (img-elementer), eller at innholdet er implementert i CSS.
   - Aktiver skjermleser.
-  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at alt-teksten/aria-labelen leses opp av skjermleseren. 
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at alt-teksten/aria-labelen leses opp av skjermleseren. For standard HTML-punktlister, sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp. 
 kommentar: Klassifiserer icon left og icon right som innhold som ikke vil tilføre nyttig informasjon med kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende tekst-label. Godkjenner derfor disse siden de er kodet med aria-hidden true og ikke leses opp av skjermleser i testen. Loading-ikonet godkjennes også siden det finnes aria-label og at dette leses opp av skjermleseren. Selve ikonet er implementert i CSS, men det skal være tilstrekkelig at det finnes aria-label for ikonet i HTML-koden.
