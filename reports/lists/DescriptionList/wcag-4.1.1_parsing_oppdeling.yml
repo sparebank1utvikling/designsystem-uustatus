@@ -1,0 +1,19 @@
+ruleId: wcag-4.1.1
+status: godkjent
+versjon:
+  ffe-lists-react: 5.0.9
+  ffe-lists: 10.0.23
+enheter: ikke relevant
+varianter:
+  - default
+  - horizontal
+  - medium
+  - large
+  - multi column
+fargemodus: ikke relevant
+metode:
+  - Inspiser koden.
+  - Kopier all relevant HTML-kode og lim den inn i kode-validator
+    (https://validator.w3.org).
+  - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
+kommentar: ingen
