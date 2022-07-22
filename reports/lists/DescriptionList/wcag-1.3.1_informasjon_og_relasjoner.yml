@@ -26,4 +26,4 @@ metode:
   - Se at komponenten er kodet som liste, med riktig listetype. Se også at de indre elementene (li/dt/dd) ligger inne i de ytre elementene (ul/ol/dl).
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses opp som en del av listen.
-kommentar: Brukte skjermleser av typen VoiceOver. I DescriptionListMultiCol ligger liste-elementene i ulike lister, dermed presenteres de som ulike lister med skjermlesere og annen kompenserende teknologi. Alle liste-elementene (dt og dd) bør ligge under samme liste (dl) så de leses opp som én liste. Lager GitHub-issue på dette. Alle de andre komponentvariantene ble godkjent i testen.
+kommentar: Brukte skjermleser av typen VoiceOver. I DescriptionListMultiCol ligger liste-elementene i ulike lister, dermed presenteres de som ulike lister med skjermlesere og annen kompenserende teknologi. Alle liste-elementene (dt og dd) bør ligge under samme liste (dl) så de leses opp som én liste. Lager GitHub-issue på dette. Alle de andre variantene av komponenten (default, horizontal, medium, large) ble godkjent i testen.
