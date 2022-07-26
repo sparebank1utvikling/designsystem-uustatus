@@ -1,0 +1,14 @@
+ruleId: wcag-1.3.1
+status: godkjent
+versjon:
+  ffe-core-react: 4.2.11
+  ffe-core: 21.1.1
+enheter: ikke relevant
+varianter:
+  - default
+fargemodus: ikke relevant
+metode:
+  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer blant annet sjekkbokser, radioknapper og andre grupperte skjemaelementer.
+  - Inspiser koden. 
+  - Se at komponenten er kodet med strong-tagg.
+kommentar: ingen
