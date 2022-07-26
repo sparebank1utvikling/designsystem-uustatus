@@ -1,14 +1,25 @@
 ruleId: wcag-1.3.1
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
+status: godkjent
+versjon:
+  ffe-core-react: 4.2.11
+  ffe-core: 21.1.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.134
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+varianter:
+  - default
+fargemodus: ikke relevant
 metode:
   - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer blant annet sjekkbokser, radioknapper og andre grupperte skjemaelementer.
   - Inspiser koden. 
   - Se at komponenten er kodet som overskrift. Se også at den er kodet sånn at det er mulig å endre visuell styling men fortsatt beholde samme overskriftsnivå for h-taggen. For eksempel at overskriften har h1-tagg men er stylet som h3. 
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en overskrift og hvilket overskriftsnivå den har.
-kommentar: ""
-
+kommentar: ingen
