@@ -1,12 +1,15 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
+status: godkjent
+versjon:
+  ffe-core-react: 4.2.11
+  ffe-core: 21.1.1
+enheter: ikke relevant
+varianter:
+  - default
+fargemodus: ikke relevant
 metode:
   - Inspiser koden.
   - Kopier all relevant HTML-kode og lim den inn i kode-validator
     (https://validator.w3.org).
   - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
-kommentar: ""
+kommentar: ingen
