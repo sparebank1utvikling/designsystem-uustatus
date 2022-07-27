@@ -1,0 +1,13 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon: {}
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som lenke.
+  - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, aria-labelledby, ...).
+  - Aktiver skjermleser.
+  – Test at lenketeksten leses opp og at komponenten leses opp som lenke.
+kommentar: ""
