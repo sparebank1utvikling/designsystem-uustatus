@@ -22,4 +22,4 @@ metode:
   - Se at komponenten er kodet som overskrift. Se også at den er kodet sånn at det er mulig å endre visuell styling men fortsatt beholde samme overskriftsnivå for h-taggen. For eksempel at overskriften har h1-tagg men er stylet som h3. 
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en overskrift og hvilket overskriftsnivå den har.
-kommentar: ingen
+kommentar: Brukte skjermleser av typen VoiceOver.
