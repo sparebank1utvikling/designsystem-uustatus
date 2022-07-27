@@ -19,7 +19,7 @@ fargemodus: ikke relevant
 metode:
   - Inspiser koden.
   - Sjekk at komponenten er spesifisert som lenke.
-  - Sjekk at det finnes en lenketekst, enten tekst inne i a-elementet eller aria-label/aria-labelledby.
+  - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, aria-labelledby, ...).
   - Aktiver skjermleser.
   – Test at lenketeksten leses opp og at komponenten leses opp som lenke.
 kommentar: Brukte skjermleser av typen VoiceOver.
