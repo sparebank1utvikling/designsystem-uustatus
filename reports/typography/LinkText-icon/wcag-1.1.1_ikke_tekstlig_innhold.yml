@@ -1,9 +1,21 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
+status: godkjent
+versjon:
+  ffe-core-react: 4.2.11
+  ffe-core: 21.1.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.134
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+varianter:
+  - default
+fargemodus: ikke relevant
 metode:
   - Inspiser koden.
   - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi som for eksempel skjermlesere, sjekk at det finnes tekstalternativ (alt-tekst, aria-label, aria-labelledby, title, ...). Standard HTML-punktlister trenger ikke tekstalternativ for at kulepunktene skal presenteres riktig med kompenserende teknologi. Se bare at standard ul- og li-elementer er brukt.
@@ -11,4 +23,4 @@ metode:
   - Aktiver skjermleser.
   - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar: Brukte skjermleser av typen VoiceOver.
