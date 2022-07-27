@@ -1,10 +1,15 @@
 ruleId: wcag-1.4.1
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
-fargemodus: []
+status: godkjent
+versjon:
+  ffe-core-react: 4.2.11
+  ffe-core: 21.1.1
+enheter: ikke relevant
+varianter:
+  - default
+  - hover
+fargemodus:
+  - light
+  - dark
 metode:
-  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
-    formidle noe, sjekk at informasjonen også gis på andre måter.
-kommentar: ""
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å formidle noe, sjekk at informasjonen også gis på andre måter.
+kommentar: ingen
