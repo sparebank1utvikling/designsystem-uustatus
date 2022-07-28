@@ -7,12 +7,15 @@ enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Chrome 103.0.5060.134
+    skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Safari 15.5
+    skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 15.5
     nettleser: Safari
+    skjermleser: VoiceOver
 varianter:
   - default
 fargemodus: ikke relevant
