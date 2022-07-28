@@ -7,12 +7,15 @@ enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Chrome 103.0.5060.114
+    skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Safari 15.5
+    skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 15.5
     nettleser: Safari
+    skjermleser: VoiceOver
 varianter:
   - default
   - inline
@@ -21,4 +24,4 @@ fargemodus: ikke relevant
 metode:
   - Skru av CSS-stylingen i nettleseren. Det er ulike måter å gjøre dette på, blant annet avhengig av hvilken nettleser du bruker. Sjekk at den visuelle rekkefølgen på innholdet i komponenten er den samme når CSS-stylingen er av og på.
   - Naviger gjennom alle elementene i komponenten med skjermleser. Sjekk at de leses opp i samme rekkefølge som de vises visuelt.
-kommentar: Brukte skjermleser av typen VoiceOver.
+kommentar: ingen

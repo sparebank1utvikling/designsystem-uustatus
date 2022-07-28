@@ -7,12 +7,15 @@ enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Chrome 103.0.5060.134
+    skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Safari 15.5
+    skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 15.5
     nettleser: Safari
+    skjermleser: VoiceOver
 varianter:
   - default
   - columns
@@ -23,4 +26,4 @@ metode:
   - Se at komponenten er kodet som liste, med riktig listetype. Se også at de indre elementene (li/dt/dd) ligger inne i de ytre elementene (ul/ol/dl).
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses opp som en del av listen.
-kommentar: Brukte skjermleser av typen VoiceOver.
+kommentar: ingen
