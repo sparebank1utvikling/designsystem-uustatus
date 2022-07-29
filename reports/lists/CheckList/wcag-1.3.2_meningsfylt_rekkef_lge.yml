@@ -19,11 +19,11 @@ enheter:
 varianter:
   - default
   - columns
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Skru av CSS-stylingen i nettleseren. Det er ulike måter å gjøre dette på, blant annet
     avhengig av hvilken nettleser du bruker. Sjekk at den visuelle rekkefølgen på innholdet
     i komponenten er den samme når CSS-stylingen er av og på.
   - Naviger gjennom alle elementene i komponenten med skjermleser. Sjekk at de leses opp i
     samme rekkefølge som de vises visuelt.
-kommentar: ingen
+kommentar: ""

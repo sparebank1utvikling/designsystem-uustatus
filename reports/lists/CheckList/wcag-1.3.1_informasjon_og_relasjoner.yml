@@ -19,7 +19,7 @@ enheter:
 varianter:
   - default
   - columns
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er
     tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller
@@ -32,4 +32,4 @@ metode:
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses
     opp som en del av listen.
-kommentar: ingen
+kommentar: ""

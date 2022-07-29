@@ -7,17 +7,17 @@ enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Chrome 103.0.5060.114
-    skjermleser: ikke relevant
+    skjermleser: ""
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Safari 15.5
-    skjermleser: ikke relevant
+    skjermleser: ""
 varianter:
   - default
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
   - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
     En måte å teste at den fungerer på er å inspisere koden, legge inn en lenke i
     href-feltet og sjekke at lenken åpnes ved klikk på komponenten.
-kommentar: ingen
+kommentar: ""

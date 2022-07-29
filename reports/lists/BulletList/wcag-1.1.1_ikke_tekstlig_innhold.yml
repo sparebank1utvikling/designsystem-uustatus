@@ -18,7 +18,7 @@ enheter:
     skjermleser: VoiceOver
 varianter:
   - default
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Inspiser koden.
   - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende 
@@ -35,4 +35,4 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ingen
+kommentar: ""

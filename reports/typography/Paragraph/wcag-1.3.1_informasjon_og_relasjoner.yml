@@ -3,10 +3,10 @@ status: godkjent
 versjon:
   ffe-core-react: 4.2.11
   ffe-core: 21.1.1
-enheter: ikke relevant
+enheter: []
 varianter:
   - default
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er
     tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller
@@ -15,4 +15,4 @@ metode:
     blant annet avkrysningsbokser, radioknapper og andre grupperte skjemaelementer.
   - Inspiser koden. 
   - Se at komponenten er kodet med p-tagg.
-kommentar: ingen
+kommentar: ""
