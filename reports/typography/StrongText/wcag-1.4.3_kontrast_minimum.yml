@@ -14,10 +14,14 @@ metode:
     løsningene våre (hex-kodene). Bruk gjerne Color Contrast Analyser (TPGi). Hvis 
     fargene endrer seg i ulike tilstander av komponenten, for eksempel ved hover, 
     husk å teste disse også.
-kommentar: Tekststørrelsen i komponentene kan variere fordi den settes basert på
-  brukerens nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle
-  ulike tekststørrelser baserer vi testene på det høyeste kontrastkravet
-  (4.5:1). Light mode ble testet på bakgrunnsfargene #F2F2F9
-  (syrin-30), #D8E9F2 (frost-30), #FDF8F5 (sand-30), #fff (hvit), #faf0e7
-  (sand-70), #e0e0f0 (syrin-70). Dark mode ble testet på
-  #020a0a (svart), #001032 (natt).
+kommentar: >
+  Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens
+  nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike
+  tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
+  
+  Light mode ble testet på bakgrunnsfargene #F2F2F9 (syrin-30), #D8E9F2 (frost-30),
+  #FDF8F5 (sand-30), #fff (hvit), #faf0e7 (sand-70) og #e0e0f0 (syrin-70),
+  samt #005AA4 (vann) for fokusmarkeringen.
+  
+  Dark mode ble testet på #020a0a (svart) og #001032 (natt), samt #4D8CBF (vann-70)
+  for fokusmarkeringen.

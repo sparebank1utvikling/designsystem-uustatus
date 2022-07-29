@@ -14,7 +14,7 @@ metode:
     (hex-kodene). Bruk gjerne Color Contrast Analyser (TPGi). Hvis fargene endrer 
     seg i ulike tilstander av komponenten, for eksempel ved hover, husk å teste 
     disse også.
-kommentar: Tekststørrelsen i komponentene kan variere fordi den settes basert på
-  brukerens nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle
-  ulike tekststørrelser baserer vi testene på det høyeste kontrastkravet
-  (4.5:1).
+kommentar:
+  Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens
+  nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike
+  tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).

@@ -12,5 +12,5 @@ fargemodus:
 metode:
   - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
     formidle noe, sjekk at informasjonen også gis på andre måter.
-kommentar: Testen godkjennes fordi vi viser musepeker på hover i tillegg til
-  fargeendringen.
+kommentar: 
+  Testen godkjennes fordi vi viser musepeker på hover i tillegg til fargeendringen.

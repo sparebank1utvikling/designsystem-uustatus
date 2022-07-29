@@ -17,5 +17,7 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
-  - Sjekk også at komponenten fungerer når du klikker på den med enter/space. En måte å se at den fungerer på er å legge inn en console.log på komponentens onClick-funksjon som da logger til konsollen hver gang den blir klikket på.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+    En måte å se at den fungerer på er å legge inn en console.log på komponentens
+    onClick-funksjon som da logger til konsollen hver gang den blir klikket på.
 kommentar: ingen
