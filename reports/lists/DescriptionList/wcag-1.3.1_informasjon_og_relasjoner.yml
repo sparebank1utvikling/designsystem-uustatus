@@ -24,9 +24,22 @@ varianter:
   - multi column
 fargemodus: ikke relevant
 metode:
-  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer blant annet sjekkbokser, radioknapper og andre grupperte skjemaelementer.
+  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er
+    tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller
+    og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som
+    gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer
+    blant annet avkrysningsbokser, radioknapper og andre grupperte skjemaelementer.
   - Inspiser koden. 
-  - Se at komponenten er kodet som liste, med riktig listetype. Se også at de indre elementene (li/dt/dd) ligger inne i de ytre elementene (ul/ol/dl).
+  - Se at komponenten er kodet som liste, med riktig listetype. Se også at de indre
+    elementene (li/dt/dd) ligger inne i de ytre elementene (ul/ol/dl).
   - Aktiver skjermleser.
-  - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses opp som en del av listen.
-kommentar: I DescriptionListMultiCol ligger liste-elementene i ulike lister, dermed presenteres de som ulike lister med skjermlesere og annen kompenserende teknologi. Alle liste-elementene (dt og dd) bør ligge under samme liste (dl) så de leses opp som én liste. Lager GitHub-issue på dette. Alle de andre variantene av komponenten (default, horizontal, medium, large) ble godkjent i testen.
+  - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses
+    opp som en del av listen.
+kommentar: >
+  I DescriptionListMultiCol ligger liste-elementene i ulike lister, dermed presenteres
+  de som ulike lister med skjermlesere og annen kompenserende teknologi. Alle liste-elementene
+  (dt og dd) bør ligge under samme liste (dl) så de leses opp som én liste. Lager GitHub-issue
+  på dette.
+  
+  Alle de andre variantene av komponenten (default, horizontal, medium, large) ble godkjent
+  i testen.

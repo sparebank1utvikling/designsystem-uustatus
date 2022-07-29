@@ -19,5 +19,7 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til alle knappene i komponenten med tab-tasten.
-  - Sjekk også at alle knappene fungerer når du klikker på dem med enter/space. En måte å se at de fungerer på er å legge inn en console.log på knappenes onClick-funksjon som da logger til konsollen hver gang de blir klikket på.
+  - Sjekk også at alle knappene fungerer når du klikker på dem med enter/space. En måte å se at
+    de fungerer på er å legge inn en console.log på knappenes onClick-funksjon som da logger
+    til konsollen hver gang de blir klikket på.
 kommentar: ingen

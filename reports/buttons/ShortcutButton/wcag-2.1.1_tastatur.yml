@@ -17,5 +17,7 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
-  - Sjekk også at komponenten fungerer når du klikker på den med enter/space. En måte å teste at den fungerer på er å inspisere koden, legge inn en lenke i href-feltet og sjekke at lenken åpnes ved klikk på komponenten.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+    En måte å teste at den fungerer på er å inspisere koden, legge inn en lenke i
+    href-feltet og sjekke at lenken åpnes ved klikk på komponenten.
 kommentar: ingen

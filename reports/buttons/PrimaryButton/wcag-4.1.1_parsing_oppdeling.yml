@@ -12,8 +12,8 @@ varianter:
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
-  - Kopier all relevant HTML-kode og lim den inn i kode-validator
-    (https://validator.w3.org).
+  - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
   - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
-kommentar:  Testen ga 1 advarsel (ikke type «fatal error») om bruk av aria-label for loading. Vi laget
+kommentar: >
+  Testen ga 1 advarsel (ikke type «fatal error») om bruk av aria-label for loading. Vi laget
   GitHub-issue på dette.
