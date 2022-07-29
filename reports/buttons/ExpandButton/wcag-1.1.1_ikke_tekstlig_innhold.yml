@@ -17,7 +17,7 @@ enheter:
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
-  - expanded
+  - default
 fargemodus: ikke relevant
 metode:
   - Inspiser koden.
