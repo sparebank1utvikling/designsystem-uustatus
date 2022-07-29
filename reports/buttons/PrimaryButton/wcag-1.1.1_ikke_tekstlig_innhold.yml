@@ -20,7 +20,7 @@ varianter:
   - loading
   - icon left
   - icon right
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Inspiser koden.
   - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende 

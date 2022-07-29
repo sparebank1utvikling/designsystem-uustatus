@@ -3,7 +3,7 @@ status: godkjent
 versjon:
   ffe-buttons-react: 16.0.2
   ffe-buttons: 15.1.0
-enheter: ikke relevant
+enheter: []
 varianter:
   - default
   - hover

@@ -18,7 +18,7 @@ enheter:
     skjermleser: VoiceOver
 varianter:
   - default
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er
     tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller
@@ -29,4 +29,4 @@ metode:
   - Se at komponenten er kodet med a-tagg og href-attributt.
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en lenke.
-kommentar: ingen
+kommentar: ""

@@ -19,7 +19,7 @@ enheter:
 varianter:
   - default
   - expanded
-fargemodus: ikke relevant
+fargemodus: []
 metode:
   - Inspiser koden.
   - Sjekk at komponenten er spesifisert som knapp.
@@ -28,4 +28,4 @@ metode:
   - Aktiver skjermleser.
   – Test at knappeteksten leses opp, at komponenten leses opp som knapp og at det leses opp at den er
     minimert eller ekspandert.
-kommentar: ingen
+kommentar: ""

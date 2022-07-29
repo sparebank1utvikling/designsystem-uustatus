@@ -7,11 +7,11 @@ enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Chrome 103.0.5060.114
-    skjermleser: ikke relevant
+    skjermleser: ""
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
     nettleser: Safari 15.5
-    skjermleser: ikke relevant
+    skjermleser: ""
 varianter:
   - default
   - loading
