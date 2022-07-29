@@ -6,8 +6,6 @@ versjon:
 enheter: ikke relevant
 varianter:
   - default
-  - hover
-  - loading
 fargemodus:
   - light
   - dark

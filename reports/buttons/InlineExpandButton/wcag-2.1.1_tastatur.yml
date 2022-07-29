@@ -14,7 +14,6 @@ enheter:
     skjermleser: ikke relevant
 varianter:
   - default
-  - expanded
 fargemodus: ikke relevant
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
