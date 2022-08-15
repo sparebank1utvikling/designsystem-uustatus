@@ -1,12 +1,12 @@
 ruleId: wcag-1.3.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-lists-react: 5.0.9
-  ffe-lists: 10.0.23
+  ffe-lists-react: 5.0.11
+  ffe-lists: 10.0.25
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.134
+    nettleser: Chrome 104.0.5112.79
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
@@ -35,11 +35,4 @@ metode:
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses
     opp som en del av listen.
-kommentar: >
-  I DescriptionListMultiCol ligger liste-elementene i ulike lister, dermed presenteres
-  de som ulike lister med skjermlesere og annen kompenserende teknologi. Alle liste-elementene
-  (dt og dd) bør ligge under samme liste (dl) så de leses opp som én liste. Lager GitHub-issue
-  på dette.
-  
-  Alle de andre variantene av komponenten (default, horizontal, medium, large) ble godkjent
-  i testen.
+kommentar: ""
