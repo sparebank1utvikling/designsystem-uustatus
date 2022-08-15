@@ -1,12 +1,12 @@
 ruleId: wcag-1.1.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-buttons-react: 16.0.2
-  ffe-buttons: 15.1.0
+  ffe-buttons-react: 16.0.5
+  ffe-buttons: 15.1.2
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.114
+    nettleser: Chrome 104.0.5112.79
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.4
@@ -38,6 +38,5 @@ metode:
 kommentar: >
   Klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med
   kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende
-  tekst-label. Vi må sørge for at ikonet er tilstrekkelig skjult for kompenserende teknologi i
-  koden, for eksempel ved å legge til aria hidden-attributt (satt til true) i svg-en. Lager
-  GitHub-issue på dette.
+  tekst-label. Godkjenner derfor testen siden ikonet er kodet med aria-hidden true og 
+  ikke leses opp av skjermleser i testen.
