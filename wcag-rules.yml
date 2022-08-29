@@ -4,12 +4,48 @@
   level: A
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/111-ikke-tekstlig-innhold-niva/87
   procedureUrl: hhttps://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_111_ikkjetekstleg_innhald
+- id: wcag-1.2.1
+  section: 1.2.1
+  name: Bare lyd og bare video
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/121-bare-lyd-og-bare-video-forhandsinnspilt-niva/88
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_121_berre_lyd_og_berre_video
+- id: wcag-1.2.2
+  section: 1.2.2
+  name: Teksting
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/122-teksting-forhandsinnspilt-niva/89
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_122_teksting_frehandsinnspelt
+- id: wcag-1.3.1
+  section: 1.3.1
+  name: Informasjon og relasjoner
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/131-informasjon-og-relasjoner-niva/90
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_131_informasjon_og_relasjonar
+- id: wcag-1.3.2
+  section: 1.3.2
+  name: Meningsfylt rekkefølge
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/132-meningsfylt-rekkefolge-niva/91
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_132_meiningsfylt_rekkeflge
+- id: wcag-1.3.3
+  section: 1.3.3
+  name: Sensoriske egenskaper
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/133-sensoriske-egenskaper-niva/92
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_133_sensoriske_eigenskapar
 - id: wcag-1.4.1
   section: 1.4.1
   name: Bruk av farge
   level: A
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/141-bruk-av-farge-niva/93
   procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_141_bruk_av_farge
+- id: wcag-1.4.2
+  section: 1.4.2
+  name: Styring av lyd
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/142-styring-av-lyd-niva/94
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_142_styring_av_lyd
 - id: wcag-1.4.3
   section: 1.4.3
   name: Kontrast (minimum)
@@ -22,6 +58,12 @@
   level: AA
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/144-endring-av-tekststorrelse-niva-aa/96
   procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_144_endring_av_tekststrrelse
+- id: wcag-1.4.5
+  section: 1.4.5
+  name: Bilder av tekst
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/145-bilder-av-tekst-niva-aa/97
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_145_bilde_av_tekst
 - id: wcag-2.1.1
   section: 2.1.1
   name: Tastatur
@@ -34,12 +76,126 @@
   level: A
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/212-ingen-tastaturfelle-niva/99
   procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_212_ingen_tastaturfelle
+- id: wcag-2.2.1
+  section: 2.2.1
+  name: Justerbar hastighet
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/221-justerbar-hastighet-niva/100
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_221_justerbar_hastigheit
+- id: wcag-2.2.2
+  section: 2.2.2
+  name: Pause, stopp, skjul
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/222-pause-stopp-skjul-niva/101
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_222_pause_stopp_skjul
+- id: wcag-2.3.1
+  section: 2.3.1
+  name: Terskelverdi på maksimalt tre glimt
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/231-terskelverdi-pa-maksimalt-tre-glimt-niva/102
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_231_terskelverdi_p_maksimalt_tre_glimt
+- id: wcag-2.4.1
+  section: 2.4.1
+  name: Hoppe over blokker
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/241-hoppe-over-blokker-niva/103
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_241_hoppe_over_blokker
+- id: wcag-2.4.2
+  section: 2.4.2
+  name: Sidetitler
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/242-sidetitler-niva/104
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_242_sidetitlar
+- id: wcag-2.4.3
+  section: 2.4.3
+  name: Fokusrekkefølge
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/243-fokusrekkefolge-niva/105
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_243_fokusrekkeflge
+- id: wcag-2.4.4
+  section: 2.4.4
+  name: Formål med lenke
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/244-formal-med-lenke-i-kontekst-niva/106
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_244_forml_med_lenke_i_kontekst
+- id: wcag-2.4.5
+  section: 2.4.5
+  name: Flere måter
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/245-flere-mater-niva-aa/107
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_245_fleire_mtar
+- id: wcag-2.4.6
+  section: 2.4.6
+  name: Overskrifter og ledetekster
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/246-overskrifter-og-ledetekster-niva-aa/108
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_246_overskrifter_og_ledetekstar
 - id: wcag-2.4.7
   section: 2.4.7
   name: Synlig fokus
   level: AA
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/247-synlig-fokus-niva-aa/109
   procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_247_synleg_fokus
+- id: wcag-3.1.1
+  section: 3.1.1
+  name: Språk på siden
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/311-sprak-pa-siden-niva/110
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_311_sprk_p_sida
+- id: wcag-3.1.1
+  section: 3.1.1
+  name: Språk på deler av innhold
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/312-sprak-pa-deler-av-innhold-niva-aa/111
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_312_sprk_p_delar_av_innhald
+- id: wcag-3.2.1
+  section: 3.2.1
+  name: Fokus
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/321-fokus-niva/112
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_321_fokus
+- id: wcag-3.2.2
+  section: 3.2.2
+  name: Inndata
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/322-inndata-niva/114
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_322_inndata
+- id: wcag-3.2.3
+  section: 3.2.3
+  name: Konsekvent navigering
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/323-konsekvent-navigering-niva-aa/113
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_323_konsekvent_navigering
+- id: wcag-3.2.4
+  section: 3.2.4
+  name: Konsekvent identifikasjon
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/324-konsekvent-identifikasjon-niva-aa/115
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_324_konsekvent_identifikasjon
+- id: wcag-3.3.1
+  section: 3.3.1
+  name: Identifikasjon av feil
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/331-identifikasjon-av-feil-niva/116
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_331_identifikasjon_av_feil
+- id: wcag-3.3.2
+  section: 3.3.2
+  name: Ledetekster eller instruksjoner
+  level: A
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/332-ledetekster-eller-instruksjoner-niva/117
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_332_ledetekstar_eller_instruksjonar
+- id: wcag-3.3.3
+  section: 3.3.3
+  name: Forslag ved feil
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/333-forslag-ved-feil-niva-aa/118
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_333_forslag_ved_feil
+- id: wcag-3.3.4
+  section: 3.3.4
+  name: Forhindring av feil
+  level: AA
+  descriptionUrl: https://www.uutilsynet.no/wcag-standarden/334-forhindring-av-feil-juridiske-feil-okonomiske-feil-datafeil-niva-aa/119
+  procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_334_forhindring_av_feil
 - id: wcag-4.1.1
   section: 4.1.1
   name: Parsing (oppdeling)
