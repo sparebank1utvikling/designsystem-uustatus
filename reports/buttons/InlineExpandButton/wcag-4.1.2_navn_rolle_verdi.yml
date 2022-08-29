@@ -25,6 +25,6 @@ metode:
   - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria-labelledby, ...).
   - Sjekk at minimert knapp har aria-expanded false og ekspandert knapp har aria-expanded true.
   - Aktiver skjermleser.
-  – Test at knappeteksten leses opp, at komponenten leses opp som knapp og at det leses opp at den er
+  - Test at knappeteksten leses opp, at komponenten leses opp som knapp og at det leses opp at den er
     minimert eller ekspandert.
 kommentar: ""
