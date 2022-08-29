@@ -7,6 +7,12 @@ export default {
             name: 'npm_package_name',
             title: 'Pakkenavn',
             type: 'string'
+        },
+        {
+            name: 'npm_package_versions',
+            title: 'Versjoner',
+            type: 'array',
+            of: [{ type: 'string' }]
         }
     ]
 

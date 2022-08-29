@@ -23,5 +23,8 @@
   "devDependencies": {
     "glob": "^8.0.3",
     "yaml": "^2.1.0"
+  },
+  "dependencies": {
+    "@sanity/client": "^3.3.3"
   }
 }

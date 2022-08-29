@@ -58,9 +58,9 @@ export default {
                             to: [{ type: 'npm_package' }]
                         },
                         {
-                            type: 'string',
-                            name: 'version_number',
+                            name: 'npm_version',
                             title: 'Versjonsnummer',
+                            type: 'string',
                         }
                     ]
                 }
