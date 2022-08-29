@@ -37,6 +37,6 @@ metode:
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar: >
   Klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med
-  kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende
+  kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt - med en beskrivende
   tekst-label. Godkjenner derfor kravet siden ikonet er kodet med aria-hidden true og ikke leses
   opp av skjermleser i testen.

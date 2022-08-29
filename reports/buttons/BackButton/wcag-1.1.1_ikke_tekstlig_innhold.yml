@@ -37,7 +37,7 @@ metode:
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar: >
   Klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med 
-  kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende 
+  kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt - med en beskrivende 
   tekst-label. Godkjenner derfor kravet siden ikonet er lagt inn som CSS (background-image) og 
   ikke leses opp av skjermleser i testen. Å kode innholdet som CSS background-image er en av
   W3Cs godkjente teknikker for å ivareta krav 1.1.1 for innhold som skal skjules for 
