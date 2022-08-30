@@ -142,8 +142,8 @@
   level: A
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/311-sprak-pa-siden-niva/110
   procedureUrl: https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709#suksesskriterium_311_sprk_p_sida
-- id: wcag-3.2.1
-  section: 3.2.1
+- id: wcag-3.1.2
+  section: 3.1.2
   name: Språk på deler av innhold
   level: AA
   descriptionUrl: https://www.uutilsynet.no/wcag-standarden/312-sprak-pa-deler-av-innhold-niva-aa/111
