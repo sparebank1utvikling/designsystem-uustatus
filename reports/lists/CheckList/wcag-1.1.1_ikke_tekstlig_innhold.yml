@@ -1,19 +1,19 @@
 ruleId: wcag-1.1.1
 status: ikke_godkjent
 versjon:
-  ffe-lists-react: 5.0.9
-  ffe-lists: 10.0.23
+  ffe-lists-react: 5.0.12
+  ffe-lists: 10.0.29
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.134
+    os: macOS Monterey 12.6
+    nettleser: Chrome 106.0.5249.103
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.0
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.5
+    os: iOS 15.6.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
@@ -38,5 +38,6 @@ metode:
 kommentar:
   Vurderer hake- og kryss-ikonene som essensielle for å forstå komponenten. Ikonene er
   implementert i CSS. W3C fraråder å bruke CSS når det er meningen at innholdet skal fanges
-  opp av kompenserende teknologi, fordi det kan føre til at innholdet ignoreres. Lager
-  GitHub-issue på det.
+  opp av kompenserende teknologi, fordi det kan føre til at innholdet ignoreres. Det er lagt 
+  til aria-label for ikonene på liste-elementene, men disse ignoreres/leses ikke opp med 
+  VoiceOver på iOS. Lager GitHub-issue på det.
