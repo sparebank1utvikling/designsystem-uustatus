@@ -1,0 +1,16 @@
+ruleId: wcag-1.4.1
+status: godkjent
+versjon: 
+  ffe-lists-react: 5.0.12
+  ffe-lists: 10.0.29
+enheter: []
+varianter:
+  - default
+fargemodus:
+  - light
+  - dark
+metode:
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
+    formidle noe, sjekk at informasjonen også gis på andre måter.
+kommentar: 
+  Testen godkjennes fordi vi bruker ikoner (hake og kryss) i tillegg til grønn og rød farge.
