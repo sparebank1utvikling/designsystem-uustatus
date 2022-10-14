@@ -1,0 +1,16 @@
+ruleId: wcag-1.4.1
+status: ikke_testet
+versjon:
+  ffe-lists-react: 
+  ffe-lists: 
+enheter: []
+varianter:
+  - default
+fargemodus:
+  - light
+  - dark
+metode:
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
+    formidle noe, sjekk at informasjonen også gis på andre måter.
+kommentar: 
+  
