@@ -1,8 +1,8 @@
 ruleId: wcag-1.4.3
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-core-react: 
-  ffe-core: 
+  ffe-core-react: 5.0.3
+  ffe-core: 24.0.0
 enheter: []
 varianter:
   - default
