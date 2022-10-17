@@ -1,9 +1,21 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-core-react: 
-  ffe-core:
-enheter: []
+  ffe-core-react: 5.0.3
+  ffe-core: 24.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 106.0.5249.119
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.0
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.6.1
+    nettleser: Safari
+    skjermleser: VoiceOver
 varianter:
   - default
 fargemodus: []
@@ -23,4 +35,7 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar:
+  Klassifiserer DividerLine som innhold som ikke vil tilføre nyttig informasjon med
+  kompenserende teknologi. Godkjenner derfor testen siden komponenten er kodet med
+  aria-hidden true og ikke leses opp av skjermleser i testen.
