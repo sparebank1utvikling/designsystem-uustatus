@@ -1,10 +1,12 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-tabs-react: 
-  ffe-tabs:
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
 enheter: []
-varianter: []
+varianter:
+  - tab group 
+  - tab group advanced
 fargemodus: []
 metode:
   - Inspiser koden.
