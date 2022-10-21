@@ -1,0 +1,24 @@
+ruleId: wcag-2.1.1
+status: godkjent
+versjon:
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
+enheter: 
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 106.0.5249.119
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.0
+    skjermleser: ""
+varianter:
+  - tab group
+  - tab group advanced
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til alle fanene i komponenten med tab-tasten.
+  - Sjekk også at alle fanene fungerer når du klikker på dem med enter/space. En måte å se at
+    de fungerer på er å legge inn en console.log på knappenes onClick-funksjon som da logger
+    til konsollen hver gang de blir klikket på.
+kommentar: ""

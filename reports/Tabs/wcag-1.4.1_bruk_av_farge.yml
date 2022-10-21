@@ -1,0 +1,23 @@
+ruleId: wcag-1.4.1
+status: godkjent
+versjon:
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
+enheter: []
+varianter:
+  - tab group
+fargemodus:
+  - light
+  - dark
+metode:
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
+    formidle noe, sjekk at informasjonen også gis på andre måter.
+  - Hvis informasjonen bare formidles med farger, sjekk at fargene skiller seg fra 
+    hverandre med en kontrast på minimum 3:1. Hvis brukerne må kunne identifisere 
+    en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
+    inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
+    fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
+kommentar:
+  Testen godkjennes fordi vi viser musepeker på hover i tillegg til fargeendringen,
+  og at fargen på markert og ikke markert fane skiller seg fra hverandre med en 
+  kontrast på 13.5:1 (light mode) og 12.2:1 (dark mode).

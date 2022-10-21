@@ -1,0 +1,15 @@
+ruleId: wcag-4.1.1
+status: godkjent
+versjon:
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
+enheter: []
+varianter:
+  - tab group 
+  - tab group advanced
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
+  - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
+kommentar: ""

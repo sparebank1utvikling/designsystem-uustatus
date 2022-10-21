@@ -1,0 +1,22 @@
+ruleId: wcag-2.4.3
+status: godkjent
+versjon:
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
+enheter: 
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 106.0.5249.119
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.0
+    skjermleser: ""
+varianter:
+  - tab group
+  - tab group advanced  
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger deg gjennom alle fanene i komponenten med tab-tasten.
+    Sjekk at fanene får fokus i samme rekkefølge som de vises visuelt.
+kommentar: ""
