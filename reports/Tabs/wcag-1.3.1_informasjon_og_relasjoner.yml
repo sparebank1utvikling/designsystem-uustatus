@@ -1,10 +1,24 @@
 ruleId: wcag-1.3.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-tabs-react: 
-  ffe-tabs: 
-enheter: []
-varianter: []
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 106.0.5249.119
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.0
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.6.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - tab group 
+  - tab group advanced
 fargemodus: []
 metode:
   - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med 
@@ -14,6 +28,7 @@ metode:
     andre grupperte skjemaelementer.
   - Inspiser koden. 
   - Se at komponenten har role tablist og tab.
+  - Se at tab-ene har aria controls.
   - Aktiver skjermleser.
   - Sjekk at det leses opp at det er faner og hvor mange faner det er totalt.
 kommentar: ""
