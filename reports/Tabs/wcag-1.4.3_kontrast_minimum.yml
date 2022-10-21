@@ -1,10 +1,11 @@
 ruleId: wcag-1.4.3
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-tabs-react: 
-  ffe-tabs:
+  ffe-tabs-react: 7.0.3
+  ffe-tabs: 12.0.16
 enheter: []
-varianter: []
+varianter:
+  - tab group
 fargemodus:
   - light
   - dark
@@ -17,3 +18,4 @@ kommentar: >
   Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens 
   nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike 
   tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
+  
