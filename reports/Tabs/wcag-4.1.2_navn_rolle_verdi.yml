@@ -1,0 +1,30 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon:
+  ffe-tabs-react: 
+  ffe-tabs:
+enheter:
+  - enhet: 
+    os: 
+    nettleser: 
+    skjermleser:
+  - enhet:
+    os: 
+    nettleser: 
+    skjermleser: 
+  - enhet: 
+    os: 
+    nettleser: 
+    skjermleser: 
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert med role tablist og tab.
+  - Sjekk at fanene har aria selected.
+  - Sjekk at det finnes en fanetekst (tekst inne i button-elementet, aria-label, aria-
+    labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at faneteksten leses opp, at komponenten leses opp som faner, og at det annonseres hvilken
+    fane som er valgt.
+kommentar: ""

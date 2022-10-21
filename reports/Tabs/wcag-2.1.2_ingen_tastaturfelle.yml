@@ -1,0 +1,21 @@
+ruleId: wcag-2.1.2
+status: ikke_testet
+versjon:
+  ffe-tabs-react: 
+  ffe-tabs:
+enheter: 
+  - enhet: 
+    os: 
+    nettleser: 
+    skjermleser: ""
+  - enhet: 
+    os: 
+    nettleser: 
+    skjermleser: ""
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger til alle fanene i komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+kommentar: ""
