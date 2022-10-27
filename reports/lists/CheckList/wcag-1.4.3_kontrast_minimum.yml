@@ -1,8 +1,8 @@
 ruleId: wcag-1.4.3
 status: godkjent
 versjon:
-  ffe-lists-react: 5.0.9
-  ffe-lists: 10.0.23
+  ffe-lists-react: 5.0.14
+  ffe-lists: 11.0.1
 enheter: []
 varianter:
   - default

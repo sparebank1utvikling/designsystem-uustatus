@@ -1,19 +1,19 @@
 ruleId: wcag-1.3.1
 status: godkjent
 versjon:
-  ffe-lists-react: 5.0.9
-  ffe-lists: 10.0.23
+  ffe-lists-react: 5.0.14
+  ffe-lists: 11.0.1
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.134
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.62
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.5
+    os: iOS 15.6.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:

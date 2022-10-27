@@ -1,16 +1,16 @@
 ruleId: wcag-1.1.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-lists-react: 5.0.12
-  ffe-lists: 10.0.29
+  ffe-lists-react: 5.0.14
+  ffe-lists: 11.0.1
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 106.0.5249.103
+    nettleser: Chrome 107.0.5304.62
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Safari 16.0
+    nettleser: Safari 16.1
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 15.6.1
@@ -35,9 +35,4 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar:
-  Vurderer hake- og kryss-ikonene som essensielle for å forstå komponenten. Ikonene er
-  implementert i CSS. W3C fraråder å bruke CSS når det er meningen at innholdet skal fanges
-  opp av kompenserende teknologi, fordi det kan føre til at innholdet ignoreres. Det er lagt 
-  til aria-label for ikonene på liste-elementene, men disse ignoreres/leses ikke opp med 
-  VoiceOver på iOS. Lager GitHub-issue på det.
+kommentar: ""
