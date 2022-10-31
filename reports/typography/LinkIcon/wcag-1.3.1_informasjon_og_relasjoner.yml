@@ -1,19 +1,19 @@
 ruleId: wcag-1.3.1
 status: godkjent
 versjon:
-  ffe-core-react: 4.2.11
-  ffe-core: 21.1.1
+  ffe-core-react: 6.1.0
+  ffe-core: 26.1.0
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.134
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.5
+    os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
@@ -26,7 +26,7 @@ metode:
     gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer
     blant annet avkrysningsbokser, radioknapper og andre grupperte skjemaelementer.
   - Inspiser koden. 
-  - Se at komponenten er kodet med a-tagg og href-attributt.
+  - Se at komponenten er kodet som en lenke, med a-tagg.
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en lenke.
 kommentar: ""

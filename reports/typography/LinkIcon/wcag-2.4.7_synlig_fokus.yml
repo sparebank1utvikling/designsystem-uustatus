@@ -1,16 +1,16 @@
 ruleId: wcag-2.4.7
 status: godkjent
 versjon:
-  ffe-core-react: 4.2.11
-  ffe-core: 21.1.1
+  ffe-core-react: 6.1.0
+  ffe-core: 26.1.0
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.134
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
     skjermleser: ""
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
     skjermleser: ""
 varianter:
   - default
@@ -33,6 +33,3 @@ kommentar: >
   #FDF8F5 (sand-30), #fff (hvit), #faf0e7 (sand-70), #e0e0f0 (syrin-70).
   
   Dark mode ble testet på #020a0a (svart), #001032 (natt).
-
-  Fokusmarkeringen oppfyller kravet og settes til godkjent, men utformingen bør forbedres
-  og følge stylingprinsippene vi bruker for fokusmarkeringer. Lager GitHub-issue på det.
