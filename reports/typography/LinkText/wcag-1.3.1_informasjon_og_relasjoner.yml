@@ -26,7 +26,7 @@ metode:
     gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer
     blant annet avkrysningsbokser, radioknapper og andre grupperte skjemaelementer.
   - Inspiser koden. 
-  - Se at komponenten er kodet med a-tagg og href-attributt.
+  - Se at komponenten er kodet som en lenke, med a-tagg.
   - Aktiver skjermleser.
   - Sjekk at det leses opp at komponenten er en lenke.
 kommentar: ""
