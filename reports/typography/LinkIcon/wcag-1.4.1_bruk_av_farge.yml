@@ -1,8 +1,8 @@
 ruleId: wcag-1.4.1
 status: godkjent
 versjon:
-  ffe-core-react: 4.2.11
-  ffe-core: 21.1.1
+  ffe-core-react: 6.1.0
+  ffe-core: 26.1.0
 enheter: []
 varianter:
   - default
@@ -17,4 +17,5 @@ metode:
     en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
     inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
     fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
-kommentar: ""
+kommentar:
+  Testen godkjennes fordi vi viser musepeker på hover i tillegg til fargeendringen.
