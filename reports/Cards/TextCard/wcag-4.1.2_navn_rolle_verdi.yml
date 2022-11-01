@@ -26,7 +26,7 @@ metode:
     labelledby, ...).
   - Aktiver skjermleser.
   - Test at linkteksten, og at det er en link, leses opp.
-kommentar:
+kommentar: >
   I dag ligger alt innholdet i kortet i et a-element. Med VoiceOver i Safari på
   iOS leses hver del av innholdet i kortet som en separat link. Dermed er det
   vanskelig å forstå komponenten.
