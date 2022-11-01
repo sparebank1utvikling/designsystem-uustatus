@@ -1,10 +1,23 @@
 ruleId: wcag-1.3.1
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-cards-react:
-  ffe-cards:
-enheter: []
-varianter: []
+  ffe-cards-react: 8.0.2
+  ffe-cards: 14.0.17
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
 fargemodus: []
 metode:
   - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med 
@@ -15,11 +28,19 @@ metode:
   - Inspiser koden. 
   - Se at komponenten inneholder et a-element.
   - Se at komponenten er kodet på en måte som gjør det mulig å forstå strukturen i kortene med
-    kompenserende teknologi. Per nå finnes det ikke en egen HTML-tagg for kort og heller ikke
-    tydelige retningslinjer for hvordan kort skal kodes. Det er flere mulige løsninger for hvordan
-    få frem strukturen i kortene, for eksempel å legge kortene i en liste, hvor hvert kort er et
-    eget listeelement.
+    kompenserende teknologi. Per nå finnes det ikke en egen HTML-tagg for kort eller tydelige 
+    retningslinjer for hvordan kort skal kodes. Det er flere mulige løsninger for hvordan få frem
+    strukturen i kortene. Se for eksempel https://inclusive-components.design/cards/.
   - Aktiver skjermleser.
   - Sjekk at det leses opp at kortet inneholder en link og at det er mulig å forstå strukturen i
     kortet ut ifra beskrivelsen som leses opp.
-kommentar: ""
+kommentar: >
+    I dag ligger alt innholdet i kortet i et a-element. Med VoiceOver i Safari på iOS leses hver
+    del av innholdet i kortet som en separat link. Dermed er det vanskelig å forstå strukturen i 
+    kortene og hvilket innhold som hører sammen.
+
+    Vi bør også vurdere å kode kort-tittelen som overskrift. I dag er den kodet som paragraf.
+
+    Tenker vi bør se på hvordan vi kan gjøre at kortene fungerer enda bedre med skjermlesere og
+    annen kompenserende teknologi, med tanke på hva som kan gi den beste brukeropplevelsen og
+    ivaretar kravene. Lager GitHub-issue på det.
