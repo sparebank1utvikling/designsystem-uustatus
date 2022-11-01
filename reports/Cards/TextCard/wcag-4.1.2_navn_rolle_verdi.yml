@@ -29,4 +29,8 @@ metode:
 kommentar:
   I dag ligger alt innholdet i kortet i et a-element. Med VoiceOver i Safari på
   iOS leses hver del av innholdet i kortet som en separat link. Dermed er det
-  vanskelig å forstå komponenten. Lager GitHub-issue på det.
+  vanskelig å forstå komponenten.
+  
+  Tenker vi bør se på hvordan vi kan gjøre at kortene fungerer enda bedre med
+  skjermlesere og annen kompenserende teknologi, med tanke på hva som kan gi den
+  beste brukeropplevelsen og ivaretar kravene. Lager GitHub-issue på det.
