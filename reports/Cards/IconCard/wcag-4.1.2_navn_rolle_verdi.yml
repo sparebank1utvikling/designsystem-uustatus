@@ -1,0 +1,39 @@
+ruleId: wcag-4.1.2
+status: ikke_godkjent
+versjon:
+  ffe-cards-react: 8.0.2
+  ffe-cards: 14.0.17
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - condensed
+  - grey charcoal
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten inneholder et a-element.
+  - Sjekk at det finnes en linktekst (tekst inne i a-elementet, aria-label, aria-
+    labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at linkteksten, og at det er en link, leses opp.
+kommentar: >
+  I dag ligger alt innholdet i kortet i et a-element. Med VoiceOver i Safari på
+  iOS leses hver del av innholdet i kortet som en separat link. Dermed er det
+  vanskelig å forstå komponenten.
+  
+  Tenker vi bør se på hvordan vi kan gjøre at kortene fungerer enda bedre med
+  skjermlesere og annen kompenserende teknologi, med tanke på hva som kan gi den
+  beste brukeropplevelsen og ivaretar kravene. Se for eksempel 
+  https://inclusive-components.design/cards/. Lager GitHub-issue på det.
