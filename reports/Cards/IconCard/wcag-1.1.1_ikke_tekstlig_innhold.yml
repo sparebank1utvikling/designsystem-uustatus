@@ -1,10 +1,25 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-cards-react:
-  ffe-cards:
-enheter: []
-varianter: []
+  ffe-cards-react: 8.0.2
+  ffe-cards: 14.0.17
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - condensed
+  - grey charcoal
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -22,4 +37,9 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""   
+kommentar:
+  Godkjenner kravet siden ikonene har aria-hidden true og ikke leses opp av skjermleser i
+  testen. Det er vanskelig å vurdere om ikonene vil tilføre nyttig informasjon med
+  skjermlesere og annen kompenserende teknologi. Det kan være at vi velger å erstatte
+  aria-hidden i svg-ene med title på et tidspunkt, for at ikonene skal ha beskrivelse
+  med kompenserende teknologi. 
