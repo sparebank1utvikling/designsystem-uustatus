@@ -1,23 +1,22 @@
 ruleId: wcag-4.1.2
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-tabs-react: 7.0.3
-  ffe-tabs: 12.0.16
+  ffe-tabs-react: 7.0.4
+  ffe-tabs: 12.0.17
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 106.0.5249.119
+    nettleser: Chrome 107.0.5304.87
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Safari 16.0
+    nettleser: Safari 16.1
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.6.1
+    os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
-  - tab group
   - tab group advanced
 fargemodus: []
 metode:
@@ -27,9 +26,7 @@ metode:
   - Sjekk at det finnes en fanetekst (tekst inne i button-elementet, aria-label, aria-
     labelledby, ...).
   - Aktiver skjermleser.
-  - Test at faneteksten leses opp, at komponenten leses opp som faner, og at det annonseres hvilken
-    fane som er valgt.
-kommentar:
-  Alle tre fanene leses opp som markert når tab group testes med skjermleser i Chrome på Macbook Pro,
-  selv om bare en av dem er valgt/markert. Tror det er fordi vi ikke har aria selected false på faner 
-  som ikke er valgt. Lager GitHub-issue på det.
+  - Test at faneteksten leses opp, at komponenten leses opp som faner (typisk sier 
+    skjermleser for eksempel fane eller tab), og at det annonseres hvilken fane som er 
+    valgt.
+kommentar: ""
