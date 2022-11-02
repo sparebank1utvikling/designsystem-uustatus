@@ -1,19 +1,18 @@
 ruleId: wcag-2.1.1
 status: godkjent
 versjon:
-  ffe-tabs-react: 7.0.3
-  ffe-tabs: 12.0.16
+  ffe-tabs-react: 7.0.4
+  ffe-tabs: 12.0.17
 enheter: 
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 106.0.5249.119
+    nettleser: Chrome 107.0.5304.87
     skjermleser: ""
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Safari 16.0
+    nettleser: Safari 16.1
     skjermleser: ""
 varianter:
-  - tab group
   - tab group advanced
 fargemodus: []
 metode:
