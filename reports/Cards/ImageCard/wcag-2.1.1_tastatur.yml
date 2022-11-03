@@ -1,0 +1,22 @@
+ruleId: wcag-2.1.1
+status: godkjent
+versjon:
+  ffe-cards-react: 8.0.2
+  ffe-cards: 14.0.17
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: ""
+varianter:
+  - default
+  - title only
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+kommentar: ""
