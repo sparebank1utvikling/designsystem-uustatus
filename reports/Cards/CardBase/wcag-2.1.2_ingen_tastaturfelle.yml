@@ -1,10 +1,19 @@
 ruleId: wcag-2.1.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-cards-react:
-  ffe-cards:
-enheter: []
-varianter: []
+  ffe-cards-react: 8.0.2
+  ffe-cards: 14.0.17
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: ""
+varianter:
+  - default
 fargemodus: []
 metode:
   - Bruk tastaturet og naviger til komponenten med tab-tasten.
