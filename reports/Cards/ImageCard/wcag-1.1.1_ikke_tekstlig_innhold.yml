@@ -39,4 +39,4 @@ metode:
 kommentar:
   Per nå er det opp til de som bruker komponenten å sørge for at alt-tekst kommer med.
   Alt-tekst er ikke en default, obligatorisk property i komponenten. Vurderer at det bør
-  være på plass for at vi skal kunne godkjenne testen.
+  være på plass for at vi skal kunne godkjenne testen. Vi har laget GitHub-issue på dette.
