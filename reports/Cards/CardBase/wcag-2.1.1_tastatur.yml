@@ -1,0 +1,12 @@
+ruleId: wcag-2.1.1
+status: ikke_testet
+versjon:
+  ffe-cards-react:
+  ffe-cards:
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+kommentar: ""
