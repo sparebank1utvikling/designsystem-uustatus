@@ -1,0 +1,28 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-core-react: 6.1.0
+  ffe-core: 26.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som lenke, med a-tagg.
+  - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, aria-labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at lenketeksten leses opp og at komponenten leses opp som lenke.
+kommentar: ""

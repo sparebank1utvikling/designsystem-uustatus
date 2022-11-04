@@ -1,0 +1,23 @@
+ruleId: wcag-2.1.1
+status: godkjent
+versjon:
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: ""
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+    En måte å teste at den fungerer på er å inspisere koden, legge inn en lenke i
+    href-feltet og sjekke at lenken åpnes ved klikk på komponenten.
+kommentar: ""

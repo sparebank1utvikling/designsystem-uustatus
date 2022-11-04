@@ -1,0 +1,28 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-buttons-react: 16.0.2
+  ffe-buttons: 15.1.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som lenke.
+  - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, aria-labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at lenketeksten leses opp og at komponenten leses opp som lenke.
+kommentar: ""

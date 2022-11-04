@@ -1,0 +1,21 @@
+ruleId: wcag-2.1.1
+status: godkjent
+versjon:
+  ffe-core-react: 4.2.11
+  ffe-core: 21.1.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.134
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: ""
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+kommentar: ""
