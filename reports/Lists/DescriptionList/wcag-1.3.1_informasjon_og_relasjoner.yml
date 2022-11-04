@@ -1,0 +1,38 @@
+ruleId: wcag-1.3.1
+status: godkjent
+versjon:
+  ffe-lists-react: 5.0.11
+  ffe-lists: 10.0.25
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 104.0.5112.79
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - horizontal
+  - medium
+  - large
+  - multi column
+fargemodus: []
+metode:
+  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er
+    tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller
+    og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som
+    gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer
+    blant annet avkrysningsbokser, radioknapper og andre grupperte skjemaelementer.
+  - Inspiser koden. 
+  - Se at komponenten er kodet som liste, med riktig listetype. Se også at de indre
+    elementene (li/dt/dd) ligger inne i de ytre elementene (ul/ol/dl).
+  - Aktiver skjermleser.
+  - Sjekk at det leses opp at komponenten er en liste og at alle liste-elementene leses
+    opp som en del av listen.
+kommentar: ""

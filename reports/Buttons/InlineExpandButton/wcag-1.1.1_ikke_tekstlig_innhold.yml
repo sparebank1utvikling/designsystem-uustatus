@@ -1,0 +1,42 @@
+ruleId: wcag-1.1.1
+status: godkjent
+versjon:
+  ffe-buttons-react: 16.0.5
+  ffe-buttons: 15.1.2
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 104.0.5112.79
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende 
+    teknologi som for eksempel skjermlesere, sjekk at det finnes tekstalternativ (alt-tekst, 
+    aria-label, aria-labelledby, title, ...). Standard HTML-punktlister trenger ikke 
+    tekstalternativ for at kulepunktene skal presenteres riktig med kompenserende teknologi. 
+    Se bare at standard ul- og li-elementer er brukt.
+  - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med 
+    kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi 
+    i koden. Se at det enten finnes aria-hidden true (svg-er), alt tekst som står tom 
+    (img-elementer), eller at innholdet er implementert i CSS.
+  - Aktiver skjermleser.
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at 
+    tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
+    kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
+  - For innhold som skal være skjult, test at dette ikke leses opp.
+kommentar: >
+  Klassifiserer pil-ikonet som innhold som ikke vil tilføre nyttig informasjon med
+  kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende
+  tekst-label. Godkjenner derfor testen siden ikonet er kodet med aria-hidden true og 
+  ikke leses opp av skjermleser i testen.
