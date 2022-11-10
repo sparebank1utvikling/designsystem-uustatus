@@ -21,6 +21,10 @@ Vi tester med et utvalg enheter, operativsystemer, nettlesere, skjermlesere og l
 
 Testmetodene baserer seg blant annet på [uutilsynets testprosedyrer for å måle universell utforming](https://www.uutilsynet.no/regelverk/testprosedyrar-nettstader/709).
 
+### Presisering av test for krav 1.3.1 og 4.1.2
+
+For noen komponenter vil det bli de samme testene for krav 1.3.1 og 4.1.2. Som uutilsynet har vi derfor valgt å bare teste disse i tilknytning til krav 4.1.2.
+
 ## Automatiske tester på sikt
 
 Alle testene er nå manuelle. Vi ser på muligheten for å komplimentere eller erstatte en del av dem med automatiske tester.
