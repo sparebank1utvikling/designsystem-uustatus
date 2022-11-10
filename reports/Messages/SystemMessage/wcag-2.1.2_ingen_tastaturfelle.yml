@@ -1,18 +1,23 @@
 ruleId: wcag-2.1.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-system-message-react:
-  ffe-system-message:
+  ffe-system-message-react: 6.4.9
+  ffe-system-message: 6.3.1
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.87
+    nettleser: Chrome 107.0.5304.110
     skjermleser: ""
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
     nettleser: Safari 16.1
     skjermleser: ""
-varianter: []
+varianter:
+  - error message default
+  - error message alert false
+  - info message default
+  - news message default
+  - success message default
 fargemodus: []
 metode:
   - Bruk tastaturet og naviger til lukk-knappen i komponenten med tab-tasten.
