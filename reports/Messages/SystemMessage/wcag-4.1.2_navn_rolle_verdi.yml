@@ -1,0 +1,28 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon:
+  ffe-system-message-react:
+  ffe-system-message:
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.87
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at lukk-knappen i komponenten er spesifisert som knapp.
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria
+    labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at knappeteksten leses opp og at knappen leses opp som knapp.
+kommentar: ""

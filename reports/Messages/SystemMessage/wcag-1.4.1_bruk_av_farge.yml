@@ -1,0 +1,19 @@
+ruleId: wcag-1.4.1
+status: ikke_testet
+versjon:
+  ffe-system-message-react:
+  ffe-system-message:
+enheter: []
+varianter: []
+fargemodus:
+  - light
+  - dark
+metode:
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
+    formidle noe, sjekk at informasjonen også gis på andre måter.
+  - Hvis informasjonen bare formidles med farger, sjekk at fargene skiller seg fra 
+    hverandre med en kontrast på minimum 3:1. Hvis brukerne må kunne identifisere 
+    en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
+    inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
+    fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
+kommentar: ""
