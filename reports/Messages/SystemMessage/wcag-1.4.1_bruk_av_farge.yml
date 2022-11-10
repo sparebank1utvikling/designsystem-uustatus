@@ -21,7 +21,7 @@ metode:
     en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
     inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
     fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
-kommentar: >
+kommentar:
   Godkjenner testen siden vi bruker ikoner til å formidle hvilken type melding det
   er, i tillegg til fargen. Vi viser også musepeker ved hover på lukk-knappen i
   tillegg til fargeendringen. 
