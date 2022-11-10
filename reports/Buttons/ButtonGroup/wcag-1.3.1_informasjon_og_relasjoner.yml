@@ -28,14 +28,16 @@ metode:
     teknologi som skjermlesere. Det inkluderer blant annet avkrysningsbokser, radioknapper og
     andre grupperte skjemaelementer.
   - Inspiser koden. 
-  - Se at komponenten er kodet så kompenserende teknologi kan plukke opp at det er en gruppe/liste.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at innholdet hører
+    sammen, med kompenserende teknologi.
   - Aktiver skjermleser.
-  - Sjekk at det leses opp at komponenten er en gruppe/liste.
+  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
+    beskrivelsen som leses opp.
 kommentar: >
-  Det kommer ikke frem at komponenten er en gruppe med kompenserende teknologi. Komponenten er også
-  lagt opp sånn at vi noen ganger må bruke flere knappegrupper sammen for at den visuelle 
-  plasseringen skal bli riktig. Det kan være forvirrende at knapper som hører sammen presenteres som
-  ulike grupper med skjermleser eller annen kompenserende teknologi.
+  Det kommer ikke frem at knappene hører sammen med kompenserende teknologi. Komponenten er også lagt
+  opp sånn at vi noen ganger må bruke flere knappegrupper sammen for at den visuelle plasseringen skal 
+  bli riktig. Det kan være forvirrende hvis knapper som hører sammen presenteres som ulike grupper med
+  skjermleser eller annen kompenserende teknologi.
   
   Usikker på hva som er beste måte å løse det på. W3C har flere aktuelle løsninger i oversikten over
   godkjente teknikker for å ivareta krav 1.3.1. Lager GitHub-issue på det.
