@@ -22,6 +22,7 @@ varianter:
   - info message default
   - info message list
   - tips message default
+  - tips message with link
   - success message default
 fargemodus: []
 metode:
@@ -44,4 +45,3 @@ kommentar: >
   Vi bør også vurdere å kode meldingstittelen som overskrift. I dag er den kodet som div.
   
   Lager GitHub-issue på det.
-  
