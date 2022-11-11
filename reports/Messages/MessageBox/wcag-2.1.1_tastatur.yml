@@ -1,18 +1,19 @@
 ruleId: wcag-2.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-message-box-react:
-  ffe-message-box:
+  ffe-message-box-react: 7.2.5
+  ffe-message-box: 10.2.1
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.87
+    nettleser: Chrome 107.0.5304.110
     skjermleser: ""
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
     nettleser: Safari 16.1
     skjermleser: ""
-varianter: []
+varianter:
+  - tips message with link
 fargemodus: []
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til lenken i komponenten med tab-tasten.
