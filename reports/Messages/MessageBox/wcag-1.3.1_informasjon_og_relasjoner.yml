@@ -39,5 +39,9 @@ metode:
 kommentar: >
   Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken type
   melding, med kompenserende teknologi. For å løse dette kan vi blant annet vurdere å legge til
-  aria-label på den overordnede div-en. Lager GitHub-issue på det.
+  aria-label på den overordnede div-en.
+  
+  Vi bør også vurdere å kode meldingstittelen som overskrift. I dag er den kodet som div.
+  
+  Lager GitHub-issue på det.
   
