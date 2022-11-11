@@ -25,8 +25,7 @@ kommentar: >
   nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike 
   tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
   
-  Lenketeksten har for lav fargekontrast mot bakgrunnen i dark mode. Lager
-  GitHub-issue på det.
+  Lenketeksten (standard og besøkt) har for lav fargekontrast mot bakgrunnen i
+  dark mode. Lager GitHub-issue på det.
   
   Kontrasten for resten av teksten er godkjent.
- 
