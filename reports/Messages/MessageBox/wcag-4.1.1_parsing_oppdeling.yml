@@ -1,10 +1,18 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-message-box-react:
-  ffe-message-box:
+  ffe-message-box-react: 7.2.5
+  ffe-message-box: 10.2.1
 enheter: []
-varianter: []
+varianter:
+  - error message default
+  - error message alert false
+  - info message default
+  - info message custom icon
+  - info message list
+  - tips message default
+  - tips message with link
+  - success message default
 fargemodus: []
 metode:
   - Inspiser koden.
