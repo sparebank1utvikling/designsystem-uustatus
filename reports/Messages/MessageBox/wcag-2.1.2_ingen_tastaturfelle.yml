@@ -1,0 +1,22 @@
+ruleId: wcag-2.1.2
+status: godkjent
+versjon:
+  ffe-message-box-react: 7.2.5
+  ffe-message-box: 10.2.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.110
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: ""
+varianter:
+  - tips message with link
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger til lenken i komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+kommentar: ""

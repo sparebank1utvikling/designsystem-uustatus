@@ -1,0 +1,31 @@
+ruleId: wcag-1.4.3
+status: ikke_godkjent
+versjon:
+  ffe-message-box-react: 7.2.5
+  ffe-message-box: 10.2.1
+enheter: []
+varianter:
+  - error message default
+  - info message default
+  - info message colored background
+  - info message list
+  - tips message default
+  - tips message with link
+  - success message default
+fargemodus:
+  - light
+  - dark
+metode:
+  - Test fargen på teksten i komponenten mot bakgrunnsfargen til komponenten
+    (hex-kodene). Bruk gjerne Color Contrast Analyser (TPGi). Hvis fargene endrer 
+    seg i ulike tilstander av komponenten, for eksempel ved hover, husk å teste 
+    disse også. 
+kommentar: >
+  Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens 
+  nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike 
+  tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
+  
+  Lenketeksten (standard og besøkt) har for lav fargekontrast mot bakgrunnen i
+  dark mode. Lager GitHub-issue på det.
+  
+  Kontrasten for resten av teksten er godkjent.

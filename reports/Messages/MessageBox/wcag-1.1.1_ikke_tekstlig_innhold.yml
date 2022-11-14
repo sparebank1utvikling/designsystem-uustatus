@@ -1,0 +1,54 @@
+ruleId: wcag-1.1.1
+status: ikke_godkjent
+versjon:
+  ffe-message-box-react: 7.2.5
+  ffe-message-box: 10.2.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.110
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - error message default
+  - info message default
+  - info message custom icon
+  - info message list
+  - tips message default
+  - success message default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende 
+    teknologi som for eksempel skjermlesere, sjekk at det finnes tekstalternativ (alt-tekst, 
+    aria-label, aria-labelledby, title, ...). Standard HTML-punktlister trenger ikke 
+    tekstalternativ for at kulepunktene skal presenteres riktig med kompenserende teknologi. 
+    Se bare at standard ul- og li-elementer er brukt.
+  - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med 
+    kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi 
+    i koden. Se at det enten finnes aria-hidden true (svg-er), alt tekst som står tom 
+    (img-elementer), eller at innholdet er implementert i CSS.
+  - Aktiver skjermleser.
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at 
+    tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
+    kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
+  - For innhold som skal være skjult, test at dette ikke leses opp.
+kommentar: >
+  Klassifiserer ikonene for feil, info, tips og suksess, samt egendefinert ikon, som innhold
+  som ikke vil tilføre nyttig informasjon med kompenserende teknologi, så lenge komponenten
+  har en overordnet aria-label som forteller at dette er en feilmelding/infomelding/
+  tipsmelding/suksessmelding/annen type melding med egendefinert ikon.
+  
+  Ikonet for feil (utropstegn) er kodet med aria-hidden true og leses ikke opp av skjermleser i
+  testen, men ikonene for info, tips og suksess, samt egendefinert ikon, mangler aria-hidden.
+  Setter derfor testen til ikke godkjent og lager GitHub-issue på det.
+  
+  Listen i meldingsvarianten med liste er kodet riktig med standard ul- og li-elementer og leses
+  opp riktig av skjermleser.
