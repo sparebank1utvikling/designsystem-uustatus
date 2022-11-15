@@ -7,7 +7,6 @@ enheter: []
 varianter:
   - error message default
   - info message default
-  - info message colored background
   - news message default
   - success message default
 fargemodus:

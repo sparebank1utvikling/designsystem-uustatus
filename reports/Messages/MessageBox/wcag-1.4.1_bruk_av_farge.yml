@@ -7,8 +7,6 @@ enheter: []
 varianter:
   - error message default
   - info message default
-  - info message colored background
-  - info message custom icon
   - tips message default
   - tips message with link
   - success message default
