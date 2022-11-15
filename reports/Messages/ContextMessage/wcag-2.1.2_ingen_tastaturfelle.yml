@@ -1,21 +1,29 @@
 ruleId: wcag-2.1.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-context-message-react:
-  ffe-context-message:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.87
+    nettleser: Chrome 107.0.5304.110
     skjermleser: ""
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
     nettleser: Safari 16.1
     skjermleser: ""
-varianter: []
+varianter:
+  - error message with button
+  - info message with heading and link
+  - info message with button
+  - success message with button
+  - tips message with button
 fargemodus: []
 metode:
   - Bruk tastaturet og naviger til lukk-knappen i komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+  - Bruk tastaturet og naviger til lenken i komponenten med tab-tasten.
   - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
     er «fanget» i komponenten.
 kommentar: ""
