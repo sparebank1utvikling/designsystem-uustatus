@@ -1,5 +1,5 @@
 ruleId: wcag-1.3.2
-status: godkjent
+status: ikke_godkjent
 versjon:
   ffe-message-box-react: 7.2.5
   ffe-message-box: 10.2.1
@@ -30,4 +30,24 @@ metode:
     i komponenten er den samme når CSS-stylingen er av og på.
   - Naviger gjennom alle elementene i komponenten med skjermleser. Sjekk at de leses opp i
     samme rekkefølge som de vises visuelt.
-kommentar: ""
+kommentar: >
+  MessageBox legges noen ganger til i innholdet på siden dynamisk, uten at siden laster på
+  nytt. For eksempel etter at bruker har trykket på en knapp. Når det dukker opp nytt innhold
+  på siden er det viktig at dette annonseres med skjermlesere og annen kompenserende teknologi.
+  Per nå er det bare feilmeldingsvarianten som vil annonseres og leses opp når MessageBox
+  dukker opp dynamisk, siden den har role alert.
+  
+  MessageBox brukes blant annet som statisk innhold som ikke bør ha f.eks. role alert/role status
+  siden det vil være forvirrende at meldingen leses opp et annet sted enn der den befinner seg på
+  siden. Den brukes også som dynamisk innhold som bør annonseres med f.eks. role alert/role status
+  når det dukker opp, men komponenten bør ikke få fokus. I noen tilfeller der den brukes dynamisk
+  bør den derimot få fokus. Et eksempel på dette er når bruker klikker på knapp for å gå videre i
+  skjema og MessageBox dukker opp i toppen av skjemaet med liste over alle feilene i skjemaet. 
+  
+  For å dekke de ulike måtene komponenten brukes på bør vi antakelig tilby noen ulike parametere
+  som utviklerne kan skru av og på, på samme måte som vi gjør med role alert i feilmeldingen.
+  Vi kan blant annet vurdere å legge til role status-parameter for alle meldingsvariantene som
+  ikke har role alert og fokus-parameter som kontrollerer om fokus skal flyttes til komponenten
+  eller ikke når den dukker opp dynamisk på siden. Lager GitHub-issue på det. 
+  
+  Alt innholdet inne i selve komponenten leses opp i riktig rekkefølge av skjermleser. 
