@@ -50,4 +50,5 @@ kommentar: >
   ikke har role alert og fokus-parameter som kontrollerer om fokus skal flyttes til komponenten
   eller ikke når den dukker opp dynamisk på siden. Lager GitHub-issue på det. 
   
-  Alt innholdet inne i selve komponenten leses opp i riktig rekkefølge av skjermleser. 
+  Alt innholdet inne i selve komponenten har samme visuelle rekkefølge med CSS-styling av og på,
+  og leses opp i riktig rekkefølge av skjermleser i testen. 
