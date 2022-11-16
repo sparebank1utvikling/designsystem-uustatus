@@ -35,7 +35,9 @@ metode:
   - Aktiver skjermleser.
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
-kommentar:
-  Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken type
-  melding, med kompenserende teknologi. For å løse dette kan vi blant annet vurdere å legge til
-  aria-label på den overordnede div-en. Lager GitHub-issue på det.
+kommentar: >
+  Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken
+  type melding, med kompenserende teknologi. Vi kan blant annet vurdere å legge til aria-label
+  på den overordnede div-en som beskriver at det er en feilmelding/infomelding/nyhetsmelding/
+  suksessmelding, samt legge til role group for meldingene som ikke har role alert. Lager
+  GitHub-issue på det.
