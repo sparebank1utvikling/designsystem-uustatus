@@ -1,12 +1,12 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-context-message-react:
-  ffe-context-message:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.87
+    nettleser: Chrome 107.0.5304.110
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
@@ -16,7 +16,19 @@ enheter:
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - error message default
+  - error message compact
+  - error message with button
+  - info message default
+  - info message compact
+  - info message with button
+  - tips message default
+  - tips message compact
+  - tips message with button
+  - success message default
+  - success message compact
+  - success message with button
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -34,4 +46,10 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar: >
+  Ikonene for feil, info, tips og suksess mangler enten tekstalternativ eller å bli
+  tilstrekkelig skjult for kompenserende teknologi i koden. Lager GitHub-issue på det.
+  
+  Lukk-ikonet (kryss) har aria-hidden true på svg-en og aria-label på den overordnede knappen
+  som leses opp av skjermleser i testen.
+  
