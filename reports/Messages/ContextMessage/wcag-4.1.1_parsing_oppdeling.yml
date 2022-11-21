@@ -1,0 +1,27 @@
+ruleId: wcag-4.1.1
+status: godkjent
+versjon:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
+enheter: []
+varianter:
+  - error message default
+  - error message alert false
+  - error message with heading
+  - error message with button
+  - info message default
+  - info message with heading
+  - info message with heading and link
+  - info message with button
+  - tips message default
+  - tips message with heading
+  - tips message with button
+  - success message default
+  - success message with heading
+  - success message with button
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
+  - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
+kommentar: ""

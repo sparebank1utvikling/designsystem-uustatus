@@ -1,0 +1,63 @@
+ruleId: wcag-1.3.1
+status: ikke_godkjent
+versjon:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.110
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - error message default
+  - error message alert false
+  - error message with heading
+  - error message with button
+  - info message default
+  - info message with heading
+  - info message with heading and link
+  - info message with button
+  - tips message default
+  - tips message with heading
+  - tips message with button
+  - success message default
+  - success message with heading
+  - success message with button
+fargemodus: []
+metode:
+  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med 
+    kompenserende teknologi. For eksempel at overskrifter, tabeller og lister er kodet riktig, og
+    at innhold som hører sammen er kodet på en måte som gjør at det kommer frem med kompenserende
+    teknologi som skjermlesere. Det inkluderer blant annet avkrysningsbokser, radioknapper og
+    andre grupperte skjemaelementer.
+  - Inspiser koden.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
+    innholdet hører sammen, med kompenserende teknologi.
+  - Aktiver skjermleser.
+  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
+    beskrivelsen som leses opp.
+kommentar: >
+  Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken type
+  melding, med kompenserende teknologi.
+  
+  Den overordnede div-en har aria-describedby som refererer til brødteksten og variantene med heading
+  har i tillegg aria-labelledby som refererer til headingen. Disse leses ikke opp av skjermleser i 
+  testen, med unntak av variantene med heading når de testes med VoiceOver i Chrome på macOS. Selv der
+  aria-labelledby og aria-describedby leses opp, vil det nok fortsatt i mange tilfeller være vanskelig
+  å forstå at det er en melding, og hvilken type melding, basert på headingen og brødteksten.
+  
+  Vi kan blant annet vurdere å erstatte aria-labelledby og aria-describedby med aria-label som
+  beskriver at det er en feilmelding/infomelding/tipsmelding/suksessmelding, samt legge til role
+  group for meldingene som ikke har role alert.
+  
+  Vi bør også vurdere å kode meldingstittelen som overskrift. I dag er den kodet som div.
+  
+  Lager GitHub-issue på det.

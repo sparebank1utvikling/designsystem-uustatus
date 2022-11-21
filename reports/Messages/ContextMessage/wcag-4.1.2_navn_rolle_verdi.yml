@@ -1,0 +1,36 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.110
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - error message with button
+  - info message with heading and link
+  - info message with button
+  - tips message with button
+  - success message with button
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at lukk-knappen i komponenten er spesifisert som knapp.
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria
+    labelledby, ...).
+  - Sjekk at lenken i komponenten er spesifisert som lenke.
+  - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, aria-labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at knappeteksten leses opp og at knappen leses opp som knapp.
+  - Test at lenketeksten leses opp og at lenken leses opp som lenke.
+kommentar: ""

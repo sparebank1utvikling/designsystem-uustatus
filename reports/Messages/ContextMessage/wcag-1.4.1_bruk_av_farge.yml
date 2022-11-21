@@ -1,0 +1,35 @@
+ruleId: wcag-1.4.1
+status: godkjent
+versjon:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
+enheter: []
+varianter:
+  - error message default
+  - error message with button
+  - info message default
+  - info message with heading and link
+  - info message with button
+  - success message default
+  - success message with button
+  - tips message default
+  - tips message with button
+fargemodus:
+  - light
+  - dark
+metode:
+  - Observer komponenten i ulike tilstander. Der farge brukes som en måte til å
+    formidle noe, sjekk at informasjonen også gis på andre måter.
+  - Hvis informasjonen bare formidles med farger, sjekk at fargene skiller seg fra 
+    hverandre med en kontrast på minimum 3:1. Hvis brukerne må kunne identifisere 
+    en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
+    inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
+    fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
+kommentar: >
+  Godkjenner testen siden vi bruker ikoner til å formidle hvilken type melding det
+  er, i tillegg til fargen.
+  
+  Vi viser også musepeker ved hover på knappen og lenken i tillegg til
+  fargeendringen. Lenken hadde ikke fargeendring på hover i komponentversjonen som
+  ble testet. Inkluderte likevel lenken i testen siden den egentlig skal ha
+  fargeendring og kommer til å ha det så fort feilen blir fikset.
