@@ -1,10 +1,24 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-context-message-react:
-  ffe-context-message:
+  ffe-context-message-react: 7.0.4
+  ffe-context-message: 6.1.1
 enheter: []
-varianter: []
+varianter:
+  - error message default
+  - error message alert false
+  - error message with heading
+  - error message with button
+  - info message default
+  - info message with heading
+  - info message with heading and link
+  - info message with button
+  - tips message default
+  - tips message with heading
+  - tips message with button
+  - success message default
+  - success message with heading
+  - success message with button
 fargemodus: []
 metode:
   - Inspiser koden.
