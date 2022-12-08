@@ -20,11 +20,6 @@ varianter:
   - default
 fargemodus: []
 metode:
-  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er
-    tilgjengelig med kompenserende teknologi. For eksempel at overskrifter, tabeller
-    og lister er kodet riktig, og at innhold som hører sammen er kodet på en måte som
-    gjør at det kommer frem med kompenserende teknologi som skjermlesere. Det inkluderer
-    blant annet avkrysningsbokser, radioknapper og andre grupperte skjemaelementer.
   - Inspiser koden. 
   - Se at komponenten er kodet som overskrift. Se også at den er kodet sånn at det er
     mulig å endre visuell styling men fortsatt beholde samme overskriftsnivå for h-taggen.
