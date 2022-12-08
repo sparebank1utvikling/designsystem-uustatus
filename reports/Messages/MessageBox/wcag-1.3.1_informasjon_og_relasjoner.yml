@@ -26,17 +26,14 @@ varianter:
   - success message default
 fargemodus: []
 metode:
-  - Sjekk at informasjon, struktur og relasjoner som formidles visuelt også er tilgjengelig med 
-    kompenserende teknologi. For eksempel at overskrifter, tabeller og lister er kodet riktig, og
-    at innhold som hører sammen er kodet på en måte som gjør at det kommer frem med kompenserende
-    teknologi som skjermlesere. Det inkluderer blant annet avkrysningsbokser, radioknapper og
-    andre grupperte skjemaelementer.
   - Inspiser koden.
   - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
     innholdet hører sammen, med kompenserende teknologi.
+  - Se at overskrifter er kodet som overskrifter.
   - Aktiver skjermleser.
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
+  - Sjekk at overskrifter leses opp som overskrifter.
 kommentar: >
   Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken
   type melding, med kompenserende teknologi. Vi kan blant annet vurdere å legge til aria-label
