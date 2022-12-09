@@ -1,10 +1,23 @@
 ruleId: wcag-1.3.1
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-accordion-react:
-  ffe-accordion:
-enheter: []
-varianter: []
+  ffe-accordion-react: 10.0.0
+  ffe-accordion: 9.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.98
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -18,4 +31,8 @@ metode:
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
   - Sjekk at overskriftene leses opp som overskrifter.
-kommentar: ""
+kommentar:
+    Det kommer ikke frem at seksjonene i accordion hører sammen med kompenserende teknologi. Vi kan
+    blant annet vurdere å legge til role group og aria-label på den overordnede div-en. Lager
+    GitHub-issue på det. 
+    
