@@ -1,0 +1,21 @@
+ruleId: wcag-1.3.1
+status: ikke_testet
+versjon:
+  ffe-accordion-react:
+  ffe-accordion:
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
+    innholdet hører sammen, med kompenserende teknologi.
+  - Se at overskriftene er kodet som overskrifter.
+  - Se at knappene har aria controls.
+  - Se at div-ene med innholdet som vises ved ekspandert accordion-rad har role region og aria
+    labelledby.
+  - Aktiver skjermleser.
+  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
+    beskrivelsen som leses opp.
+  - Sjekk at overskriftene leses opp som overskrifter.
+kommentar: ""

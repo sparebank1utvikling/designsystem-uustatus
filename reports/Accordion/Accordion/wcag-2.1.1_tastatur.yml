@@ -1,0 +1,12 @@
+ruleId: wcag-2.1.1
+status: ikke_testet
+versjon:
+  ffe-accordion-react:
+  ffe-accordion:
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til alle radene i komponenten med tab-tasten.
+  - Sjekk også at det fungerer å ekspandere/minimere radene ved å klikke på dem med enter/space.
+kommentar: ""

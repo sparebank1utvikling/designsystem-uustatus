@@ -1,0 +1,18 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon:
+  ffe-accordion-react:
+  ffe-accordion:
+enheter: []
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at knappene i komponenten er spesifisert som knapper.
+  - Sjekk at knappene har aria expanded.
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria-
+    labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at knappeteksten leses opp og at knappene leses opp som knapper.
+  – Test at det leses opp at knappen er minimert eller utvidet.
+kommentar: ""
