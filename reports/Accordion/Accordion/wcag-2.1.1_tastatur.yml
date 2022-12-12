@@ -18,6 +18,6 @@ varianter:
   - open
 fargemodus: []
 metode:
-  - Bruk tastaturet og sjekk at du kan navigere til alle radene i komponenten med tab-tasten.
-  - Sjekk også at det fungerer å ekspandere/minimere radene ved å klikke på dem med enter/space.
+  - Bruk tastaturet og sjekk at du kan navigere til alle seksjonene i komponenten med tab-tasten.
+  - Sjekk også at det fungerer å ekspandere/minimere seksjonene ved å klikke på dem med enter/space.
 kommentar: ""
