@@ -25,7 +25,7 @@ metode:
     innholdet hører sammen, med kompenserende teknologi.
   - Se at overskriftene er kodet som overskrifter.
   - Se at knappene har aria controls.
-  - Se at div-ene med innholdet som vises ved ekspandert accordion-rad har role region og aria
+  - Se at div-ene med innholdet som vises ved ekspandert accordion-seksjon har role region og aria
     labelledby.
   - Aktiver skjermleser.
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
