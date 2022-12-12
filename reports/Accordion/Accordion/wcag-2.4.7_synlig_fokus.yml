@@ -1,13 +1,26 @@
 ruleId: wcag-2.4.7
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-accordion-react:
-  ffe-accordion:
-enheter: []
-varianter: []
-fargemodus: []
+  ffe-accordion-react: 10.0.0
+  ffe-accordion: 9.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.98
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: ""
+varianter:
+  - default
+  - managed
+  - open
+fargemodus:
+  - light
+  - dark
 metode:
-  - Naviger til alle radene i komponenten med tab-tasten på tastaturet og sjekk at fokusmarkeringen
+  - Naviger til alle seksjonene i komponenten med tab-tasten på tastaturet og sjekk at fokusmarkeringen
     er synlig.
   - Finn hex-fargekoden til fokusmarkeringen og sjekk den opp mot fargekoden på bakgrunnsfargen til
     komponenten og mot typiske bakgrunnsfarger vi bruker i løsningene våre. Bruk gjerne Color
@@ -17,3 +30,8 @@ kommentar: >
   kontrasten skal være «synlig». I våre tester har vi basert oss på at kontrasten skal 
   være minimum 3:1, i tråd med anbefalt minimumskontrast i WCAG 2.1, 1.4.11 Kontrast
   for ikke-tekstlig innhold (Nivå AA).
+  
+  Light mode ble testet på bakgrunnsfargene #F2F2F9 (syrin-30), #D8E9F2 (frost-30), 
+  #FDF8F5 (sand-30), #fff (hvit), #faf0e7 (sand-70), #e0e0f0 (syrin-70).
+  
+  Dark mode ble testet på #020a0a (svart), #001032 (natt).
