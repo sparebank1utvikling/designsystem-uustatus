@@ -1,0 +1,40 @@
+ruleId: wcag-1.3.1
+status: ikke_godkjent
+versjon:
+  ffe-accordion-react: 10.0.0
+  ffe-accordion: 9.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.98
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
+    innholdet hører sammen, med kompenserende teknologi.
+  - Se at overskriftene er kodet som overskrifter. Se også at de er kodet sånn at det er
+    mulig å endre overskriftsnivå for h-taggen og beholde samme visuelle styling.
+    For eksempel at overskriften har h2-tagg og er stylet som h6.
+  - Se at knappene har aria controls.
+  - Se at div-ene med innholdet som vises ved ekspandert accordion-seksjon har role region og aria
+    labelledby.
+  - Aktiver skjermleser.
+  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
+    beskrivelsen som leses opp.
+  - Sjekk at overskriftene leses opp som overskrifter.
+kommentar:
+    Det kommer ikke frem at seksjonene i accordion hører sammen med kompenserende teknologi. Vi kan
+    blant annet vurdere å legge til role group og aria-label på den overordnede div-en. Lager
+    GitHub-issue på det. 
+    

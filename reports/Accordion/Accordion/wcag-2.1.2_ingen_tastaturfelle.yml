@@ -1,0 +1,24 @@
+ruleId: wcag-2.1.2
+status: godkjent
+versjon:
+  ffe-accordion-react: 10.0.0
+  ffe-accordion: 9.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.98
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: ""
+varianter:
+  - default
+  - managed
+  - open
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger til alle seksjonene i komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+kommentar: ""

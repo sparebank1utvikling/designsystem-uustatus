@@ -1,0 +1,33 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-accordion-react: 10.0.0
+  ffe-accordion: 9.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.98
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - managed
+  - open
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at knappene i komponenten er spesifisert som knapper.
+  - Sjekk at knappene har aria expanded.
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria-
+    labelledby, ...).
+  - Aktiver skjermleser.
+  - Test at knappeteksten leses opp og at knappene leses opp som knapper.
+  – Test at det leses opp at knappen er minimert eller utvidet.
+kommentar: ""
