@@ -1,10 +1,25 @@
 ruleId: wcag-1.3.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-accordion-react:
-  ffe-accordion:
-enheter: []
-varianter: []
+  ffe-accordion-react: 10.0.0
+  ffe-accordion: 9.0.0
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.98
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - managed
+  - open
 fargemodus: []
 metode:
   - Skru av CSS-stylingen i nettleseren. Det er ulike måter å gjøre dette på, blant annet
