@@ -29,11 +29,12 @@ metode:
   - Inspiser koden.
   - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
     innholdet hører sammen, med kompenserende teknologi.
-  - Se at overskrifter er kodet som overskrifter.
+  - Se at overskriftene er kodet som overskrifter. Se også at de er kodet sånn at det er
+    mulig å endre overskriftsnivå for h-taggen og beholde samme visuelle styling.
   - Aktiver skjermleser.
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
-  - Sjekk at overskrifter leses opp som overskrifter.
+  - Sjekk at overskriftene leses opp som overskrifter.
 kommentar: >
   Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken
   type melding, med kompenserende teknologi. Vi kan blant annet vurdere å legge til aria-label
