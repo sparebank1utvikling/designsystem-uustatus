@@ -1,10 +1,11 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-core-react: 
-  ffe-core:
+  ffe-core-react: 7.0.0
+  ffe-core: 26.1.1
 enheter: []
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden.
