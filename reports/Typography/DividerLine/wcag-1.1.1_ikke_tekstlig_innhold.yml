@@ -37,4 +37,4 @@ metode:
 kommentar:
   Klassifiserer DividerLine som innhold som ikke vil tilføre nyttig informasjon med
   kompenserende teknologi. Godkjenner derfor testen siden komponenten er kodet med
-  aria-hidden true og ikke leses opp av skjermleser i testen.
+  aria-hidden true og ikke leses opp av skjermleserne i testen.

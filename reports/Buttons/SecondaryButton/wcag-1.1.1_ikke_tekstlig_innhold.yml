@@ -40,8 +40,7 @@ kommentar:
   Klassifiserer icon left og icon right som innhold som ikke vil tilføre nyttig informasjon med
   kompenserende teknologi, så lenge komponenten brukes som den er tiltenkt – med en beskrivende
   tekst-label. Godkjenner derfor disse siden de er kodet med aria-hidden true og ikke leses opp
-  av skjermleser i testen.
+  av skjermleserne i testen.
   
-  Loading-ikonet godkjennes også siden det finnes aria-label og at dette leses opp av skjermleseren.
-  Selve ikonet er implementert i CSS, men det skal være tilstrekkelig at det finnes aria-label for 
-  ikonet i HTML-koden.
+  Loading-ikonet godkjennes også siden det finnes aria-label og at dette leses opp av
+  skjermleserne.

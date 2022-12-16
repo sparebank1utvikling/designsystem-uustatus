@@ -50,5 +50,5 @@ kommentar: >
   tilstrekkelig skjult for kompenserende teknologi i koden. Lager GitHub-issue på det.
   
   Lukk-ikonet (kryss) har aria-hidden true på svg-en og aria-label på den overordnede knappen
-  som leses opp av skjermleser i testen.
+  som leses opp av skjermleserne i testen.
   

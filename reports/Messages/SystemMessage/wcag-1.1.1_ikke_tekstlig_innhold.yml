@@ -40,11 +40,11 @@ metode:
 kommentar: >
   Ikonene for info, nyhet og suksess mangler enten tekstalternativ eller å bli tilstrekkelig
   skjult for kompenserende teknologi i koden. Ikonet for feil (utropstegn) er kodet med
-  aria-hidden true og leses ikke opp av skjermleser i testen, men tenker vi bør vurdere om
+  aria-hidden true og leses ikke opp av skjermleserne i testen, men tenker vi bør vurdere om
   det er mest riktig med tekstbeskrivelse eller å skjule ikonet for kompenserende teknologi
   i dette tilfellet.
   
   Setter testen til ikke godkjent og lager GitHub-issue på det.
   
   Lukk-ikonet (kryss) har aria-hidden true på svg-en og aria-label på den overordnede knappen
-  som leses opp av skjermleser i testen.
+  som leses opp av skjermleserne i testen.

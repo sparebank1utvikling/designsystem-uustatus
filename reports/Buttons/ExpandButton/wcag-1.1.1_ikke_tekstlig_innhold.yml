@@ -37,4 +37,5 @@ metode:
 kommentar: >
   Klassifiserer kryss-ikonet som innhold som ikke vil tilføre nyttig informasjon med
   kompenserende teknologi, siden den overordnede knappen har aria-label. Godkjenner derfor
-  testen siden ikonet er kodet med aria-hidden true og ikke leses opp av skjermleser i testen.
+  testen siden ikonet er kodet med aria-hidden true og ikke leses opp av skjermleserne i
+  testen.

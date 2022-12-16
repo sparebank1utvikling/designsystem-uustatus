@@ -42,11 +42,11 @@ metode:
 kommentar: >
   Ikonene for info, tips og suksess, samt egendefinert ikon, mangler enten tekstalternativ
   eller å bli tilstrekkelig skjult for kompenserende teknologi i koden. Ikonet for feil
-  (utropstegn) er kodet med aria-hidden true og leses ikke opp av skjermleser i testen,
+  (utropstegn) er kodet med aria-hidden true og leses ikke opp av skjermleserne i testen,
   men tenker vi bør vurdere om det er mest riktig med tekstbeskrivelse eller å skjule
   ikonet for kompenserende teknologi i dette tilfellet.
   
   Setter testen til ikke godkjent og lager GitHub-issue på det.
   
   Listen i meldingsvarianten med liste er kodet riktig med standard ul- og li-elementer
-  og leses opp riktig av skjermleser.
+  og leses opp riktig av skjermleserne i testen.
