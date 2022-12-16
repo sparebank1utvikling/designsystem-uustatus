@@ -1,0 +1,39 @@
+ruleId: wcag-1.1.1
+status: godkjent
+versjon:
+  ffe-core-react: 7.0.0
+  ffe-core: 26.1.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 108.0.5359.124
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende 
+    teknologi som for eksempel skjermlesere, sjekk at det finnes tekstalternativ (alt-tekst, 
+    aria-label, aria-labelledby, title, ...). Standard HTML-punktlister trenger ikke 
+    tekstalternativ for at kulepunktene skal presenteres riktig med kompenserende teknologi. 
+    Se bare at standard ul- og li-elementer er brukt.
+  - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med 
+    kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi 
+    i koden (alt-tekst som står tom, aria-hidden true, innholdet er implementert i CSS, ...).
+  - Aktiver skjermleser.
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at 
+    tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
+    kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
+  - For innhold som skal være skjult, test at dette ikke leses opp.
+kommentar:
+  Vurderer komponenten som pynt og godkjenner testen siden komponenten er kodet med aria-hidden
+  true og ikke leses opp av skjermleserne i testen.
