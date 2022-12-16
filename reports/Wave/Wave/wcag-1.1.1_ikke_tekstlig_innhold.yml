@@ -1,22 +1,23 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-core-react:
-  ffe-core:
+  ffe-core-react: 7.0.0
+  ffe-core: 26.1.1
 enheter:
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Chrome 106.0.5249.119
+    nettleser: Chrome 108.0.5359.124
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Monterey 12.6
-    nettleser: Safari 16.0
+    nettleser: Safari 16.1
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.6.1
+    os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -33,4 +34,6 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar:
+  Vurderer komponenten som pynt og godkjenner testen siden komponenten er kodet med aria-hidden
+  true og ikke leses opp av skjermleserne i testen.
