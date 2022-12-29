@@ -1,8 +1,8 @@
 ruleId: wcag-1.4.3
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-message-box-react: 7.2.5
-  ffe-message-box: 10.2.1
+  ffe-message-box-react: 8.0.2
+  ffe-message-box: 11.0.2
 enheter: []
 varianter:
   - error message default
@@ -24,8 +24,3 @@ kommentar: >
   Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens 
   nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike 
   tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
-  
-  Lenketeksten (standard og besøkt) har for lav fargekontrast mot bakgrunnen i
-  dark mode. Lager GitHub-issue på det.
-  
-  Kontrasten for resten av teksten er godkjent.
