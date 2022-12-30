@@ -4,7 +4,8 @@ versjon:
   ffe-spinner-react: 6.0.1
   ffe-spinner: 5.0.1
 enheter: []
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   – Inspiser koden.
@@ -12,5 +13,5 @@ metode:
     og annen kompenserende teknologi når den dukker opp på siden dynamisk/uten at siden laster
     på nytt (med aria-live eller lignende).
 kommentar:
- Komponenten er ikke kodet på en måte som gjør at den vil annonseres av kompenserende teknologi
- når den dukker opp dynamisk på siden. Lager GitHub-issue på det.
+  Komponenten er ikke kodet på en måte som gjør at den vil annonseres av kompenserende teknologi
+  når den dukker opp dynamisk på siden. Lager GitHub-issue på det.
