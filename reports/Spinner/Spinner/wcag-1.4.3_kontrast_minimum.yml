@@ -1,0 +1,24 @@
+ruleId: wcag-1.4.3
+status: ikke_testet
+versjon:
+  ffe-spinner-react: 
+  ffe-spinner:
+enheter: []
+varianter: []
+fargemodus:
+  - light
+  - dark
+metode:
+  - Test fargen på teksten i komponenten mot typiske bakgrunnsfarger vi bruker i 
+    løsningene våre (hex-kodene). Bruk gjerne Color Contrast Analyser (TPGi). Hvis 
+    fargene endrer seg i ulike tilstander av komponenten, for eksempel ved hover, 
+    husk å teste disse også. 
+kommentar: >
+  Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens 
+  nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike 
+  tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
+  
+  Per nå arver teksten i komponenten farge fra parent-elementet. Det defineres
+  utenfor selve komponenten. Får derfor ikke testet fargekontrasten. Lager
+  GitHub-issue på å vurdere om vi skal definere fargen i selve komponenten i
+  stedet.
