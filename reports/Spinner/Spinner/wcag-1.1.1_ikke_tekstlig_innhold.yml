@@ -16,7 +16,8 @@ enheter:
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden.
