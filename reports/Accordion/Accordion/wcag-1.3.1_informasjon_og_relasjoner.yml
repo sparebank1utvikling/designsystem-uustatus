@@ -1,16 +1,16 @@
 ruleId: wcag-1.3.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-accordion-react: 10.0.0
-  ffe-accordion: 9.0.0
+  ffe-accordion-react: 10.0.3
+  ffe-accordion: 9.0.1
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Chrome 108.0.5359.98
+    os: macOS Ventura 13.1
+    nettleser: Chrome 108.0.5359.124
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Safari 16.1
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
@@ -33,8 +33,14 @@ metode:
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
   - Sjekk at overskriftene leses opp som overskrifter.
-kommentar:
-    Det kommer ikke frem at seksjonene i accordion hører sammen med kompenserende teknologi. Vi kan
-    blant annet vurdere å legge til role group og aria-label på den overordnede div-en. Lager
-    GitHub-issue på det. 
-    
+kommentar: >
+  For at det skal komme frem med kompenserende teknologi at inneholdet i Accordion hører sammen, og
+  at det er snakk om en accordion, har den overordnede div-en role group og aria-label. Det er ikke en
+  optimal løsning, siden det er varierende støtte for aria-label på ikke-interaktive elementer, inkludert
+  div-er uten interaktiv role (https://www.davidmacd.com/blog/does-aria-label-override-static-text.html).
+  Velger å godkjenne testen siden W3C bruker aria-label/aria-labelledby og role-group på div-elementer i
+  sine eksempler (https://www.w3.org/TR/WCAG20-TECHS/ARIA17.html) og vi ikke finner andre måter å løse
+  dette på. I testen leses aria-labelen og gruppe-rollen opp riktig med skjermleser i Safari og Chrome på
+  macOS, mens det ikke leses opp med skjermleser i Safari på iOS.
+  
+  Godkjenner også resten som er beskrevet under metode.
