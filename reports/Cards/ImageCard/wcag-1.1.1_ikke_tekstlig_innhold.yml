@@ -1,16 +1,16 @@
 ruleId: wcag-1.1.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-cards-react: 8.0.2
-  ffe-cards: 14.0.17
+  ffe-cards-react: 10.0.1
+  ffe-cards: 15.0.1
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.87
+    os: macOS Ventura 13.1
+    nettleser: Chrome 109.0.5414.87
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Safari 16.1
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
@@ -36,6 +36,5 @@ metode:
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar:
-  Per nå er det opp til de som bruker komponenten å sørge for at alt-tekst kommer med.
-  Alt-tekst er ikke en default, obligatorisk property i komponenten. Vurderer at det bør
-  være på plass for at vi skal kunne godkjenne testen. Vi har laget GitHub-issue på dette.
+  Godkjenner testen siden alt-tekst er en required property i komponenten, og alt-teksten
+  leses opp av skjermleserne i testen.
