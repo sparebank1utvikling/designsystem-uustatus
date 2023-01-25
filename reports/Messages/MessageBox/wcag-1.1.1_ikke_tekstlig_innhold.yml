@@ -1,16 +1,16 @@
 ruleId: wcag-1.1.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-message-box-react: 7.2.5
-  ffe-message-box: 10.2.1
+  ffe-message-box-react: 8.0.3
+  ffe-message-box: 11.0.2
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.110
+    os: macOS Ventura 13.1
+    nettleser: Chrome 109.0.5414.87
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Safari 16.1
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
@@ -40,13 +40,8 @@ metode:
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar: >
-  Ikonene for info, tips og suksess, samt egendefinert ikon, mangler enten tekstalternativ
-  eller å bli tilstrekkelig skjult for kompenserende teknologi i koden. Ikonet for feil
-  (utropstegn) er kodet med aria-hidden true og leses ikke opp av skjermleserne i testen,
-  men tenker vi bør vurdere om det er mest riktig med tekstbeskrivelse eller å skjule
-  ikonet for kompenserende teknologi i dette tilfellet.
+  Svg-ene for feil, info, tips, suksess, og egendefinert ikon, har tekstalternativ i form
+  av title, som leses opp av skjermleserne i testen.
   
-  Setter testen til ikke godkjent og lager GitHub-issue på det.
-  
-  Listen i meldingsvarianten med liste er kodet riktig med standard ul- og li-elementer
-  og leses opp riktig av skjermleserne i testen.
+  Listen i meldingsvarianten med liste er kodet med standard ul- og li-elementer. Denne
+  leses også opp riktig av skjermleserne i testen.
