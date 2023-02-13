@@ -1,16 +1,16 @@
 ruleId: wcag-1.3.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-context-message-react: 7.0.4
-  ffe-context-message: 6.1.1
+  ffe-context-message-react: 8.0.5
+  ffe-context-message: 7.1.2
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.110
+    os: macOS Ventura 13.1
+    nettleser: Chrome 110.0.5481.77
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Safari 16.1
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
@@ -43,19 +43,20 @@ metode:
     beskrivelsen som leses opp.
   - Sjekk at overskriftene leses opp som overskrifter.
 kommentar: >
-  Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken type
-  melding, med kompenserende teknologi.
+  For at det skal komme frem med kompenserende teknologi at inneholdet i ContextMessage hører
+  sammen, at det er en melding, og hvilken type melding, har den overordnede div-en role
+  group/role alert og aria-label. Det er ikke en optimal løsning, siden det er varierende støtte
+  for aria-label på ikke-interaktive elementer, inkludert div-er uten interaktiv role
+  (https://www.davidmacd.com/blog/does-aria-label-override-static-text.html).
   
-  Den overordnede div-en har aria-describedby som refererer til brødteksten og variantene med heading
-  har i tillegg aria-labelledby som refererer til headingen. Disse leses ikke opp av skjermleser i 
-  testen, med unntak av variantene med heading når de testes med VoiceOver i Chrome på macOS. Selv der
-  aria-labelledby og aria-describedby leses opp, vil det nok fortsatt i mange tilfeller være vanskelig
-  å forstå at det er en melding, og hvilken type melding, basert på headingen og brødteksten.
+  Velger å godkjenne testen siden W3C bruker aria-label/aria-labelledby og role-group på
+  div-elementer i sine eksempler (https://www.w3.org/TR/WCAG20-TECHS/ARIA17.html) og vi ikke finner
+  andre måter å løse dette på.
   
-  Vi kan blant annet vurdere å erstatte aria-labelledby og aria-describedby med aria-label som
-  beskriver at det er en feilmelding/infomelding/tipsmelding/suksessmelding, samt legge til role
-  group for meldingene som ikke har role alert.
+  I testen leses aria-labelen og role group/role alert opp riktig med skjermleser i Safari og
+  Chrome på macOS, mens det ikke leses opp med skjermleser i Safari på iOS. Vi har valgt å ha
+  alternativ tekst for ikonene for feil, info, tips og suksess, fremfor å skjule disse for
+  kompenserende teknologi, slik at det skal gå an å forstå hvilken type melding det er også i
+  tilfeller hvor enkelte skjermlesere ikke leser opp aria-labelen.
   
-  Vi bør også vurdere å kode meldingstittelen som overskrift. I dag er den kodet som div.
-  
-  Lager GitHub-issue på det.
+  Godkjenner også resten som er beskrevet under metode.
