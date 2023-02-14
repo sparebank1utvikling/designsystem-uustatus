@@ -1,16 +1,16 @@
 ruleId: wcag-1.3.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-system-message-react: 6.4.9
-  ffe-system-message: 6.3.1
+  ffe-system-message-react: 7.0.6
+  ffe-system-message: 7.0.3
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.110
+    os: macOS Ventura 13.1
+    nettleser: Chrome 110.0.5481.96
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Safari 16.1
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
@@ -31,8 +31,18 @@ metode:
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
 kommentar: >
-  Det kommer ikke frem at innholdet i meldingen hører sammen, at det er en melding, og hvilken
-  type melding, med kompenserende teknologi. Vi kan blant annet vurdere å legge til aria-label
-  på den overordnede div-en som beskriver at det er en feilmelding/infomelding/nyhetsmelding/
-  suksessmelding, samt legge til role group for meldingene som ikke har role alert. Lager
-  GitHub-issue på det.
+   For at det skal komme frem med kompenserende teknologi at inneholdet i SystemMessage hører
+   sammen, at det er en melding, og hvilken type melding, har den overordnede div-en role
+   group/role alert og aria-label. Det er ikke en optimal løsning, siden det er varierende støtte
+   for aria-label på ikke-interaktive elementer, inkludert div-er uten interaktiv role
+   (https://www.davidmacd.com/blog/does-aria-label-override-static-text.html).
+   
+   Velger å godkjenne testen siden W3C bruker aria-label/aria-labelledby og role-group på
+   div-elementer i sine eksempler (https://www.w3.org/TR/WCAG20-TECHS/ARIA17.html) og vi ikke finner
+   andre måter å løse dette på.
+   
+   I testen leses aria-labelen og role group/role alert opp riktig med skjermleser i Safari og
+   Chrome på macOS, mens det ikke leses opp med skjermleser i Safari på iOS. Vi har valgt å ha
+   alternativ tekst for ikonene for feil, info, nyhet og suksess, fremfor å skjule disse for
+   kompenserende teknologi, slik at det skal gå an å forstå hvilken type melding det er også i
+   tilfeller hvor enkelte skjermlesere ikke leser opp aria-labelen.
