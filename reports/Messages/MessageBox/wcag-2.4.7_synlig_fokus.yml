@@ -1,16 +1,16 @@
 ruleId: wcag-2.4.7
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-message-box-react: 7.2.5
-  ffe-message-box: 10.2.1
+  ffe-message-box-react: 8.0.5
+  ffe-message-box: 11.0.3
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Chrome 107.0.5304.110
+    os: macOS Ventura 13.1
+    nettleser: Chrome 110.0.5481.100
     skjermleser: ""
   - enhet: Macbook Pro
-    os: macOS Monterey 12.6
-    nettleser: Safari 16.1
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: ""
 varianter:
   - error message default
@@ -25,13 +25,10 @@ fargemodus:
 metode:
   - Naviger til lenken i komponenten med tab-tasten på tastaturet og sjekk at fokusmarkeringen
     er synlig.
-  - Finn hex-fargekoden til fokusmarkeringen og sjekk den opp mot fargekoden på lenketeksten og mot
-    bakgrunnsfargen til komponenten. Bruk gjerne Color Contrast Analyser (TPGi). Fargekontrasten bør
+  - Finn hex-fargekoden til fokusmarkeringen og sjekk den opp mot fargekoden på bakgrunnsfargen
+    til komponenten. Bruk gjerne Color Contrast Analyser (TPGi). Fargekontrasten bør
     være minst 3:1.
 kommentar: >
   Det norske lovkravet spesifiserer ingen tall på hva fargekontrasten må være, bare at kontrasten
   skal være «synlig». I våre tester har vi basert oss på at kontrasten skal være minimum 3:1, i tråd
   med anbefalt minimumskontrast i WCAG 2.1, 1.4.11 Kontrast for ikke-tekstlig innhold (Nivå AA).
-  
-  Kontrasten mellom fokusmarkeringen og bakgrunnen er under 3:1 når lenker brukes i variantene error,
-  info og success (dark mode). Lager GitHub-issue på det.
