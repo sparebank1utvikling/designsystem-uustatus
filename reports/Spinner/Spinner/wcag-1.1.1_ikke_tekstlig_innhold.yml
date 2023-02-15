@@ -1,12 +1,12 @@
 ruleId: wcag-1.1.1
-status: godkjent
+status: ikke_godkjent
 versjon:
-  ffe-spinner-react: 6.0.1
-  ffe-spinner: 5.0.1
+  ffe-spinner-react: 6.0.4
+  ffe-spinner: 5.0.3
 enheter:
   - enhet: Macbook Pro
     os: macOS Ventura 13.1
-    nettleser: Chrome 108.0.5359.124
+    nettleser: Chrome 110.0.5481.100
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Ventura 13.1
@@ -35,9 +35,5 @@ metode:
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar: >
-  Klassifiserer spinner-ikonet som innhold som ikke vil tilføre nyttig informasjon med 
-  kompenserende teknologi, siden komponenten har en beskrivende tekst-label i tillegg.
-  
-  Ikonet er lagt inn som CSS og leses ikke opp av skjermleserne i testen. Godkjenner
-  derfor testen. Å kode innholdet som CSS er en av W3Cs godkjente teknikker for å ivareta
-  krav 1.1.1 for innhold som skal skjules for kompenserende teknologi.    
+  Spinneren mangler tekstalternativ, alternativt synlig tekst-label som en del av komponenten.
+  Lager GitHub-issue på det.
