@@ -1,0 +1,28 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon:
+  ffe-form-react:
+  ffe-form:
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - text like
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som input og har en id.
+  - Aktiver skjermleser.
+  - Test at komponenten leses opp som tekstfelt.
+kommentar: ""
