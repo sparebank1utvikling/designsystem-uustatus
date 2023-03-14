@@ -7,7 +7,7 @@ enheter: []
 varianter:
   - default
   - text like
-  - with placeholder
+  - ref
 fargemodus:
   - light
   - dark
