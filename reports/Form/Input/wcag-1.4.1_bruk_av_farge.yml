@@ -1,8 +1,8 @@
 ruleId: wcag-1.4.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter: []
 varianter:
   - default
@@ -18,5 +18,7 @@ metode:
     en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
     inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
     fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
-kommentar: ""
-  
+kommentar:
+  Testen godkjennes fordi vi viser tekstmarkør på hover, selected og keyboard focused
+  i tillegg til fargeendringen. For default-varianten blir i tillegg feltet større ved
+  selected og keyboard focused.
