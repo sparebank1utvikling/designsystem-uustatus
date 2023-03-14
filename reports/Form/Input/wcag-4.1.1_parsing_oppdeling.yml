@@ -1,8 +1,8 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter: []
 varianter:
   - default
