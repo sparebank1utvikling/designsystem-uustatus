@@ -1,0 +1,29 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.1
+    nettleser: Chrome 111.0.5563.64
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  - default
+  - text like
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som input. 
+  - Aktiver skjermleser.
+  - Test at komponenten leses opp som tekstfelt.
+  - Komponenten brukes som en del av komponenten InputGroup. Resten av kravet testes på InputGroup.
+kommentar: ""
