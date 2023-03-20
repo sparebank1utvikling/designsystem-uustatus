@@ -1,19 +1,19 @@
 ruleId: wcag-4.1.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.114
+    os: macOS Ventura 13.1
+    nettleser: Chrome 111.0.5563.64
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.5
+    os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
@@ -22,7 +22,8 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at komponenten er spesifisert som input og har en id.
+  - Sjekk at komponenten er spesifisert som input. 
   - Aktiver skjermleser.
   - Test at komponenten leses opp som tekstfelt.
+  - Komponenten brukes som en del av komponenten InputGroup. Resten av kravet testes på InputGroup.
 kommentar: ""
