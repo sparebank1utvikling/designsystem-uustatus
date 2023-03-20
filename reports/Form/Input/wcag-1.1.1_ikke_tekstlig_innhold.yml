@@ -1,19 +1,19 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.114
+    os: macOS Ventura 13.1
+    nettleser: Chrome 111.0.5563.64
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Ventura 13.1
+    nettleser: Safari 16.2
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.5
+    os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
@@ -34,4 +34,8 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar:
+  Text like-varianten må ha tekstalternativ siden den ikke har ikke synlig label. Det er
+  mulig å sende med tekstalternativ, men vurderer at det bør tilbys som en del av
+  komponenten, for eksempel som en property, for at komponenten skal ha tilstrekkelig
+  støtte for tekstalternativ. Lager GitHub-issue på det. 
