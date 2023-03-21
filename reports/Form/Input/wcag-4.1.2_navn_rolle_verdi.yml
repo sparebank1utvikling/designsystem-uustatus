@@ -1,5 +1,5 @@
 ruleId: wcag-4.1.2
-status: godkjent
+status: ikke_godkjent
 versjon:
   ffe-form-react: 11.0.6
   ffe-form: 23.0.4
@@ -22,8 +22,16 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at komponenten er spesifisert som input. 
+  - Sjekk at komponenten er spesifisert som input.
+  - Sjekk at text like-varianten har tekstalternativ (aria-label). Resten
+    av variantene av Input brukes som en del av komponenten InputGroup. Delene
+    av kravet som går på navn definert i koden testes i InputGroup for disse
+    variantene.
   - Aktiver skjermleser.
   - Test at komponenten leses opp som tekstfelt.
-  - Komponenten brukes som en del av komponenten InputGroup. Resten av kravet testes på InputGroup.
-kommentar: ""
+  - Test at aria-label leses opp for text like-varianten.
+kommentar:
+  Det er mulig å sende med aria-label i komponenten, men vurderer at det
+  bør tilbys som en del av komponenten, for eksempel som en property, for at
+  komponenten skal ha tilstrekkelig støtte for tekstalternativ. Lager
+  GitHub-issue på det.
