@@ -1,0 +1,30 @@
+ruleId: wcag-4.1.2
+status: ikke_testet
+versjon:
+  ffe-form-react:
+  ffe-form:
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Chrome 107.0.5304.110
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.6
+    nettleser: Safari 16.1
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er spesifisert som knapp.
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria
+    labelledby, ...).
+  - Sjekk at minimert knapp har aria-expanded false og ekspandert knapp har aria-expanded true.
+  - Aktiver skjermleser.
+  - Test at knappeteksten leses opp, at komponenten leses opp som knapp og at det leses opp at den er
+    minimert eller ekspandert.
+kommentar: ""
