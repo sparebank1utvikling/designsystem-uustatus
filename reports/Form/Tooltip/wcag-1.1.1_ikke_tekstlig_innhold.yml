@@ -1,22 +1,23 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Chrome 109.0.5414.87
+    os: macOS Ventura 13.2.1
+    nettleser: Chrome 111.0.5563.110
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Safari 16.2
+    os: macOS Ventura 13.2.1
+    nettleser: Safari 16.3
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -33,4 +34,8 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar:
+  Klassifiserer spørsmålstegnet som innhold som ikke vil tilføre nyttig informasjon med 
+  kompenserende teknologi, siden den overordnede knappen har aria-label. Godkjenner derfor
+  testen siden tegnet er kodet med aria-hidden true og ikke leses opp av skjermleserne
+  i testen.
