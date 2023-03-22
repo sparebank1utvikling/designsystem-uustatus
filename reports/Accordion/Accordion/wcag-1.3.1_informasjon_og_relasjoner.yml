@@ -27,7 +27,6 @@ metode:
     mulig å endre overskriftsnivå for h-taggen og beholde samme visuelle styling.
     For eksempel at overskriften har h2-tagg og er stylet som h6.
   - Se at knappene har aria controls.
-  - Se at div-ene med innholdet som vises ved ekspandert accordion-seksjon har aria labelledby.
   - Aktiver skjermleser.
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
