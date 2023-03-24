@@ -18,7 +18,6 @@ enheter:
     skjermleser: VoiceOver
 varianter:
   - default
-  - expanded
 fargemodus: []
 metode:
   - Inspiser koden.
