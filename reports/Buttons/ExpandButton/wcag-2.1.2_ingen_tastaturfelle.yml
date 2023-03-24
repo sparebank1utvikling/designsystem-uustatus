@@ -14,7 +14,6 @@ enheter:
     skjermleser: ""
 varianter:
   - default
-  - expanded
 fargemodus: []
 metode:
   - Bruk tastaturet og naviger til komponenten med tab-tasten.
