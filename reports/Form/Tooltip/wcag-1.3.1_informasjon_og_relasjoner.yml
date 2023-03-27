@@ -1,29 +1,38 @@
 ruleId: wcag-1.3.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Chrome 110.0.5481.96
+    os: macOS Ventura 13.2.1
+    nettleser: Chrome 111.0.5563.110
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Safari 16.2
+    os: macOS Ventura 13.2.1
+    nettleser: Safari 16.3
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - default
+  - external
+  - ref
 fargemodus: []
 metode:
   - Inspiser koden.
   - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
     innholdet hører sammen, med kompenserende teknologi.
-  - Se at knappen har aria controls.
+  - Se at knappen har aria-controls.
   - Aktiver skjermleser.
   - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
     beskrivelsen som leses opp.
-kommentar: ""
+kommentar:
+  Knappen har aria-controls, som refererer til id-en på div-elementet med det ekspanderbare
+  innholdet, slik den skal. Skjermleserne i testen oppfører seg ulikt i møte med aria-controls.
+  I Safari og Chrome på macOS leses det ekspanderte innholdet opp etter klikk på knappen. I
+  Safari på iOS er det først ved sveip til neste element at innholdet leses opp. Velger å
+  godkjenne testen siden komponenten tilsynelatende er kodet i tråd med anbefalt praksis.
+  
