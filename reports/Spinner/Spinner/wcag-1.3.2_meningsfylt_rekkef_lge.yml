@@ -9,9 +9,8 @@ varianter:
 fargemodus: []
 metode:
   – Inspiser koden.
-  – Se at komponenten er kodet på en måte som gjør at den vil bli annonsert av skjermlesere
-    og annen kompenserende teknologi når den dukker opp på siden dynamisk/uten at siden laster
-    på nytt (med aria-live eller lignende).
+  - Se at komponenten er kodet på en måte som gjør at den vil bli annonsert av skjermlesere
+    og annen kompenserende teknologi når den dukker opp på siden (med aria-live eller lignende).
 kommentar:
   Komponenten er ikke kodet på en måte som gjør at den vil annonseres av kompenserende teknologi
   når den dukker opp dynamisk på siden. Lager GitHub-issue på det.

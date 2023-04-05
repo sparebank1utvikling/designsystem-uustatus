@@ -39,8 +39,7 @@ metode:
   - Naviger gjennom alle elementene i komponenten med skjermleser. Sjekk at de leses opp i
     samme rekkefølge som de vises visuelt.
   - Se at komponenten er kodet på en måte som gjør at den vil bli annonsert av skjermlesere
-    og annen kompenserende teknologi når den dukker opp på siden dynamisk/uten at siden laster
-    på nytt (med aria-live eller lignende).
+    og annen kompenserende teknologi når den dukker opp på siden (med aria-live eller lignende).
 kommentar:
   ContextMessage legges noen ganger til i innholdet på siden dynamisk, uten at siden laster på
   nytt. For eksempel etter at bruker har trykket på en knapp. Når det dukker opp nytt innhold
