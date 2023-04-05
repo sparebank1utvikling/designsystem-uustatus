@@ -1,0 +1,13 @@
+ruleId: wcag-3.3.1
+status: ikke_testet
+versjon:
+  ffe-form-react:
+  ffe-form:
+enheter: []
+varianter: []
+varianter: []
+metode:
+  - Se at komponenten er kodet på en måte som gjør at feilmeldingen vil bli annonsert av skjermlesere
+    og annen kompenserende teknologi når den dukker opp på siden (med aria-live eller lignende).
+  - Komponenten brukes som en del av komponenten InputGroup. Resten av kravet testes på InputGroup.
+kommentar: ""
