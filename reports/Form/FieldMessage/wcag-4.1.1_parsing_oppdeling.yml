@@ -1,0 +1,16 @@
+ruleId: wcag-4.1.1
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
+enheter: []
+varianter:
+  - error message default
+  - info message default
+  - success message default
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
+  - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
+kommentar: ""
