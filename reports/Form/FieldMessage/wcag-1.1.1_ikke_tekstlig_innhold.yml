@@ -1,22 +1,25 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-form-react:
-  ffe-form:
+  ffe-form-react: 11.0.6
+  ffe-form: 23.0.4
 enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.134
+    os: macOS Ventura 13.3
+    nettleser: Chrome 112.0.5615.49
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 15.5
+    os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - error message default
+  - info message default
+  - success message default
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -33,4 +36,7 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: ""
+kommentar:
+  Ikonene for feil, info og suksess er skjult for kompensenerende teknologi ved at de er
+  implementert i CSS. Vurderer at ikonene gir nødvendig informasjon for å forstå hvilken type
+  melding det er og at de derfor bør ha tekstalternativ. Lager GitHub-issue på det.
