@@ -6,11 +6,10 @@ versjon:
 enheter: []
 varianter:
   - error message default
-varianter: []
+fargemodus: []
 metode:
   - Se at komponenten er kodet på en måte som gjør at feilmeldingen vil bli annonsert av skjermlesere
     og annen kompenserende teknologi når den dukker opp på siden (med aria-live eller lignende).
   - Komponenten brukes som en del av komponenten InputGroup. Resten av kravet testes på InputGroup.
 kommentar:
   Godkjenner testen siden den overordnede div-en har role altert.
-  
