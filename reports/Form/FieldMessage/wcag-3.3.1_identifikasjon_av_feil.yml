@@ -12,4 +12,4 @@ metode:
     og annen kompenserende teknologi når den dukker opp på siden (med aria-live eller lignende).
   - Komponenten brukes som en del av komponenten InputGroup. Resten av kravet testes på InputGroup.
 kommentar:
-  Godkjenner testen siden den overordnede div-en har role altert.
+  Godkjenner testen siden den overordnede div-en har role alert.
