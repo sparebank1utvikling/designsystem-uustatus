@@ -37,6 +37,6 @@ metode:
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar:
-  Ikonene for feil, info og suksess er skjult for kompensenerende teknologi ved at de er
-  implementert i CSS. Vurderer at ikonene gir nødvendig informasjon for å forstå hvilken type
-  melding det er og at de derfor bør ha tekstalternativ. Lager GitHub-issue på det.
+  Vurderer at ikonene for feil, info og suksess gir nødvendig informasjon for å forstå
+  hvilken type melding det er og at de derfor bør ha tekstalternativ. Ikonene er nå
+  implementert i CSS og mangler tekstalternativ. Lager GitHub-issue på det.
