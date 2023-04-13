@@ -30,7 +30,7 @@ metode:
     Se bare at standard ul- og li-elementer er brukt.
   - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med 
     kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi 
-    i koden (alt-tekst som står tom, aria-hidden true, innholdet er implementert i CSS, ...).
+    i koden (alt-tekst som står tom, aria-hidden true, ...).
   - Aktiver skjermleser.
   - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at
