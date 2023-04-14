@@ -36,7 +36,13 @@ metode:
     tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
     kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar:
+kommentar: >
   Vurderer at ikonene for feil, info og suksess gir nødvendig informasjon for å forstå
   hvilken type melding det er og at de derfor bør ha tekstalternativ. Ikonene er nå
-  implementert i CSS og mangler tekstalternativ. Lager GitHub-issue på det.
+  implementert som CSS pseudo-elementer med ::before og mangler tekstalternativ.
+  
+  Pseudo-elementet ::before frarådes for innhold som skal presenteres av kompenserende
+  teknologi, fordi det er varierende støtte for det, blant annet i skjermlesere
+  (https://developer.mozilla.org/en-US/docs/Web/CSS/::before).
+  
+  Lager GitHub-issue på det.
