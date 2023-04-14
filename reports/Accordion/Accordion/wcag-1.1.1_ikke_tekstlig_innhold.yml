@@ -36,7 +36,7 @@ metode:
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar:
   Klassifiserer pil-ikonene som innhold som ikke vil tilføre nyttig informasjon med
-  kompenserende teknologi siden de overordnede knappene har har tekstbeskrivelse, og
+  kompenserende teknologi siden de overordnede knappene har tekstbeskrivelse, og
   aria-expanded som gjør at de presenteres som minimert eller utvidet med kompenserende 
   teknologi. Godkjenner derfor testen siden ikonene er kodet med aria-hidden true og ikke
   leses opp av skjermleserne i testen.
