@@ -24,8 +24,7 @@ metode:
   - Sjekk at den overordnede div-en har role tablist.
   - Sjekk at fanene er spesifisert som knapper og har role tab.
   - Sjekk at fanene har aria selected.
-  - Sjekk at det finnes en fanetekst (tekst inne i button-elementet, aria-label, aria-
-    labelledby, ...).
+  - Sjekk at det finnes en fanetekst (tekst inne i button-elementet, aria-label, ...).
   - Aktiver skjermleser.
   - Test at faneteksten leses opp, at komponenten leses opp som faner (typisk sier 
     skjermleser for eksempel fane eller tab), og at det annonseres hvilken fane som er 

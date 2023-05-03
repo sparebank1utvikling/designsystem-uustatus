@@ -25,8 +25,7 @@ metode:
   - Inspiser koden.
   - Sjekk at knappene i komponenten er spesifisert som knapper.
   - Sjekk at knappene har aria expanded.
-  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria-
-    labelledby, ...).
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, ...).
   - Aktiver skjermleser.
   - Test at knappeteksten leses opp og at knappene leses opp som knapper.
   - Test at det leses opp at knappen er minimert eller utvidet.

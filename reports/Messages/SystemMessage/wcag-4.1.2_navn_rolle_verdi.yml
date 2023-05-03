@@ -26,8 +26,7 @@ fargemodus: []
 metode:
   - Inspiser koden.
   - Sjekk at lukk-knappen i komponenten er spesifisert som knapp.
-  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, aria
-    labelledby, ...).
+  - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, ...).
   - Aktiver skjermleser.
   - Test at knappeteksten leses opp og at knappen leses opp som knapp.
 kommentar: ""
