@@ -20,7 +20,7 @@ varianter:
   - text like
 fargemodus: []
 metode:
-  - Alle variantene av Input, untatt text like-varianten, brukes som en del av komponenten
+  - Alle variantene av Input, unntatt text like-varianten, brukes som en del av komponenten
     InputGroup. Kravet testes i InputGroup for disse variantene.
   - Inspiser koden.
   - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi
