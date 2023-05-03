@@ -20,6 +20,8 @@ varianter:
   - text like
 fargemodus: []
 metode:
+  - Alle variantene av Input, untatt text like-varianten, brukes som en del av komponenten
+    InputGroup. Kravet testes i InputGroup for disse variantene.
   - Inspiser koden.
   - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi
     som for eksempel skjermlesere, sjekk at det har tekstalternativ eller navn spesifisert i
@@ -30,9 +32,9 @@ metode:
     kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi 
     i koden (alt-tekst som står tom, aria-hidden true, ...).
   - Aktiver skjermleser.
-  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at
-    tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at
-    kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
+  - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at 
+    tekstalternativet eller navnet leses opp av skjermleseren. For standard HTML-punktlister,
+    sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar:
   Text like-varianten må ha tekstalternativ siden den ikke har ikke synlig label. Det er

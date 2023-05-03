@@ -32,8 +32,8 @@ metode:
     i koden (alt-tekst som står tom, aria-hidden true, ...).
   - Aktiver skjermleser.
   - For ikke-tekstlig innhold som skal fanges opp av kompenserende teknologi, test at 
-    tekstalternativet leses opp av skjermleseren. For standard HTML-punktlister, sjekk at 
-    kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
+    tekstalternativet eller navnet leses opp av skjermleseren. For standard HTML-punktlister,
+    sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar:
   Godkjenner testen siden alt-tekst er en required property i komponenten, og alt-teksten
