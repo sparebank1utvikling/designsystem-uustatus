@@ -21,11 +21,11 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende 
-    teknologi som for eksempel skjermlesere, sjekk at det finnes tekstalternativ (alt-tekst, 
-    aria-label, aria-labelledby, title, ...). Standard HTML-punktlister trenger ikke 
-    tekstalternativ for at kulepunktene skal presenteres riktig med kompenserende teknologi. 
-    Se bare at standard ul- og li-elementer er brukt.
+  - Hvis det ikke-tekstlige innholdet vil gi nyttig informasjon med kompenserende teknologi
+    som for eksempel skjermlesere, sjekk at det har tekstalternativ eller navn spesifisert i
+    koden (alt-tekst, aria-label, aria-labelledby, title, label, ...). Standard
+    HTML-punktlister trenger ikke tekstalternativ for at kulepunktene skal presenteres riktig
+    med kompenserende teknologi. Se bare at standard ul- og li-elementer er brukt.
   - Hvis det ikke-testlige innholdet er pynt eller ikke vil gi nyttig informasjon med 
     kompenserende teknologi, sjekk at det er tilstrekkelig skjult for kompenserende teknologi 
     i koden (alt-tekst som står tom, aria-hidden true, ...).
