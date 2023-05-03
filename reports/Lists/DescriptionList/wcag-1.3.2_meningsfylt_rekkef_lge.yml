@@ -29,4 +29,6 @@ metode:
     i komponenten er den samme når CSS-stylingen er av og på.
   - Naviger gjennom alle elementene i komponenten med skjermleser. Sjekk at de leses opp i
     samme rekkefølge som de vises visuelt.
+  – Hvis rekkefølgen ikke er den samme når CSS-stylingen er av eller når innholdet leses opp
+    med skjermleser, sjekk at rekkefølgen fortsatt gir mening for å forstå innholdet.
 kommentar: ""
