@@ -23,8 +23,7 @@ fargemodus: []
 metode:
   - Inspiser koden.
   - Sjekk at komponenten inneholder et a-element.
-  - Sjekk at det finnes en linktekst (tekst inne i a-elementet, aria-label, aria-
-    labelledby, ...).
+  - Sjekk at det finnes en linktekst (tekst inne i a-elementet, aria-label, ...).
   - Aktiver skjermleser.
   - Test at linkteksten, og at det er en link, leses opp.
 kommentar: >
