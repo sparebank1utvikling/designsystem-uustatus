@@ -23,11 +23,11 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden. 
-  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at innholdet hører
-    sammen, med kompenserende teknologi.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå informasjonen, strukturen og
+    relasjonene som formidles visuelt også med kompenserende teknologi.
   - Aktiver skjermleser.
-  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
-    beskrivelsen som leses opp.
+  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+    ut ifra beskrivelsen som leses opp.
 kommentar: >
   Det kommer ikke frem at knappene hører sammen med kompenserende teknologi. Komponenten er også lagt
   opp sånn at vi noen ganger må bruke flere knappegrupper sammen for at den visuelle plasseringen skal 

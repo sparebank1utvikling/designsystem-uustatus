@@ -23,12 +23,12 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
-    innholdet hører sammen, med kompenserende teknologi.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå informasjonen, strukturen og
+    relasjonene som formidles visuelt også med kompenserende teknologi.
   - Se at knappen har aria-controls.
   - Aktiver skjermleser.
-  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
-    beskrivelsen som leses opp.
+  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+    ut ifra beskrivelsen som leses opp.
 kommentar:
   Knappen har aria-controls, som refererer til id-en på div-elementet med det ekspanderbare
   innholdet, slik den skal. Skjermleserne i testen oppfører seg ulikt i møte med aria-controls.

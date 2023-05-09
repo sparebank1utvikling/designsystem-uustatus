@@ -21,15 +21,15 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Se at komponenten er kodet på en måte så det er mulig å forstå strukturen, og at
-    innholdet hører sammen, med kompenserende teknologi.
+  - Se at komponenten er kodet på en måte så det er mulig å forstå informasjonen, strukturen og
+    relasjonene som formidles visuelt også med kompenserende teknologi.
   - Se at overskriftene er kodet som overskrifter. Se også at de er kodet sånn at det er
     mulig å endre overskriftsnivå for h-taggen og beholde samme visuelle styling.
     For eksempel at overskriften har h2-tagg og er stylet som h6.
   - Se at knappene har aria controls.
   - Aktiver skjermleser.
-  - Sjekk at det er mulig å forstå strukturen i komponenten, og at innholdet hører sammen, ut ifra
-    beskrivelsen som leses opp.
+  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+    ut ifra beskrivelsen som leses opp.
   - Sjekk at overskriftene leses opp som overskrifter.
 kommentar: >
   For at det skal komme frem med kompenserende teknologi at inneholdet i Accordion hører sammen, og
