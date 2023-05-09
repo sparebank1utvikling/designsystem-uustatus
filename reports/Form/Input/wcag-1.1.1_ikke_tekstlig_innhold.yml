@@ -37,7 +37,7 @@ metode:
     sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
 kommentar:
-  Text like-varianten må ha tekstalternativ siden den ikke har ikke synlig label. Det er
-  mulig å sende med aria-label, men vurderer at det bør tilbys som en del av komponenten,
-  for eksempel som en property, for at komponenten skal ha tilstrekkelig støtte for
+  Text like-varianten mangler tekstalternativ/navn spesifisert i koden. Det er mulig å sende
+  med f.eks. aria-label, men vurderer at det bør tilbys som en del av komponenten, for
+  eksempel som en property, for at komponenten skal ha tilstrekkelig støtte for
   tekstalternativ. Lager GitHub-issue på det. 
