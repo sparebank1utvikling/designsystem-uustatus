@@ -1,0 +1,24 @@
+ruleId: wcag-2.1.1
+status: ikke_testet
+versjon:
+  ffe-form-react: ""
+  ffe-form: ""
+enheter: 
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: ""
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til alt klikkbart innhold i komponenten med
+    tab-tasten.
+  - Sjekk at du kan ekspandere/minimere tooltip ved å klikke på den med enter/space.
+  - Sjekk at du kan skrive i inputfeltet.
+  – Resten av testene for krav 2.1.1 gjøres på de ulike child-komponentene som brukes i InputGroup,
+    som Datepicker, TextArea og Dropdown.
+kommentar: ""

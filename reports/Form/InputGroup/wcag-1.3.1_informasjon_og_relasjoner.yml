@@ -1,0 +1,30 @@
+ruleId: wcag-1.3.1
+status: ikke_testet
+versjon:
+  ffe-form-react: ""
+  ffe-form: ""
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 15.5
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden. 
+  - Sjekk at ledeteksten er programmatisk knyttet til skjemaelementet, for eksempel label-element
+    og for-attributt som refererer til id-en til skjemaelementet.
+  - For varianten med beskrivelse, sjekk at beskrivelsen også er programmatisk knyttet til
+    skjemaelementet, for eksempel at skjemaelemenentet har aria-describedby som refererer til id-en
+    til elementet med beskrivelsen.
+  - Aktiver skjermleser.
+  - Sjekk at ledeteksten og beskrivelsen leses opp når skjemaelementet får fokus.
+kommentar: ""

@@ -1,0 +1,21 @@
+ruleId: wcag-2.1.2
+status: ikke_testet
+versjon:
+  ffe-form-react: ""
+  ffe-form: ""
+enheter: 
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Chrome 103.0.5060.114
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Monterey 12.4
+    nettleser: Safari 15.5
+    skjermleser: ""
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger til alt klikkbart innhold i komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+kommentar: ""
