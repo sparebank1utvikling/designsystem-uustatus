@@ -1,18 +1,20 @@
 ruleId: wcag-2.4.3
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
-enheter: 
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter:
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Chrome 103.0.5060.114
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
     skjermleser: ""
   - enhet: Macbook Pro
-    os: macOS Monterey 12.4
-    nettleser: Safari 15.5
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
     skjermleser: ""
-varianter: []
+varianter:
+  - with label, tooltip, inputfield
+  - with label, datepicker
 fargemodus: []
 metode:
   - Bruk tastaturet og naviger deg gjennom alt klikkbart innhold i komponenten med tab-tasten.
