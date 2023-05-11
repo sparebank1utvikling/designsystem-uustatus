@@ -1,0 +1,24 @@
+ruleId: wcag-2.4.3
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: ""
+varianter:
+  - with label, tooltip, inputfield
+  - with label, datepicker
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger deg gjennom alt klikkbart innhold i komponenten med tab-tasten.
+  - Sjekk at innholdet får fokus i samme rekkefølge som det vises visuelt.
+  – Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å forstå
+    og betjene innholdet.
+kommentar: ""

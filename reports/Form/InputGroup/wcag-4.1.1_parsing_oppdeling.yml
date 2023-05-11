@@ -1,0 +1,25 @@
+ruleId: wcag-4.1.1
+status: ikke_godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter: []
+varianter:
+  - with label, inputfield
+  - with label, description, inputfield
+  - with label, tooltip, inputfield
+  - with label, dropdown
+  - with label, textarea
+  - with label, datepicker
+  - with label, checkbox
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
+  - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
+kommentar: >
+  Får valideringsfeilmelding for InputGroup med Datepicker. Inputfeltet i Datepicker mangler
+  ID, som label-elementet kan referere til. Nå refererer label-elementet til en ID som ikke
+  finnes. Lager GitHub-issue på det.
+  
+  Ingen feilmeldinger for resten av variantene testet.
