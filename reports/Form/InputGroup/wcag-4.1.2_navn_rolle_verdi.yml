@@ -1,22 +1,29 @@
 ruleId: wcag-4.1.2
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Chrome 111.0.5563.64
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Safari 16.2
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - with label, inputfield
+  - with label, description, inputfield
+  - with label, tooltip, inputfield
+  - with label, dropdown
+  - with label, textarea
+  - with label, datepicker
+  - with label, checkbox
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -27,4 +34,16 @@ metode:
   - Sjekk at navnet leses opp når skjemaelementet får fokus.
   – Delene av krav 4.1.2 som går på hvilken rolle skjemaelementene og tooltip er kodet med testes på
     child-komponentene som brukes i InputGroup, som Tooltip, Input, TextArea, Dropdown og Datepicker. 
-kommentar: ""
+kommentar: >
+  Alle skjemaelementene har navn spesifisert i koden, i form av label-element og for-attributt
+  som refererer til id-en til skjemaelementet. Labelen leses opp når skjemaelementet får
+  fokus med skjermleserne i testen.
+  
+  Unntaket er InputGroup med Datepicker. Input-elementet i Datepicker mangler id, som
+  label-elementet kan referere til. Nå refererer label-elementet til en id som ikke finnes.
+  Div-elementet med inputfeltet har aria-label, men det er varierende støtte for
+  aria-label på div-er uten role/interaktiv role
+  (https://www.davidmacd.com/blog/does-aria-label-override-static-text.html). Siden det finnes
+  et label-element tenker jeg det er mest naturlig å fjerne aria-labelen og sørge for at 
+  input-elementet i Datepicker får id som label-elementet refererer til, som vi gjør for de
+  andre InputGroup-variantene. Lager GitHub-issue på det.
