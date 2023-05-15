@@ -22,7 +22,7 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at komponenten er spesifisert som input.
+  - Sjekk at komponenten er kodet som input, for eksempel HTML input-element.
   - Sjekk at text like-varianten har tekstalternativ (aria-label). Resten
     av variantene av Input brukes som en del av komponenten InputGroup. Delene
     av kravet som går på navn definert i koden testes i InputGroup for disse

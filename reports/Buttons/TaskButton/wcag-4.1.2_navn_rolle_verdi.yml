@@ -21,7 +21,7 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at komponenten er spesifisert som knapp.
+  - Sjekk at komponenten er kodet som knapp, for eksempel HTML button-element.
   - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, ...).
   - Aktiver skjermleser.
   - Test at knappeteksten leses opp og at komponenten leses opp som knapp.
