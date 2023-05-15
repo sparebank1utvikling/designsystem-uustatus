@@ -25,9 +25,9 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at lukk-knappen i komponenten er spesifisert som knapp.
+  - Sjekk at lukk-knappen i komponenten er kodet som knapp, for eksempel HTML button-element.
   - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, ...).
-  - Sjekk at lenken i komponenten er spesifisert som lenke.
+  - Sjekk at lenken i komponenten er kodet som lenke, for eksempel HTML a-element.
   - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, aria-labelledby, ...).
   - Aktiver skjermleser.
   - Test at knappeteksten leses opp og at knappen leses opp som knapp.

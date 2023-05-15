@@ -22,7 +22,7 @@ fargemodus: []
 metode:
   - Inspiser koden.
   - Sjekk at den overordnede div-en har role tablist.
-  - Sjekk at fanene er spesifisert som knapper og har role tab.
+  - Sjekk at fanene er kodet som faner, for eksempel HTML button-elementer med role tab.
   - Sjekk at fanene har aria selected.
   - Sjekk at det finnes en fanetekst (tekst inne i button-elementet, aria-label, ...).
   - Aktiver skjermleser.

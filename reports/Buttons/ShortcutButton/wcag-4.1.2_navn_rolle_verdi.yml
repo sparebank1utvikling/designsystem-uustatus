@@ -21,7 +21,7 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at komponenten er spesifisert som lenke.
+  - Sjekk at komponenten er kodet som lenke, for eksempel HTML a-element.
   - Sjekk at det finnes en lenketekst (tekst inne i a-elementet, aria-label, ...).
   - Aktiver skjermleser.
   - Test at lenketeksten leses opp og at komponenten leses opp som lenke.

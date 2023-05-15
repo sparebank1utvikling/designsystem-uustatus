@@ -23,7 +23,7 @@ varianter:
 fargemodus: []
 metode:
   - Inspiser koden.
-  - Sjekk at komponenten er spesifisert som knapp.
+  - Sjekk at komponenten er kodet som knapp, for eksempel HTML button-element.
   - Sjekk at det finnes en knappetekst (tekst inne i button-elementet, aria-label, ...).
   - Sjekk at minimert knapp har aria-expanded false og ekspandert knapp har aria-expanded true.
   - Aktiver skjermleser.
