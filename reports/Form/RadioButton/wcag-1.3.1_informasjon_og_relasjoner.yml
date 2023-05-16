@@ -1,0 +1,26 @@
+ruleId: wcag-1.3.1
+status: ikke_testet
+  ffe-form-react: ""
+  ffe-form: ""
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden. 
+  - Sjekk at ledeteksten er programmatisk knyttet til skjemaelementet, for eksempel label-element
+    og for-attributt som refererer til id-en til skjemaelementet.
+  - Aktiver skjermleser.
+  - Sjekk at ledeteksten leses opp når skjemaelementet får fokus.
+kommentar: ""
