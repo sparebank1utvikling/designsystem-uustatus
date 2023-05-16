@@ -1,0 +1,22 @@
+ruleId: wcag-2.1.2
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: ""
+varianter:
+  – default without input group
+fargemodus: []
+metode:
+  - Bruk tastaturet og naviger til komponenten med tab-tasten.
+  - Naviger deg videre til neste element på siden for å sjekke at fokuset ikke
+    er «fanget» i komponenten.
+kommentar: ""

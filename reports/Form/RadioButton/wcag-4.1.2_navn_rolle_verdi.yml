@@ -1,0 +1,38 @@
+ruleId: wcag-4.1.2
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  – default without input group
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at komponenten er kodet som radioknapp, for eksempel HTML input-element med type radio.
+  - Sjekk at skjemaelementet har navn spesifisert i koden, for eksempel label-element og
+    for-attributt som refererer til id-en til skjemaelementet. Navn i denne sammenhengen er
+    ikke det samme som name-attributtet i HTML.
+  – Sjekk at komponenten er kodet på en måte som gjør at det kommer frem med kompenserende teknologi
+    at radioknappen er valgt/ikke valgt, for eksempel ved bruk av aria-checked. Hvis HTML
+    input-element med type radio er brukt, er denne funksjonaliteten innebygget, og det er ikke
+    behov for å legge til aria-checked eller liknende.
+  - Aktiver skjermleser.
+  - Test at komponenten leses opp som radioknapp (typisk sier skjermleser for eksempel valgknapp
+    eller alternativknapp).
+  - Sjekk at navnet leses opp når skjemaelementet får fokus.
+  – Sjekk at det leses opp at radioknappen er valgt/ikke valgt (typisk sier skjermleser for eksempel
+    markert).
+kommentar: ""

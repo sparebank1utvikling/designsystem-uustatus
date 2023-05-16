@@ -1,0 +1,12 @@
+ruleId: wcag-3.3.2
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter: []
+varianter:
+  – default without input group
+fargemodus: []
+metode:
+  - Sjekk at skjemaelementet har en synlig ledetekst.
+kommentar: ""
