@@ -1,22 +1,23 @@
 ruleId: wcag-1.1.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Chrome 111.0.5563.64
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Ventura 13.1
-    nettleser: Safari 16.2
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  – default without input group
 fargemodus: []
 metode:
   - Inspiser koden.
