@@ -1,0 +1,23 @@
+ruleId: wcag-2.1.1
+status: ikke_testet
+versjon:
+  ffe-form-react: ""
+  ffe-form: ""
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: ""
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  – Hvis radioknappen som får fokus ikke er markert/valgt, sjekk at du kan velge den
+    med space-tasten. 
+  - Sjekk at du kan navigere mellom radioknappene med piltastene og at knappen som
+    får fokus blir valgt.
+kommentar: ""
