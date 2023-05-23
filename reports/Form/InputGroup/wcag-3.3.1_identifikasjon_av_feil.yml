@@ -27,21 +27,11 @@ fargemodus: []
 metode:
   – Se at det vises feilmelding med tekstbeskrivelse ved skjemaelementet når det er ugyldig. Bruk for
     eksempel knappen for å skru feilmelding på og av i Component Overview-grensesnittet.
-  – Inspiser koden.
-  – Se at skjemaelementet har aria-invalid-property med verdi true når feltet er ugyldig.
   – Aktiver skjermleser.
   – Gjør skjemaelementet ugyldig, for eksempel med knappen i Component Overview. Sjekk at skjermleser
     annonserer feilmeldingen som dukker opp.
-  – Naviger til skjemaelementet. Når elementet får fokus, sjekk at skjermleser leser opp at feltet er
-    ugyldig.
   - Resten av krav 3.3.1 testes på FieldMessage-komponenten som brukes i InputGroup.
 kommentar: >
-  Skjemaelementene leses opp riktig, som ugyldig, når elementet får fokus med skjermleserne i testen.
-  Unntaker er skjemaelementet i InputGroup med Dropdown, som ikke leses opp som ugyldig med skjermleser
-  VoiceOver i iOS. Velger å godkjenne testen siden elementet har aria-invalid-property med verdi true,
-  i tråd med W3Cs teknikk for å ivareta krav 3.3.1
-  (https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/ARIA21).
-  
   Når flere feilmeldinger vises/dukker opp samtidig annonserer skjermleserne i testen bare én av
   feilmeldingene. I løsninger hvor flere feilmeldinger vises samtidig skal komponenten MessageBox
   brukes, i tillegg til feilmeldingen ved hvert enkelt skjemafelt, for å gi brukeren en
