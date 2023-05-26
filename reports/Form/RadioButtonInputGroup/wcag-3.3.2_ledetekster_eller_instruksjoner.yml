@@ -6,7 +6,7 @@ versjon:
 enheter: []
 varianter:
   – with legend, radiobuttons
-  – with legend, radioswitches
+  – with legend, radioswitches, tooltip
   – with legend, radioblocks
 fargemodus: []
 metode:
