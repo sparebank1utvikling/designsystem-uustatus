@@ -1,13 +1,28 @@
 ruleId: wcag-4.1.1
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.10
+  ffe-form: 23.0.7
 enheter: []
-varianter: []
+varianter:
+  – with legend, radiobuttons
+  – with legend, radiobuttons, tooltip next to buttons
+  - with legend, radioswitches, tooltip
+  - with legend, radioswitches, description
+  - with legend, radioblocks
 fargemodus: []
 metode:
   - Inspiser koden.
   - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
   - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
-kommentar: ""
+kommentar: >
+  Får valideringsfeilmelding på at div-elementet med Tooltip er kodet som child av
+  legend-elementet. Gjelder ikke variant hvor Tooltip ligger utenfor legend-elementet.
+  
+  Får også feilmelding på at aria-describedby på den ene radioknappen i RadioButtonInputGroup
+  med RadioBlocks refererer til en id som ikke finnes. Det er nok fordi beskrivelsesteksten
+  med id-en først dukker opp når radioknappen er valgt/markert. Varianten av RadioBlock
+  hvor beskrivelsen dukker opp etter at knappen er valgt bør bare ha aria-describedby når
+  knappen er valgt og teksten vises.
+  
+  Lager GitHub-issues på det.
