@@ -14,8 +14,7 @@ enheter:
     skjermleser: ""
 varianter:
   – with legend, radiobuttons
-  - with legend, radiobuttons, tooltip
-  - with legend, radioswitches
+  - with legend, radioswitches, tooltip
   - with legend, radioblocks
 fargemodus: []
 metode:
@@ -29,4 +28,3 @@ kommentar:
  fremfor radioknappen som er plassert først visuelt/strukturelt. Det er standard oppførsel for
  tastaturnavigasjon i radioknapper (https://www.w3.org/WAI/ARIA/apg/patterns/radio/). Godkjenner
  derfor testen.
- 
