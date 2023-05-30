@@ -1,12 +1,12 @@
 ruleId: wcag-1.3.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.10
+  ffe-form: 23.0.7
 enheter:
   - enhet: Macbook Pro
     os: macOS Ventura 13.3
-    nettleser: Chrome 113.0.5672.92
+    nettleser: Chrome 113.0.5672.126
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Ventura 13.3
@@ -16,7 +16,10 @@ enheter:
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  – with legend, radiobuttons
+  - with legend, radioswitches, tooltip
+  - with legend, radioblocks
 fargemodus: []
 metode:
   - Skru av CSS-stylingen i nettleseren. Det er ulike måter å gjøre dette på, blant annet
@@ -27,4 +30,6 @@ metode:
   – Hvis rekkefølgen ikke er den samme når CSS-stylingen er av eller når innholdet leses opp
     med skjermleser, sjekk at rekkefølgen fortsatt gir mening for å forstå og betjene
     innholdet.
+  – Resten av testene for krav 1.3.2 gjøres på de ulike child-komponentene som brukes i
+    RadioButtonInputGroup, som Tooltip og FieldMessage.
 kommentar: ""
