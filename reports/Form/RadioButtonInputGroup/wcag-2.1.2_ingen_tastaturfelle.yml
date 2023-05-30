@@ -13,7 +13,7 @@ enheter:
     nettleser: Safari 16.4
     skjermleser: ""
 varianter:
-  – with legend, radiobuttons
+  - with legend, radiobuttons
   - with legend, radioswitches, tooltip
   - with legend, radioblocks
 fargemodus: []

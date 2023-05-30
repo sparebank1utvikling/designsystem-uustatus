@@ -17,7 +17,7 @@ enheter:
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
-  – default without input group
+  - default without input group
 fargemodus: []
 metode:
   - Inspiser koden.
@@ -25,7 +25,7 @@ metode:
   - Sjekk at skjemaelementet har navn spesifisert i koden, for eksempel label-element og
     for-attributt som refererer til id-en til skjemaelementet. Navn i denne sammenhengen er
     ikke det samme som name-attributtet i HTML.
-  – Sjekk at komponenten er kodet på en måte som gjør at det kommer frem med kompenserende teknologi
+  - Sjekk at komponenten er kodet på en måte som gjør at det kommer frem med kompenserende teknologi
     at radioknappen er valgt/ikke valgt, for eksempel ved bruk av aria-checked. Hvis HTML
     input-element med type radio er brukt, er denne funksjonaliteten innebygget, og det er ikke
     behov for å legge til aria-checked eller liknende.
@@ -33,6 +33,6 @@ metode:
   - Test at komponenten leses opp som radioknapp (typisk sier skjermleser for eksempel valgknapp
     eller alternativknapp).
   - Sjekk at navnet leses opp når skjemaelementet får fokus.
-  – Sjekk at det leses opp at radioknappen er valgt/ikke valgt (typisk sier skjermleser for eksempel
+  - Sjekk at det leses opp at radioknappen er valgt/ikke valgt (typisk sier skjermleser for eksempel
     markert).
 kommentar: ""

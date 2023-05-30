@@ -13,13 +13,13 @@ enheter:
     nettleser: Safari 16.4
     skjermleser: ""
 varianter:
-  – with legend, radiobuttons
+  - with legend, radiobuttons
   - with legend, radioswitches, tooltip
   - with legend, radioblocks
 fargemodus: []
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
-  – Hvis radioknappen som får fokus ikke er markert/valgt, sjekk at du kan velge den
+  - Hvis radioknappen som får fokus ikke er markert/valgt, sjekk at du kan velge den
     med space-tasten.
   - Sjekk at du kan navigere mellom radioknappene med piltastene og at knappen som
     får fokus blir valgt.

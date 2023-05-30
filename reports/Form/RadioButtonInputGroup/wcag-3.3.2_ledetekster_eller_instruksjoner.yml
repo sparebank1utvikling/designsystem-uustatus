@@ -5,12 +5,12 @@ versjon:
   ffe-form: 23.0.6
 enheter: []
 varianter:
-  – with legend, radiobuttons
-  – with legend, radioswitches, tooltip
-  – with legend, radioblocks
+  - with legend, radiobuttons
+  - with legend, radioswitches, tooltip
+  - with legend, radioblocks
 fargemodus: []
 metode:
   - Se at gruppen med radioknapper har en synlig, overodnet tekstbeskrivelse.
-  – Resten av krav 3.3.2 testes på child-komponentene til RadioButtonInputGroup,
+  - Resten av krav 3.3.2 testes på child-komponentene til RadioButtonInputGroup,
     som RadioButton, RadioBlock og RadioSwitch.
 kommentar: ""

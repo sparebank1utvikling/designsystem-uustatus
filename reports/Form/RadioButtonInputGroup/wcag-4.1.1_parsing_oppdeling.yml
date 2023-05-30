@@ -5,8 +5,8 @@ versjon:
   ffe-form: 23.0.7
 enheter: []
 varianter:
-  – with legend, radiobuttons
-  – with legend, radiobuttons, tooltip next to buttons
+  - with legend, radiobuttons
+  - with legend, radiobuttons, tooltip next to buttons
   - with legend, radioswitches, tooltip
   - with legend, radioswitches, description
   - with legend, radioblocks

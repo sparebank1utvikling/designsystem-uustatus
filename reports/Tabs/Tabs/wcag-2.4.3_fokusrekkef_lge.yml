@@ -17,7 +17,7 @@ varianter:
 fargemodus: []
 metode:
   - Bruk tastaturet og naviger deg gjennom alle fanene i komponenten med tab-tasten.
-  – Sjekk at fanene får fokus i samme rekkefølge som de vises visuelt.
-  – Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å
+  - Sjekk at fanene får fokus i samme rekkefølge som de vises visuelt.
+  - Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å
     forstå og betjene innholdet.
 kommentar: ""

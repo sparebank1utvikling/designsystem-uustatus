@@ -19,7 +19,7 @@ metode:
   - Tekststørrelsen i komponentene kan variere fordi den settes basert på brukerens 
     nettleserinnstillinger. For å sikre at kravet er ivaretatt på alle ulike
     tekststørrelser baserer vi testene på det høyeste kontrastkravet (4.5:1).
-kommentar:
+kommentar: >
   Text like-varianten ble testet på bakgrunnsfargene #F2F2F9 (syrin-30), #D8E9F2 (frost-30),
   #FDF8F5 (sand-30), #fff (hvit), #faf0e7 (sand-70), #e0e0f0 (syrin-70) i light mode. I dark mode
   ble den testet på #020a0a (svart), #001032 (natt).

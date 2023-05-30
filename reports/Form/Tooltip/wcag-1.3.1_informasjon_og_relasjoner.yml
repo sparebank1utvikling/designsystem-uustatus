@@ -27,9 +27,9 @@ metode:
     relasjonene som formidles visuelt også med kompenserende teknologi.
   - Se at knappen har aria-controls.
   - Aktiver skjermleser.
-  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+  - Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
     ut ifra beskrivelsen som leses opp.
-kommentar:
+kommentar: >
   Knappen har aria-controls, som refererer til id-en på div-elementet med det ekspanderbare
   innholdet, slik den skal. Skjermleserne i testen oppfører seg ulikt i møte med aria-controls.
   I Safari og Chrome på macOS leses det ekspanderte innholdet opp etter klikk på knappen. I

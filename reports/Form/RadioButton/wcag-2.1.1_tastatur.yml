@@ -13,7 +13,7 @@ enheter:
     nettleser: Safari 16.4
     skjermleser: ""
 varianter:
-  – default without input group
+  - default without input group
 fargemodus: []
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.

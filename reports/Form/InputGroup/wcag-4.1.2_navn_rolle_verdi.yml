@@ -32,7 +32,7 @@ metode:
     ikke det samme som name-attributtet i HTML.
   - Aktiver skjermleser.
   - Sjekk at navnet leses opp når skjemaelementet får fokus.
-  – Delene av krav 4.1.2 som går på hvilken rolle skjemaelementene og tooltip er kodet med testes på
+  - Delene av krav 4.1.2 som går på hvilken rolle skjemaelementene og tooltip er kodet med testes på
     child-komponentene som brukes i InputGroup, som Tooltip, Input, TextArea, Dropdown og Datepicker. 
 kommentar: >
   Alle skjemaelementene har navn spesifisert i koden, i form av label-element og for-attributt

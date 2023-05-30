@@ -28,7 +28,7 @@ metode:
     For eksempel at overskriften har h2-tagg og er stylet som h6.
   - Se at knappene har aria controls.
   - Aktiver skjermleser.
-  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+  - Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
     ut ifra beskrivelsen som leses opp.
   - Sjekk at overskriftene leses opp som overskrifter.
 kommentar: >

@@ -13,7 +13,7 @@ enheter:
     nettleser: Safari 16.4
     skjermleser: ""
 varianter:
-  – with legend, radiobuttons
+  - with legend, radiobuttons
   - with legend, radioswitches, tooltip
   - with legend, radioblocks
 fargemodus: []
@@ -21,9 +21,9 @@ metode:
   - Bruk tastaturet og naviger deg gjennom alt klikkbart innhold i komponenten med tab-tasten og
     piltastene.
   - Sjekk at innholdet får fokus i samme rekkefølge som det vises visuelt.
-  – Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å forstå
+  - Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å forstå
     og betjene innholdet.
-kommentar:
+kommentar: >
  Hvis en av radioknappene er markert er det denne som får fokus først ved navigasjon til komponenten
  fremfor radioknappen som er plassert først visuelt/strukturelt. Det er standard oppførsel for
  tastaturnavigasjon i radioknapper (https://www.w3.org/WAI/ARIA/apg/patterns/radio/). Godkjenner

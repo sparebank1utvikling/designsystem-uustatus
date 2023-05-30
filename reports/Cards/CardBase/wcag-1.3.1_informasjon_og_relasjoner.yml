@@ -27,7 +27,7 @@ metode:
     for hvordan kort skal kodes. Det er flere mulige løsninger for hvordan få frem strukturen i
     kortene. Se for eksempel https://inclusive-components.design/cards/.
   - Aktiver skjermleser.
-  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+  - Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
     ut ifra beskrivelsen som leses opp.
 kommentar: >
     CardBase er basisen for alle kortkomponentene, men brukes også direkte som en ramme 

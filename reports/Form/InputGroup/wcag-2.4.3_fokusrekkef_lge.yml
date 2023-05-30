@@ -19,6 +19,6 @@ fargemodus: []
 metode:
   - Bruk tastaturet og naviger deg gjennom alt klikkbart innhold i komponenten med tab-tasten.
   - Sjekk at innholdet får fokus i samme rekkefølge som det vises visuelt.
-  – Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å forstå
+  - Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å forstå
     og betjene innholdet.
 kommentar: ""

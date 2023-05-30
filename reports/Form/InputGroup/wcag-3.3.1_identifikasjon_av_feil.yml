@@ -25,10 +25,10 @@ varianter:
   - with label, checkbox
 fargemodus: []
 metode:
-  – Se at det vises feilmelding med tekstbeskrivelse ved skjemaelementet når det er ugyldig. Bruk for
+  - Se at det vises feilmelding med tekstbeskrivelse ved skjemaelementet når det er ugyldig. Bruk for
     eksempel knappen for å skru feilmelding på og av i Component Overview-grensesnittet.
-  – Aktiver skjermleser.
-  – Gjør skjemaelementet ugyldig, for eksempel med knappen i Component Overview. Sjekk at skjermleser
+  - Aktiver skjermleser.
+  - Gjør skjemaelementet ugyldig, for eksempel med knappen i Component Overview. Sjekk at skjermleser
     annonserer feilmeldingen som dukker opp.
   - Resten av krav 3.3.1 testes på FieldMessage-komponenten som brukes i InputGroup.
 kommentar: >

@@ -45,7 +45,7 @@ metode:
     tekstalternativet eller navnet leses opp av skjermleseren. For standard HTML-punktlister,
     sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar:
+kommentar: >
   Svg-ene for feil, info, tips og suksess har tekstalternativ i form av title. Lukk-ikonet
   (kryss) har aria-hidden true på svg-en og aria-label på den overordnede knappen.
   Aria-labelen, og title for alle svg-ene, leses opp av skjermleserne i testen.

@@ -29,6 +29,6 @@ metode:
   - Aktiver skjermleser.
   - Test at knappeteksten leses opp, at komponenten leses opp som knapp og at det leses opp at den er
     minimert eller ekspandert.
-kommentar:
+kommentar: >
   For external-varianten leses knappen opp som minimert når teksten vises (pga. aria-expanded false)
   og utvidet når teksten er skjult (pga. aria-expanded true). Lager GitHub-issue på det.

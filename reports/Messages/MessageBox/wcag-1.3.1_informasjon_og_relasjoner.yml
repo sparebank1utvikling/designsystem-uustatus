@@ -34,7 +34,7 @@ metode:
   - Se at listen er kodet som liste, med riktig listetype. Se også at de indre elementene
     (li/dt/dd) ligger inne i de ytre elementene (ul/ol/dl).
   - Aktiver skjermleser.
-  – Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
+  - Sjekk at det er mulig å forstå informasjonen, strukturen og relasjonene som formidles visuelt
     ut ifra beskrivelsen som leses opp.
   - Sjekk at overskriftene leses opp som overskrifter.
   - Sjekk at listen leses opp som liste og at alle liste-elementene leses opp som en del av

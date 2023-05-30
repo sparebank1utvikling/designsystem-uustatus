@@ -17,15 +17,15 @@ enheter:
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
-  – with legend, radiobuttons, tooltip
+  - with legend, radiobuttons, tooltip
   - with legend, radioswitches, description
   - with legend, radioblocks
 fargemodus: []
 metode:
-  – Se at det vises feilmelding med tekstbeskrivelse ved radioknappene når de er ugyldige.
+  - Se at det vises feilmelding med tekstbeskrivelse ved radioknappene når de er ugyldige.
     Bruk for eksempel knappen for å skru feilmelding på og av i Component Overview-grensesnittet.
-  – Aktiver skjermleser.
-  – Gjør radioknappene ugyldige, for eksempel med knappen i Component Overview. Sjekk at skjermleser
+  - Aktiver skjermleser.
+  - Gjør radioknappene ugyldige, for eksempel med knappen i Component Overview. Sjekk at skjermleser
     annonserer feilmeldingen som dukker opp.
   - Resten av krav 3.3.1 testes på FieldMessage-komponenten som brukes i RadioButtonInputGroup.
 kommentar: >

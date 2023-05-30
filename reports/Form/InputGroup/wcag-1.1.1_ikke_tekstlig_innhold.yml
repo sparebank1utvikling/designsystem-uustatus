@@ -32,7 +32,7 @@ metode:
     ikke det samme som name-attributtet i HTML.
   - Aktiver skjermleser.
   - Sjekk at navnet leses opp når skjemaelementet får fokus.
-  – Resten av testene for krav 1.1.1 gjøres på de ulike child-komponentene som brukes i InputGroup,
+  - Resten av testene for krav 1.1.1 gjøres på de ulike child-komponentene som brukes i InputGroup,
     som Datepicker, Tooltip og Dropdown.
 kommentar:
   Alle skjemaelementene har navn spesifisert i koden, i form av label-element og for-attributt

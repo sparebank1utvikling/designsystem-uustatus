@@ -17,7 +17,7 @@ enheter:
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
-  – with legend, radiobuttons
+  - with legend, radiobuttons
   - with legend, radioswitches, tooltip
   - with legend, radioblocks
 fargemodus: []
@@ -31,8 +31,8 @@ metode:
   - Aktiver skjermleser.
   - Sjekk at skjermleser leser opp tekstbeskrivelsen og at innholdet er gruppert når
     komponenten får fokus.
-  – Sjekk at skjermleser leser opp hvor mange knapper det er totalt når hver enkelt
+  - Sjekk at skjermleser leser opp hvor mange knapper det er totalt når hver enkelt
     radioknapp får fokus.
-  – Resten av testene for krav 1.3.1 gjøres på de ulike child-komponentene som brukes i
+  - Resten av testene for krav 1.3.1 gjøres på de ulike child-komponentene som brukes i
     RadioButtonInputGroup, som Tooltip, RadioButton, RadioBlock og RadioSwitch.
 kommentar: ""

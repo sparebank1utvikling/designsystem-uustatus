@@ -20,6 +20,6 @@ fargemodus: []
 metode:
   - Bruk tastaturet og naviger deg gjennom alle knappene i komponenten med tab-tasten.
   - Sjekk at knappene får fokus i samme rekkefølge som de vises visuelt.
-  – Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å
+  - Hvis rekkefølgen ikke er den samme, sjekk at rekkefølgen fortsatt gir mening for å
     forstå og betjene innholdet.
 kommentar: ""

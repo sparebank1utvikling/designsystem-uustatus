@@ -17,5 +17,5 @@ metode:
     en spesifikk farge for å forstå informasjonen, for eksempel om rammen på et 
     inputfelt er grønn for gyldig eller rød for ugyldig, er det ikke nok med bare
     fargekontrasten. Da kreves det at vi har andre visuelle indikatorer i tillegg.
-kommentar: 
+kommentar: >
   Testen godkjennes fordi vi bruker ikoner (hake og kryss) i tillegg til grønn og rød farge.

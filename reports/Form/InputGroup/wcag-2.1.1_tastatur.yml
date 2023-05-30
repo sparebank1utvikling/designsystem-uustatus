@@ -26,6 +26,6 @@ metode:
     med tab-tasten.
   - Sjekk at du kan ekspandere/minimere tooltip ved å klikke på den med enter/space.
   - Sjekk at du kan skrive i inputfeltet.
-  – Resten av testene for krav 2.1.1 gjøres på de ulike child-komponentene som brukes i
+  - Resten av testene for krav 2.1.1 gjøres på de ulike child-komponentene som brukes i
     InputGroup, som Datepicker, TextArea og Dropdown.
 kommentar: ""

@@ -17,7 +17,7 @@ enheter:
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
-  – default without input group
+  - default without input group
 fargemodus: []
 metode:
   - Inspiser koden. 
