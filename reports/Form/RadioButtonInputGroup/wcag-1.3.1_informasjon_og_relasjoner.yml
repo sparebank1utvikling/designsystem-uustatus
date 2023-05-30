@@ -1,0 +1,38 @@
+ruleId: wcag-1.3.1
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.126
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  – with legend, radiobuttons
+  - with legend, radioswitches, tooltip
+  - with legend, radioblocks
+fargemodus: []
+metode:
+  - Inspiser koden. 
+  - Sjekk at komponenten er kodet på en måte så det er mulig å forstå at radioknappene
+    er gruppert, med kompenserende teknologi. For eksempel ved bruk av HTML fieldset-element.
+  - Sjekk at den overordnede tekstbeskrivelsen til radioknappene er programmatisk knyttet
+    til gruppen. For eksempel med HTML legend-element hvis fieldset er valgt løsning for
+    å gruppere knappene. 
+  - Aktiver skjermleser.
+  - Sjekk at skjermleser leser opp tekstbeskrivelsen og at innholdet er gruppert når
+    komponenten får fokus.
+  – Sjekk at skjermleser leser opp hvor mange knapper det er totalt når hver enkelt
+    radioknapp får fokus.
+  – Resten av testene for krav 1.3.1 gjøres på de ulike child-komponentene som brukes i
+    RadioButtonInputGroup, som Tooltip, RadioButton, RadioBlock og RadioSwitch.
+kommentar: ""

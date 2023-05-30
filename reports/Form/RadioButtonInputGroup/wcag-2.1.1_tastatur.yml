@@ -1,0 +1,27 @@
+ruleId: wcag-2.1.1
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.126
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: ""
+varianter:
+  – with legend, radiobuttons
+  - with legend, radioswitches, tooltip
+  - with legend, radioblocks
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  – Hvis radioknappen som får fokus ikke er markert/valgt, sjekk at du kan velge den
+    med space-tasten.
+  - Sjekk at du kan navigere mellom radioknappene med piltastene og at knappen som
+    får fokus blir valgt.
+  - Sjekk at du kan ekspandere/minimere tooltip ved å klikke på den med enter/space.
+kommentar: ""

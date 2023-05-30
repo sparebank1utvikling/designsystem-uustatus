@@ -1,0 +1,37 @@
+ruleId: wcag-3.3.1
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.10
+  ffe-form: 23.0.7
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.126
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter:
+  – with legend, radiobuttons, tooltip
+  - with legend, radioswitches, description
+  - with legend, radioblocks
+fargemodus: []
+metode:
+  – Se at det vises feilmelding med tekstbeskrivelse ved radioknappene når de er ugyldige.
+    Bruk for eksempel knappen for å skru feilmelding på og av i Component Overview-grensesnittet.
+  – Aktiver skjermleser.
+  – Gjør radioknappene ugyldige, for eksempel med knappen i Component Overview. Sjekk at skjermleser
+    annonserer feilmeldingen som dukker opp.
+  - Resten av krav 3.3.1 testes på FieldMessage-komponenten som brukes i RadioButtonInputGroup.
+kommentar: >
+  Når flere feilmeldinger vises/dukker opp samtidig annonserer skjermleserne i testen bare én av
+  feilmeldingene. I løsninger hvor flere feilmeldinger vises samtidig skal komponenten MessageBox
+  brukes, i tillegg til feilmeldingen ved hvert enkelt skjemafelt, for å gi brukeren en
+  oppsummering av alle feilene i skjemaet. Godkjenner derfor testen.
+  
+  Resten av testene beskrevet under metode er også godkjent.

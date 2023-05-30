@@ -1,0 +1,16 @@
+ruleId: wcag-3.3.2
+status: godkjent
+versjon:
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
+enheter: []
+varianter:
+  – with legend, radiobuttons
+  – with legend, radioswitches, tooltip
+  – with legend, radioblocks
+fargemodus: []
+metode:
+  - Se at gruppen med radioknapper har en synlig, overodnet tekstbeskrivelse.
+  – Resten av krav 3.3.2 testes på child-komponentene til RadioButtonInputGroup,
+    som RadioButton, RadioBlock og RadioSwitch.
+kommentar: ""
