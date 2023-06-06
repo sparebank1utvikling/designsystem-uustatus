@@ -1,0 +1,28 @@
+ruleId: wcag-1.1.1
+status: ikke_testet
+versjon:
+  ffe-form-react: ""
+  ffe-form: ""
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: VoiceOver
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: VoiceOver
+  - enhet: iPhone 11 Pro
+    os: iOS 16.1
+    nettleser: Safari
+    skjermleser: VoiceOver
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden.
+  - Sjekk at skjemaelementet har navn spesifisert i koden, for eksempel label-element og
+    for-attributt som refererer til id-en til skjemaelementet. Navn i denne sammenhengen er
+    ikke det samme som name-attributtet i HTML.
+  - Aktiver skjermleser.
+  - Sjekk at navnet leses opp når skjemaelementet får fokus.
+kommentar: ""

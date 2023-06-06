@@ -1,0 +1,20 @@
+ruleId: wcag-2.1.1
+status: ikke_testet
+versjon:
+  ffe-form-react: ""
+  ffe-form: ""
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Chrome 113.0.5672.92
+    skjermleser: ""
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.3
+    nettleser: Safari 16.4
+    skjermleser: ""
+varianter: []
+fargemodus: []
+metode:
+  - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
+  - Sjekk også at komponenten fungerer når du klikker på den med enter/space.
+kommentar: ""
