@@ -1,10 +1,11 @@
 ruleId: wcag-3.3.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.11
+  ffe-form: 23.0.7
 enheter: []
-varianter: []
+varianter:
+  - default without input group
 fargemodus: []
 metode:
   - Sjekk at skjemaelementet har en synlig ledetekst.
