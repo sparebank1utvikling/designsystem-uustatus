@@ -1,10 +1,11 @@
 ruleId: wcag-1.4.1
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.9
+  ffe-form: 23.0.6
 enheter: []
-varianter: []
+varianter:
+  - default without input group
 fargemodus:
   - light
   - dark
