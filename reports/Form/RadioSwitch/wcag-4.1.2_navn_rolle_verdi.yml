@@ -1,12 +1,12 @@
 ruleId: wcag-4.1.2
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: ""
-  ffe-form: ""
+  ffe-form-react: 11.0.11
+  ffe-form: 23.0.7
 enheter:
   - enhet: Macbook Pro
     os: macOS Ventura 13.3
-    nettleser: Chrome 113.0.5672.92
+    nettleser: Chrome 114.0.5735.106
     skjermleser: VoiceOver
   - enhet: Macbook Pro
     os: macOS Ventura 13.3
@@ -16,7 +16,8 @@ enheter:
     os: iOS 16.1
     nettleser: Safari
     skjermleser: VoiceOver
-varianter: []
+varianter:
+  - default without input group
 fargemodus: []
 metode:
   - Inspiser koden.
