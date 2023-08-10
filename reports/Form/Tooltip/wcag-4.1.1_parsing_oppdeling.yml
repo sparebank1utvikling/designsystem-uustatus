@@ -1,8 +1,8 @@
 ruleId: wcag-4.1.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-form-react: 11.0.6
-  ffe-form: 23.0.4
+  ffe-form-react: 13.0.2
+  ffe-form: 24.0.1
 enheter: []
 varianter:
   - default
@@ -13,6 +13,4 @@ metode:
   - Inspiser koden.
   - Kopier all relevant HTML-kode og lim den inn i kode-validator (https://validator.w3.org).
   - Sjekk at det ikke dukker opp valideringsfeil av typen «Fatal error».
-kommentar:
-   Får valideringsfeil på at div ikke er tillatt som child element i span. Lager
-   GitHub-issue på det.
+kommentar: ""
