@@ -1,19 +1,19 @@
 ruleId: wcag-1.1.1
-status: ikke_godkjent
+status: godkjent
 versjon:
-  ffe-form-react: 11.0.6
-  ffe-form: 23.0.4
+  ffe-form-react: 13.0.2
+  ffe-form: 24.0.1
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.3
-    nettleser: Chrome 112.0.5615.49
+    os: macOS Ventura 13.5.1
+    nettleser: Chrome 116.0.5845.179
     skjermleser: VoiceOver
   - enhet: Macbook Pro
-    os: macOS Ventura 13.3
-    nettleser: Safari 16.4
+    os: macOS Ventura 13.5.1
+    nettleser: Safari 16.6
     skjermleser: VoiceOver
   - enhet: iPhone 11 Pro
-    os: iOS 16.1
+    os: iOS 16.5.1
     nettleser: Safari
     skjermleser: VoiceOver
 varianter:
@@ -36,13 +36,4 @@ metode:
     tekstalternativet eller navnet leses opp av skjermleseren. For standard HTML-punktlister,
     sjekk at kulepunktene leses opp (typisk sier skjermleser for eksempel punkttegn).
   - For innhold som skal være skjult, test at dette ikke leses opp.
-kommentar: >
-  Vurderer at ikonene for feil, info og suksess gir nødvendig informasjon for å forstå
-  hvilken type melding det er og at de derfor bør ha tekstalternativ. Ikonene er nå
-  implementert som CSS pseudo-elementer med ::before og mangler tekstalternativ.
-  
-  Pseudo-elementet ::before frarådes for innhold som skal presenteres av kompenserende
-  teknologi, fordi det er varierende støtte for det, blant annet i skjermlesere
-  (https://developer.mozilla.org/en-US/docs/Web/CSS/::before).
-  
-  Lager GitHub-issue på det.
+kommentar: ""
