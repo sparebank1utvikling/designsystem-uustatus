@@ -13,12 +13,7 @@ enheter:
     nettleser: Safari 16.2
     skjermleser: ""
 varianter:
-  - error message default
-  - info message default
-  - info message colored background
-  - tips message default
   - tips message with link
-  - success message default
 fargemodus:
   - light
   - dark
