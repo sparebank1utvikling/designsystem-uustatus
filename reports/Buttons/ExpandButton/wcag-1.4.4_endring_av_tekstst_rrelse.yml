@@ -12,6 +12,8 @@ varianter:
   – default
 fargemodus: []
 metode:
+  - Inspiser koden. 
+  - Sjekk at all tekst i komponenten er spesifisert i et skalerbart format, for eksempel rem.
   – Øk tekststørrelsen til 200% i nettleser-innstillingene. Metode avhenger av nettleser.
     Hvis du bruker Chrome, øk tekststørrelsen til 32px (default er 16px).
   – Se at teksten i komponenten endrer størrelse.
