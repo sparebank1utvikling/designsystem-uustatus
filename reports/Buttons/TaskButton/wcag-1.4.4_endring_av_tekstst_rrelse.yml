@@ -22,9 +22,9 @@ metode:
     ikke er synlig).
   – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
 kommentar:
-  Ved bruk av lange ord, i mobilvisning, flyter innhold ut over containeren til komponenten samt
-  skjermen og intoduserer horisontal skroll. Dette skal ikke være brudd på krav 1.4.4. siden
-  innholdet fortsatt er tilgjengelig og forståelig. Oppretter likevel et GitHub-issue på det
-  for å se på løsninger for hvordan vi kan unngå å introdusere todimensjonal skroll.
-  Ref. blant annet suksesskriterie 1.4.10 i WCAG 2.1 og 2.2.
+  Ved bruk av lange ord og tekst med litt lengde, i mobilvisning, flyter innhold ut over
+  containeren til komponenten samt skjermen og intoduserer horisontal skroll. Dette skal ikke
+  være brudd på krav 1.4.4. siden innholdet fortsatt er tilgjengelig og forståelig. Oppretter
+  likevel et GitHub-issue på det for å se på løsninger for hvordan vi kan unngå å introdusere
+  todimensjonal skroll. Ref. blant annet suksesskriterie 1.4.10 i WCAG 2.1 og 2.2.
   

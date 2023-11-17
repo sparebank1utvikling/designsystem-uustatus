@@ -24,6 +24,6 @@ metode:
     ikke er synlig).
   – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.
 kommentar:
-  Ved bruk av tekst med litt lengde, blir deler av tekst og ikon kuttet så det ikke er synlig.
-  Testet med tekstlengder som er vanlige ved bruk av knappene i for eksempel nettbanken og
-  mobilbanken. Lager GitHub-issue på det.
+  Ved bruk av lange ord og tekst med litt lengde, i mobilvisning, blir deler av tekst og ikon
+  kuttet så det ikke er synlig. Testet med tekstlengder som er vanlige ved bruk av knappene i
+  for eksempel nettbanken og mobilbanken. Lager GitHub-issue på det.
