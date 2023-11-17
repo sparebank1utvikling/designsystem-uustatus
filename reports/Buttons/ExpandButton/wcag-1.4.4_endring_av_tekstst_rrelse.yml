@@ -1,5 +1,5 @@
 ruleId: wcag-1.4.4
-status: godkjent
+status: ikke_godkjent
 versjon:
   ffe-buttons-react: 20.0.6
   ffe-buttons: 18.0.2
@@ -21,5 +21,9 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar:
+kommentar:
+  Ved bruk av tekst med litt lengde, blir deler av teksten kuttet så den ikke er synlig.
+  Testet med tekstlengder som er vanlige ved bruk av knappene i for eksempel nettbanken og
+  mobilbanken. Lager GitHub-issue på det.
   
