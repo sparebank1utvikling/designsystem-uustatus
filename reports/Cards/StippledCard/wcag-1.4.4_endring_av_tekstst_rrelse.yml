@@ -1,8 +1,18 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
+status: godkjent
+versjon:
+  ffe-cards-react: 13.0.4
+  ffe-cards: 17.0.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.6.1
+    nettleser: Chrome 119.0.6045.105
+    skjermleser: ""
+varianter:
+  – default, only text
+  - default, text and icon
+  - default, text and illustration
+  - condensed, text and icon
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -14,4 +24,9 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar:
+  I mobilvisning flyter tekst ut over containeren til komponenten samt skjermen og
+  intoduserer horisontal skroll. Dette skal ikke være brudd på krav 1.4.4. siden innholdet
+  fortsatt er tilgjengelig og forståelig. Oppretter likevel et GitHub-issue på det for å se
+  på løsninger for hvordan vi kan unngå å introdusere todimensjonal skroll. Ref. blant annet
+  suksesskriterie 1.4.10 i WCAG 2.1 og 2.2.
