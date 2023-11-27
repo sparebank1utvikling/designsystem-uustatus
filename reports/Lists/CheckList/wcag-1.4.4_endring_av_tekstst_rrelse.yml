@@ -1,20 +1,31 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
-versjon: {}
-enheter: []
-varianter: []
+status: godkjent
+versjon:
+  ffe-lists-react: 7.0.4
+  ffe-lists: 13.0.1
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Ventura 13.6.1
+    nettleser: Chrome 119.0.6045.105
+    skjermleser: ""
+varianter:
+  - default
+  - columns
 fargemodus: []
 metode:
-  - Zoom inn til 200% eller sett text scaling til 200% i nettleser. Sjekk at
-    teksten i komponenten endrer størrelse og fortsatt vises riktig.
-  - Inspiser koden og sett font-size på root elementet (f.eks html-tag). Sjekk
-    at teksten endrer størrelse.   
-kommentar: >
-  For å ivareta kravet må komponenten støtte skalering av teksten, inkludert 
-  skalering når komponenten brukes i webviews i mobilbank-appene for iOS og Android.
-  For fullverdig test må vi definere hvordan vi tester dette også (i tillegg til 
-  metodene som allerede er beskrevet). Kravet står derfor som ikke testet.
-  
-  Laget et GitHub-issue på å undersøke hvordan vi støtter tekstskalering i webviews
-  på iOS og Android og definere testmetode.
+  - Inspiser koden. 
+  - Sjekk at all tekst i komponenten er spesifisert i et skalerbart format, for eksempel rem.
+  – Øk tekststørrelsen til 200% i nettleser-innstillingene. Metode avhenger av nettleser.
+    Hvis du bruker Chrome, øk tekststørrelsen til 32px (default er 16px).
+  – Se at teksten i komponenten endrer størrelse.
+  – Se at alt innhold og all funksjonalitet i komponenten fortsatt er tilgjengelig og
+    forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
+    ikke er synlig).
+  – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.
+kommentar:
+  Ved bruk av ord med litt lengde, i mobilvisning, flyter innhold ut over containeren til
+  komponenten samt skjermen og intoduserer horisontal skroll. Dette skal ikke være brudd på
+  krav 1.4.4. siden innholdet fortsatt er tilgjengelig og forståelig. Oppretter likevel et
+  GitHub-issue på det for å se på løsninger for hvordan vi kan unngå å introdusere
+  todimensjonal skroll. Ref. blant annet suksesskriterie 1.4.10 i WCAG 2.1 og 2.2.
   
