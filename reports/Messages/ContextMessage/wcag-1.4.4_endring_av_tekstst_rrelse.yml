@@ -39,5 +39,4 @@ metode:
   – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.
 kommentar:
   Ved bruk av ord med litt lengde, i mobilvisning, blir deler av teksten kuttet så den ikke
-  er synlig. Lager GitHub-issue på det.
-  
+  er synlig. Lukk-ikonet er heller ikke synlig. Lager GitHub-issue på det.
