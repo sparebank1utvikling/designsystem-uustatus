@@ -1,14 +1,17 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-form-react: 
-  Ffe-form: 
+  ffe-form-react: 14.0.7
+  Ffe-form: 26.0.0
 enheter:
   - enhet: Macbook Pro
     os: macOS Ventura 13.6.1
     nettleser: Chrome 119.0.6045.105
     skjermleser: ""
-varianter: []
+varianter:
+  - default
+  - country code invalid
+  - phone number invalid
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,4 +23,17 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar: >
+  I både desktop- og mobilvisning blir deler av tall i komponenten kuttet så det ikke er synlig.
+  I mobilvisning overlapper også tekst i komponenten med hverandre så det er vanskelig eller
+  umulig å tyde hva det står. Lager GitHub-issue på det. 
+
+  I mobilvisning flyter også innhold ut over containeren til komponenten samt skjermen og
+  intoduserer horisontal skroll. Akkurat dette skal ikke være brudd på krav 1.4.4. siden
+  innholdet fortsatt er tilgjengelig og forståelig. Oppretter likevel et GitHub-issue på det
+  for å se på løsninger for hvordan vi kan unngå å introdusere todimensjonal skroll.
+  Ref. blant annet suksesskriterie 1.4.10 i WCAG 2.1 og 2.2.
+
+  Ikonet i komponenten FieldMessage som vises ved country code invalid og phone number
+  invalid blir også kuttet, i både desktop- og mobilvisning. Det vil være egen test av 
+  krav 1.4.4 for FieldMessage, men oppretter GitHub-issue på feilen.
