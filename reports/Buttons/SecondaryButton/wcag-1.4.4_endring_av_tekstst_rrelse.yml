@@ -9,7 +9,7 @@ enheter:
     nettleser: Chrome 119.0.6045.105
     skjermleser: ""
 varianter:
-  – default
+  - default
   - icon left
   - icon right
 fargemodus: []
@@ -18,11 +18,11 @@ metode:
   - Sjekk at all tekst i komponenten er spesifisert i et skalerbart format, for eksempel rem.
   - Øk tekststørrelsen til 200% i nettleser-innstillingene. Metode avhenger av nettleser.
     Hvis du bruker Chrome, øk tekststørrelsen til 32px (default er 16px).
-  – Se at teksten i komponenten endrer størrelse.
-  – Se at alt innhold og all funksjonalitet i komponenten fortsatt er tilgjengelig og
+  - Se at teksten i komponenten endrer størrelse.
+  - Se at alt innhold og all funksjonalitet i komponenten fortsatt er tilgjengelig og
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
-  – Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.
+  - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.
 kommentar:
   Ved bruk av lange ord og tekst med litt lengde, i mobilvisning, blir deler av tekst og ikon
   kuttet så det ikke er synlig. Testet med tekstlengder som er vanlige ved bruk av knappene i

@@ -17,6 +17,6 @@ varianter:
 fargemodus: []
 metode:
   - Bruk tastaturet og sjekk at du kan navigere til komponenten med tab-tasten.
-  – RadioSwitch brukes som en del av komponenten RadioButtonInputGroup. Resten av krav 2.1.1 testes
+  - RadioSwitch brukes som en del av komponenten RadioButtonInputGroup. Resten av krav 2.1.1 testes
     på RadioButtonInputGroup.
 kommentar: ""
