@@ -1,5 +1,5 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: godkjent
 versjon:
   ffe-form-react: 14.0.9
   ffe-form: 26.0.1
@@ -8,7 +8,8 @@ enheter:
     os: macOS Sonoma 14.2.1
     nettleser: Chrome 119.0.6045.105
     skjermleser: ""
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,5 +21,11 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.
-kommentar: ""
+kommentar:
+  Ved bruk av ord med litt lengde, i mobilvisning, flyter ledeteksten til inputfeltet ut over
+  containeren til komponenten samt skjermen og intoduserer horisontal skroll. Dette skal ikke
+  være brudd på krav 1.4.4. siden innholdet fortsatt er tilgjengelig og forståelig. Opprettet
+  likevel et GitHub-issue på det i for å se på løsninger for hvordan vi kan unngå å introdusere
+  todimensjonal skroll. Ref. blant annet suksesskriterie 1.4.10 i WCAG 2.1 og 2.2. Issuet ble
+  opprettet for label-komponenten, som input-komponenten bruker.
   
