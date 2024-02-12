@@ -1,17 +1,18 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-spinner-react: ""
-  ffe-spinner: ""
+  ffe-spinner-react: 7.0.3
+  ffe-spinner: 5.0.10
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.6.1
-    nettleser: Chrome 119.0.6045.105
+    os: macOS Sonoma 14.2.1
+    nettleser: Chrome 121.0.6167.160
     skjermleser: ""
-varianter: []
+varianter:
+  – default
 fargemodus: []
 metode:
-  - Inspiser koden. 
+  - Inspiser koden.
   - Sjekk at all tekst i komponenten er spesifisert i et skalerbart format, for eksempel rem.
   - Øk tekststørrelsen til 200% i nettleser-innstillingene. Metode avhenger av nettleser.
     Hvis du bruker Chrome, øk tekststørrelsen til 32px (default er 16px).
