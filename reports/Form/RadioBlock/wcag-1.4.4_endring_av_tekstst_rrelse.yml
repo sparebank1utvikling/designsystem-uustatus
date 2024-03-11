@@ -1,14 +1,15 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: 
-  Ffe-form: 
+  ffe-form-react: 16.0.7
+  ffe-form: 28.0.8
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.6.1
-    nettleser: Chrome 119.0.6045.105
+    os: macOS Sonoma 14.3.1
+    nettleser: Microsoft Edge 122.0.2365.80
     skjermleser: ""
 varianter:
+- default
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,4 +21,4 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""ß
+kommentar: ""
