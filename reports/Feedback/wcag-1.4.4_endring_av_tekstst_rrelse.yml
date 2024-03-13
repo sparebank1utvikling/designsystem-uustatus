@@ -1,14 +1,15 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-ffedback-react: 
-  ffe-feedback: 
+  ffe-feedback-react: 2.0.17
+  ffe-feedback: 1.2.7
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.6.1
-    nettleser: Chrome 119.0.6045.105
+    os: macOS Sonoma 14.3.1
+    nettleser: Chrome 122.0.6261.112
     skjermleser: ""
-varianter: []
+varianter:
+- default
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,4 +21,8 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar:
+  I mobilvisning overlapper knappen for å sende inn tilbakemeldingen deler av feilmeldingen
+  som vises under inputfeltet slik at deler av teksten ikke er synlig. Lager GitHub-issue 
+  på det.
+  
