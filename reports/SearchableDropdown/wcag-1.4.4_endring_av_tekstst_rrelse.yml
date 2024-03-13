@@ -1,14 +1,18 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-searchable-dropdown-react: 
-  ffe-searchable-dropdown:
+  ffe-searchable-dropdown-react: 17.0.29
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.6.1
-    nettleser: Chrome 119.0.6045.105
+    os: macOS Sonoma 14.3.1
+    nettleser: Chrome 122.0.6261.112
     skjermleser: ""
-varianter: []
+varianter:
+- default
+- two attributes
+- custom list element body
+- is loading
+- post list element
 fargemodus: []
 metode:
   - Inspiser koden. 
