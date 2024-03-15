@@ -1,14 +1,15 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-file-upload-react: 
-  Ffe-file-upload:
+  ffe-file-upload-react: 10.0.31
+  Ffe-file-upload: 10.0.22
 enheter:
   - enhet: Macbook Pro
     os: macOS Sonoma 14.3.1
     nettleser: Chrome 122.0.6261.129
     skjermleser: ""
-varianter: []
+varianter:
+  - default
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,4 +21,6 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar:
+  Tekst i knapp kuttes så den ikke er synlig, i desktopvisnig. Lager GitHub-issue på det.
+  
