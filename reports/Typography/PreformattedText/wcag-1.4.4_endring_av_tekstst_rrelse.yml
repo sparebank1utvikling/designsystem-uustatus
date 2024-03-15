@@ -3,7 +3,11 @@ status: godkjent
 versjon:
   ffe-core-react: 17.2.6
   ffe-core: 27.3.5
-enheter: []
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Sonoma 14.3.1
+    nettleser: Chrome 122.0.6261.129
+    skjermleser: ""
 varianter:
   - default
 fargemodus: []
@@ -23,4 +27,3 @@ kommentar:
   fortsatt er tilgjengelig og forståelig. Oppretter likevel et GitHub-issue på det for å se
   på løsninger for hvordan vi kan unngå å introdusere todimensjonal skroll. Ref. blant annet
   suksesskriterie 1.4.10 i WCAG 2.1 og 2.2.
-  
