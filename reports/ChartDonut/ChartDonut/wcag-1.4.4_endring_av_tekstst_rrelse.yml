@@ -1,14 +1,15 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-chart-donut-react: 
-  ffe-chart-donut:
+  ffe-chart-donut-react: 5.3.1
 enheter:
   - enhet: Macbook Pro
-    os: macOS Ventura 13.6.1
-    nettleser: Chrome 119.0.6045.105
+    os: macOS Sonoma 14.3.1
+    nettleser: Chrome 122.0.6261.129
     skjermleser: ""
-varianter: []
+varianter:
+  - default
+  - custom label
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,4 +21,7 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar:
+  Tekst i komponenten overlapper annet innhold slik at det er vanskeligere å tyde den. Lager
+  GitHub-issue på det.
+  
