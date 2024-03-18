@@ -1,0 +1,23 @@
+ruleId: wcag-1.4.4
+status: ikke_testet
+versjon:
+  ffe-datepicker-react:
+  ffe-datepicker:
+enheter:
+  - enhet: Macbook Pro
+    os: macOS Sonoma 14.3.1
+    nettleser: Chrome 122.0.6261.129
+    skjermleser: ""
+varianter: []
+fargemodus: []
+metode:
+  - Inspiser koden. 
+  - Sjekk at all tekst i komponenten er spesifisert i et skalerbart format, for eksempel rem.
+  - Øk tekststørrelsen til 200% i nettleser-innstillingene. Metode avhenger av nettleser.
+    Hvis du bruker Chrome, øk tekststørrelsen til 32px (default er 16px).
+  - Se at teksten i komponenten endrer størrelse.
+  - Se at alt innhold og all funksjonalitet i komponenten fortsatt er tilgjengelig og
+    forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
+    ikke er synlig).
+  - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
+kommentar: ""
