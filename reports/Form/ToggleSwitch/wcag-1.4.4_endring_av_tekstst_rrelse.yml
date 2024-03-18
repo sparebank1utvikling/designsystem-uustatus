@@ -1,14 +1,17 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-form-react: 
-  ffe-form:
+  ffe-form-react: 16.0.10
+  ffe-form: 28.0.10
 enheter:
   - enhet: Macbook Pro
     os: macOS Sonoma 14.3.1
     nettleser: Chrome 122.0.6261.129
     skjermleser: ""
-varianter: []
+varianter:
+  - default
+  - custom on off
+  - with description
 fargemodus: []
 metode:
   - Inspiser koden. 
