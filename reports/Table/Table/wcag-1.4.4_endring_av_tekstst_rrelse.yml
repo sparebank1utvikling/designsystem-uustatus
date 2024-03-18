@@ -1,14 +1,19 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: godkjent
 versjon:
-  ffe-table-react: 
-  ffe-table:
+  ffe-tables-react: 8.0.16
+  ffe-tables: 14.0.9
 enheter:
   - enhet: Macbook Pro
     os: macOS Sonoma 14.3.1
     nettleser: Chrome 122.0.6261.129
     skjermleser: ""
-varianter: []
+varianter:
+  - default
+  - advanced
+  - custom render
+  - expanded content mapper
+  - expanded with table
 fargemodus: []
 metode:
   - Inspiser koden. 
