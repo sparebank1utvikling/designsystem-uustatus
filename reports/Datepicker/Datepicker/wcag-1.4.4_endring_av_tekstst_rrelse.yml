@@ -1,14 +1,18 @@
 ruleId: wcag-1.4.4
-status: ikke_testet
+status: ikke_godkjent
 versjon:
-  ffe-datepicker-react:
-  ffe-datepicker:
+  ffe-datepicker-react: 7.1.12
+  ffe-datepicker: 12.0.22
 enheter:
   - enhet: Macbook Pro
     os: macOS Sonoma 14.3.1
     nettleser: Chrome 122.0.6261.129
     skjermleser: ""
-varianter: []
+varianter:
+  - default 
+  - birthdate
+  - calendar above
+  - full width
 fargemodus: []
 metode:
   - Inspiser koden. 
@@ -20,4 +24,7 @@ metode:
     forståelig (innhold overlapper ikke annet innhold, innhold blir ikke kuttet så det
     ikke er synlig).
   - Sjekk i både desktop og mobilvisning. I testene er bredde 320px brukt for mobilvisningen.  
-kommentar: ""
+kommentar:
+  Deler av markert tall i kalender er ikke synlig. Innhold i kalender overlapper hverandre.
+  Lager GitHub-issue på det.
+  
